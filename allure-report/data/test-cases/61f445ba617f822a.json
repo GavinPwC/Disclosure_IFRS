@@ -1,0 +1,92 @@
+{
+  "uid" : "61f445ba617f822a",
+  "name" : "resumeTailoring",
+  "fullName" : "Tests.singleSignOn.resumeTailoring",
+  "historyId" : "f6d397e51398f423380a92f04acf1725",
+  "time" : {
+    "start" : 1602247985022,
+    "stop" : 1602248051138,
+    "duration" : 66116
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1602247980118,
+      "stop" : 1602247985013,
+      "duration" : 4895
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browserShutDown",
+    "time" : {
+      "start" : 1602248051142,
+      "stop" : 1602248052338,
+      "duration" : 1196
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "resumeTailoring"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Regression Suit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "host",
+    "value" : "UK000824"
+  }, {
+    "name" : "thread",
+    "value" : "840@UK000824.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61f445ba617f822a.json",
+  "parameterValues" : [ ]
+}

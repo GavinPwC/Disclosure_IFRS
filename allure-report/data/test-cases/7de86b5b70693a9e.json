@@ -1,0 +1,92 @@
+{
+  "uid" : "7de86b5b70693a9e",
+  "name" : "homeScreen",
+  "fullName" : "Tests.singleSignOn.homeScreen",
+  "historyId" : "1ee3b878f73d4b683f269d0b5e455d26",
+  "time" : {
+    "start" : 1602247877530,
+    "stop" : 1602247978991,
+    "duration" : 101461
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1602247871334,
+      "stop" : 1602247877259,
+      "duration" : 5925
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browserShutDown",
+    "time" : {
+      "start" : 1602247979001,
+      "stop" : 1602247980112,
+      "duration" : 1111
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Regression Suit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "host",
+    "value" : "UK000824"
+  }, {
+    "name" : "thread",
+    "value" : "840@UK000824.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7de86b5b70693a9e.json",
+  "parameterValues" : [ ]
+}

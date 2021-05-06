@@ -1,0 +1,158 @@
+{
+  "b9d9f5a5e7ab188cdd912cc832f9337e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c92c4d8a67d88c93",
+      "status" : "broken",
+      "statusDetails" : "null value in entry: url=null",
+      "time" : {
+        "start" : 1601384398971,
+        "stop" : 1601384398972,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2c4d8fa63e0146c4a579046e4ec2dee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97d6a8af95141c25",
+      "status" : "broken",
+      "statusDetails" : "C:\\Users\\jedgal001\\Desktop\\Disclosure\\src\\main\\java\\setUp\\data.properties (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1602061155841,
+        "stop" : 1602061155844,
+        "duration" : 3
+      }
+    } ]
+  },
+  "8d060499555f86d6558b50783141f2c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c760062afb559a26",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:42599}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee031480cdc8333c5da2518f5eb57f75",
+      "time" : {
+        "start" : 1602164593952,
+        "stop" : 1602164593952,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1ee3b878f73d4b683f269d0b5e455d26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a26bf3e997aa560d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602669242841,
+        "stop" : 1602669352980,
+        "duration" : 110139
+      }
+    } ]
+  },
+  "ec67554b824a2ae7bcaf9a0cbb058613" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77e5fe790f24e7d3",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate element with text: UK PWC IFRS UK and FRS 101 (1.2.1.0)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1602083745904,
+        "stop" : 1602083775373,
+        "duration" : 29469
+      }
+    } ]
+  },
+  "f9404ff01064e676550df63ea53add19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79dcc38ba9f0e52d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602062090992,
+        "stop" : 1602062090994,
+        "duration" : 2
+      }
+    } ]
+  },
+  "eac41e4381e6a2915062c44adde93cac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4d1d2e00ad2f33a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602669432099,
+        "stop" : 1602669450992,
+        "duration" : 18893
+      }
+    } ]
+  },
+  "f6d397e51398f423380a92f04acf1725" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "920f3c84a2c1a66c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602669357155,
+        "stop" : 1602669427726,
+        "duration" : 70571
+      }
+    } ]
+  }
+}

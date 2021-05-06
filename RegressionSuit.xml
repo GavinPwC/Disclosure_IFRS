@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="10" preserve-order="true">
+
+    <listeners>
+        <listener class-name="Tests.TestListener"/>
+        <listener class-name="SetUp.extentReporterNG"/>
+    </listeners>
+
+    <test name="Regression Suit" preserve-order="true">
+        <classes>
+            <class name="Tests.RegressionIFSR">
+                <methods>
+                    <exclude name="regression_GAAP2IFRS2015"/>
+                    <exclude name="regression_GAAP2IFRS2015_QA"/>
+                </methods>
+            </class>
+            <class name="Tests.RegressionFRS">
+                <methods>
+                    <exclude name="regression_FRS102_103_105"/>
+                    <exclude name="reviewCompleteTailoringFRS"/>
+                    <exclude name="regression_FRS102_103_105_Mainchecklist"/>
+                    <exclude name="finalReviewAcceptFRS"/>
+                    <exclude name="regression_FRS102_103_105_QA"/>
+                    <include name="compareCSVFiles"/>
+                    <exclude name="generateReportFRS"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

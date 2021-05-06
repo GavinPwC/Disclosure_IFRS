@@ -1,0 +1,1206 @@
+{
+  "uid" : "920f3c84a2c1a66c",
+  "name" : "Continue from where you stopped during tailoring",
+  "fullName" : "Tests.singleSignOn.resumeTailoring",
+  "historyId" : "f6d397e51398f423380a92f04acf1725",
+  "time" : {
+    "start" : 1602669357155,
+    "stop" : 1602669427726,
+    "duration" : 70571
+  },
+  "description" : "Continue from where you stopped during tailoring",
+  "descriptionHtml" : "<p>Continue from where you stopped during tailoring</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1602669354249,
+      "stop" : 1602669357148,
+      "duration" : 2899
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Continue from where you stopped during tailoring",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login production environment ",
+      "time" : {
+        "start" : 1602669357156,
+        "stop" : 1602669359244,
+        "duration" : 2088
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter email credentials for PwC authentication ",
+        "time" : {
+          "start" : 1602669358787,
+          "stop" : 1602669359244,
+          "duration" : 457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        }, {
+          "name" : "Login",
+          "value" : "John.edgal@pwc.com"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Confirm home page title and navigate to answerset page ",
+      "time" : {
+        "start" : 1602669359244,
+        "stop" : 1602669372041,
+        "duration" : 12797
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select a specific menu option",
+        "time" : {
+          "start" : 1602669365602,
+          "stop" : 1602669369041,
+          "duration" : 3439
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        }, {
+          "name" : "strelement",
+          "value" : "By.xpath: //*[@id=\"answersets-link\"]/span[2]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Resume answering questionaire",
+      "time" : {
+        "start" : 1602669372041,
+        "stop" : 1602669373926,
+        "duration" : 1885
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Search for a specific record",
+        "time" : {
+          "start" : 1602669372041,
+          "stop" : 1602669372251,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Answer a question",
+      "time" : {
+        "start" : 1602669373926,
+        "stop" : 1602669427726,
+        "duration" : 53800
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669385037,
+          "stop" : 1602669385086,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669385086,
+          "stop" : 1602669385111,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669385111,
+          "stop" : 1602669385160,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669385160,
+          "stop" : 1602669385183,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669385183,
+          "stop" : 1602669385207,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669389431,
+          "stop" : 1602669389451,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669389451,
+          "stop" : 1602669389468,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669389468,
+          "stop" : 1602669389502,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669389502,
+          "stop" : 1602669389519,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669389519,
+          "stop" : 1602669389534,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669393800,
+          "stop" : 1602669393818,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669393818,
+          "stop" : 1602669393834,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669393835,
+          "stop" : 1602669393866,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669393866,
+          "stop" : 1602669393882,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669393882,
+          "stop" : 1602669393896,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669398062,
+          "stop" : 1602669398079,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669398079,
+          "stop" : 1602669398096,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669398096,
+          "stop" : 1602669398128,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669398128,
+          "stop" : 1602669398143,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669398144,
+          "stop" : 1602669398158,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669402325,
+          "stop" : 1602669402341,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669402342,
+          "stop" : 1602669402357,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669402357,
+          "stop" : 1602669402388,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669402389,
+          "stop" : 1602669402404,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669402404,
+          "stop" : 1602669402418,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669406589,
+          "stop" : 1602669406608,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669406608,
+          "stop" : 1602669406625,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669406626,
+          "stop" : 1602669406658,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669406658,
+          "stop" : 1602669406674,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669406674,
+          "stop" : 1602669406689,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669410847,
+          "stop" : 1602669410865,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669410866,
+          "stop" : 1602669410882,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669410882,
+          "stop" : 1602669410910,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669410910,
+          "stop" : 1602669410926,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669410926,
+          "stop" : 1602669410941,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669415090,
+          "stop" : 1602669415108,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669415108,
+          "stop" : 1602669415125,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669415125,
+          "stop" : 1602669415154,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669415155,
+          "stop" : 1602669415170,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669415170,
+          "stop" : 1602669415185,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669419338,
+          "stop" : 1602669419356,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669419356,
+          "stop" : 1602669419370,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669419371,
+          "stop" : 1602669419399,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669419399,
+          "stop" : 1602669419415,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669419415,
+          "stop" : 1602669419429,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve folder name for question being answered",
+        "time" : {
+          "start" : 1602669423564,
+          "stop" : 1602669423581,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669423581,
+          "stop" : 1602669423601,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve question being answered",
+        "time" : {
+          "start" : 1602669423601,
+          "stop" : 1602669423631,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if a problem has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669423631,
+          "stop" : 1602669423646,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if an alert has occured when answering main checklist",
+        "time" : {
+          "start" : 1602669423647,
+          "stop" : 1602669423661,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (fe6f60bdd8f088d7eb887a2d9dc76c6a)"
+      }, {
+        "name" : "questionAmount",
+        "value" : "10"
+      }, {
+        "name" : "response",
+        "value" : "No"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 50,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 57,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browserShutDown",
+    "time" : {
+      "start" : 1602669427732,
+      "stop" : 1602669428954,
+      "duration" : 1222
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "resumeTailoring"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Regression Suit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "host",
+    "value" : "UK000824"
+  }, {
+    "name" : "thread",
+    "value" : "13716@UK000824.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "58a0970aa804a51e",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"answersets-data\"]/tr/td[1]",
+      "time" : {
+        "start" : 1602668001524,
+        "stop" : 1602668017311,
+        "duration" : 15787
+      }
+    }, {
+      "uid" : "4ba6ceda4c564e69",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"answersets-data\"]/tr/td[1]",
+      "time" : {
+        "start" : 1602501362808,
+        "stop" : 1602501386692,
+        "duration" : 23884
+      }
+    }, {
+      "uid" : "61f445ba617f822a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602247985022,
+        "stop" : 1602248051138,
+        "duration" : 66116
+      }
+    }, {
+      "uid" : "79542236dfb173a",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"answersets-data\"]/tr/td[1]",
+      "time" : {
+        "start" : 1602247542983,
+        "stop" : 1602247559479,
+        "duration" : 16496
+      }
+    }, {
+      "uid" : "c8a11149faf208c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602165641700,
+        "stop" : 1602165707908,
+        "duration" : 66208
+      }
+    }, {
+      "uid" : "cd224b475d787ee6",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"answersets-data\"]/tr/td[1]",
+      "time" : {
+        "start" : 1602164955047,
+        "stop" : 1602164973114,
+        "duration" : 18067
+      }
+    }, {
+      "uid" : "bab07bf5b9db80cd",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"filters\"]/div/div/div/div/div[3]/div/span/span[1]/span/span[2]/span (tried for 50 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1602164543488,
+        "stop" : 1602164593920,
+        "duration" : 50432
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "920f3c84a2c1a66c.json",
+  "parameterValues" : [ ]
+}

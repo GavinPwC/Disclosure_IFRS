@@ -1,0 +1,133 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Regression Suite",
+    "children" : [ {
+      "name" : "Regression Suit",
+      "children" : [ {
+        "name" : "Tests.singleSignOn",
+        "children" : [ {
+          "name" : "beforeMethod",
+          "uid" : "c92c4d8a67d88c93",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "broken",
+          "time" : {
+            "start" : 1601384398971,
+            "stop" : 1601384398972,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "homeScreenQA",
+          "uid" : "77e5fe790f24e7d3",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "broken",
+          "time" : {
+            "start" : 1602083745904,
+            "stop" : 1602083775373,
+            "duration" : 29469
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "browserShutDown",
+          "uid" : "c760062afb559a26",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "broken",
+          "time" : {
+            "start" : 1602164593952,
+            "stop" : 1602164593952,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Tailoring first set of questions",
+          "uid" : "a26bf3e997aa560d",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602669242841,
+            "stop" : 1602669352980,
+            "duration" : 110139
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Continue from where you stopped during tailoring",
+          "uid" : "920f3c84a2c1a66c",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602669357155,
+            "stop" : 1602669427726,
+            "duration" : 70571
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Delete record",
+          "uid" : "f4d1d2e00ad2f33a",
+          "parentUid" : "53787603caa6be5827445e8ebb037696",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602669432099,
+            "stop" : 1602669450992,
+            "duration" : 18893
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "53787603caa6be5827445e8ebb037696"
+      } ],
+      "uid" : "4cc6b572e4c68f4cc00fd27744abc923"
+    } ],
+    "uid" : "7401a688339d5b358289996f300eed3e"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "Demo1",
+      "children" : [ {
+        "name" : "Tests.singleSignOn",
+        "children" : [ {
+          "name" : "Setup",
+          "uid" : "97d6a8af95141c25",
+          "parentUid" : "a791df15aea6bcfb0415894820de8bf9",
+          "status" : "broken",
+          "time" : {
+            "start" : 1602061155841,
+            "stop" : 1602061155844,
+            "duration" : 3
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "tailorQuestionnaire",
+          "uid" : "79dcc38ba9f0e52d",
+          "parentUid" : "a791df15aea6bcfb0415894820de8bf9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1602062090992,
+            "stop" : 1602062090994,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a791df15aea6bcfb0415894820de8bf9"
+      } ],
+      "uid" : "fb81d8b68e84a029bc1bc8b080b34fdb"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

@@ -1,0 +1,98 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "null value in entry: url=null",
+      "children" : [ {
+        "name" : "beforeMethod",
+        "uid" : "c92c4d8a67d88c93",
+        "parentUid" : "54e773b29bd010a0cd1cd45abf66299d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601384398971,
+          "stop" : 1601384398972,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54e773b29bd010a0cd1cd45abf66299d"
+    }, {
+      "name" : "C:\\Users\\jedgal001\\Desktop\\Disclosure\\src\\main\\java\\setUp\\data.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "Setup",
+        "uid" : "97d6a8af95141c25",
+        "parentUid" : "43ac9cf49d41be9326601bb386b4f8f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061155841,
+          "stop" : 1602061155844,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43ac9cf49d41be9326601bb386b4f8f3"
+    }, {
+      "name" : "Cannot locate element with text: UK PWC IFRS UK and FRS 101 (1.2.1.0)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "homeScreenQA",
+        "uid" : "77e5fe790f24e7d3",
+        "parentUid" : "ecaeae28eda8b0359f1f78354305c58b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602083745904,
+          "stop" : 1602083775373,
+          "duration" : 29469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecaeae28eda8b0359f1f78354305c58b"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:42599}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ee031480cdc8333c5da2518f5eb57f75",
+      "children" : [ {
+        "name" : "browserShutDown",
+        "uid" : "c760062afb559a26",
+        "parentUid" : "3c698905aa74eecaea1beb0cf8dc3df4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602164593952,
+          "stop" : 1602164593952,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c698905aa74eecaea1beb0cf8dc3df4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Outdated tests",
+    "children" : [ {
+      "name" : "C:\\Users\\jedgal001\\Desktop\\Disclosure\\src\\main\\java\\setUp\\data.properties (The system cannot find the path specified)",
+      "children" : [ {
+        "name" : "Setup",
+        "uid" : "97d6a8af95141c25",
+        "parentUid" : "67e732c1271ff36678d690261e08a118",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061155841,
+          "stop" : 1602061155844,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67e732c1271ff36678d690261e08a118"
+    } ],
+    "uid" : "1b28e34cc35c93fe292bfc10f7c5ff01"
+  } ]
+}

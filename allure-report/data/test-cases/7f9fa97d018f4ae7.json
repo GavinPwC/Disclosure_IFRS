@@ -1,0 +1,62 @@
+{
+  "uid" : "7f9fa97d018f4ae7",
+  "name" : "homeScreen",
+  "fullName" : "Tests.singleSignOn.homeScreen",
+  "historyId" : "1ee3b878f73d4b683f269d0b5e455d26",
+  "time" : {
+    "start" : 1601642180940,
+    "stop" : 1601642180945,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "statusMessage" : "\nCannot inject @Test annotated Method [homeScreen] with [interface org.openqa.selenium.WebDriver].\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+  "statusTrace" : "org.testng.TestNGException: \nCannot inject @Test annotated Method [homeScreen] with [interface org.openqa.selenium.WebDriver].\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection\r\n\tat org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:729)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:895)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:762)\r\n\tat org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)\r\n\tat org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.util.ArrayList.forEach(Unknown Source)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Regression Suit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "host",
+    "value" : "UK930027"
+  }, {
+    "name" : "thread",
+    "value" : "16204@UK930027.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f9fa97d018f4ae7.json",
+  "parameterValues" : [ ]
+}

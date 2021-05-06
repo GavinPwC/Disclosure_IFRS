@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="202699" started-at="2020-10-09T13:51:11 BST" finished-at="2020-10-09T13:54:33 BST">
+    <groups>
+      <group name="Smoke Test">
+        <method signature="singleSignOn.confirmAndDelete()[pri:2, instance:Tests.Demo@5db99216]" name="confirmAndDelete" class="Tests.Demo"/>
+        <method signature="singleSignOn.homeScreen()[pri:0, instance:Tests.Demo@5db99216]" name="homeScreen" class="Tests.Demo"/>
+        <method signature="singleSignOn.resumeTailoring()[pri:1, instance:Tests.Demo@5db99216]" name="resumeTailoring" class="Tests.Demo"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Regression Suit" duration-ms="202699" started-at="2020-10-09T13:51:11 BST" finished-at="2020-10-09T13:54:33 BST">
+      <class name="Tests.Demo">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.Demo@5db99216]" name="Setup" is-config="true" duration-ms="5938" started-at="2020-10-09T13:51:11 BST" finished-at="2020-10-09T13:51:17 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="homeScreen()[pri:0, instance:Tests.Demo@5db99216]" name="homeScreen" duration-ms="101527" started-at="2020-10-09T13:51:17 BST" finished-at="2020-10-09T13:52:58 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeScreen -->
+        <test-method status="PASS" signature="browserShutDown(org.testng.ITestResult)[pri:0, instance:Tests.Demo@5db99216]" name="browserShutDown" is-config="true" duration-ms="1113" started-at="2020-10-09T13:52:58 BST" finished-at="2020-10-09T13:53:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeScreen status=SUCCESS method=singleSignOn.homeScreen()[pri:0, instance:Tests.Demo@5db99216] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserShutDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.Demo@5db99216]" name="Setup" is-config="true" duration-ms="4895" started-at="2020-10-09T13:53:00 BST" finished-at="2020-10-09T13:53:05 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="resumeTailoring()[pri:1, instance:Tests.Demo@5db99216]" name="resumeTailoring" duration-ms="66120" started-at="2020-10-09T13:53:05 BST" finished-at="2020-10-09T13:54:11 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeTailoring -->
+        <test-method status="PASS" signature="browserShutDown(org.testng.ITestResult)[pri:0, instance:Tests.Demo@5db99216]" name="browserShutDown" is-config="true" duration-ms="1197" started-at="2020-10-09T13:54:11 BST" finished-at="2020-10-09T13:54:12 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resumeTailoring status=SUCCESS method=singleSignOn.resumeTailoring()[pri:1, instance:Tests.Demo@5db99216] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserShutDown -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.Demo@5db99216]" name="Setup" is-config="true" duration-ms="3235" started-at="2020-10-09T13:54:12 BST" finished-at="2020-10-09T13:54:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="confirmAndDelete()[pri:2, instance:Tests.Demo@5db99216]" name="confirmAndDelete" duration-ms="17157" started-at="2020-10-09T13:54:15 BST" finished-at="2020-10-09T13:54:32 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmAndDelete -->
+        <test-method status="PASS" signature="browserShutDown(org.testng.ITestResult)[pri:0, instance:Tests.Demo@5db99216]" name="browserShutDown" is-config="true" duration-ms="1204" started-at="2020-10-09T13:54:32 BST" finished-at="2020-10-09T13:54:33 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmAndDelete status=SUCCESS method=singleSignOn.confirmAndDelete()[pri:2, instance:Tests.Demo@5db99216] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserShutDown -->
+      </class> <!-- Tests.Demo -->
+    </test> <!-- Regression Suit -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

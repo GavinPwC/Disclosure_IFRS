@@ -1,0 +1,81 @@
+[ {
+  "uid" : "a26bf3e997aa560d",
+  "name" : "Tailoring first set of questions",
+  "time" : {
+    "start" : 1602669242841,
+    "stop" : 1602669352980,
+    "duration" : 110139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "920f3c84a2c1a66c",
+  "name" : "Continue from where you stopped during tailoring",
+  "time" : {
+    "start" : 1602669357155,
+    "stop" : 1602669427726,
+    "duration" : 70571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c760062afb559a26",
+  "name" : "browserShutDown",
+  "time" : {
+    "start" : 1602164593952,
+    "stop" : 1602164593952,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c92c4d8a67d88c93",
+  "name" : "beforeMethod",
+  "time" : {
+    "start" : 1601384398971,
+    "stop" : 1601384398972,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "79dcc38ba9f0e52d",
+  "name" : "tailorQuestionnaire",
+  "time" : {
+    "start" : 1602062090992,
+    "stop" : 1602062090994,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d1d2e00ad2f33a",
+  "name" : "Delete record",
+  "time" : {
+    "start" : 1602669432099,
+    "stop" : 1602669450992,
+    "duration" : 18893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97d6a8af95141c25",
+  "name" : "Setup",
+  "time" : {
+    "start" : 1602061155841,
+    "stop" : 1602061155844,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "77e5fe790f24e7d3",
+  "name" : "homeScreenQA",
+  "time" : {
+    "start" : 1602083745904,
+    "stop" : 1602083775373,
+    "duration" : 29469
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" verbose="10" preserve-order="true">
+
+
+    <listeners>
+        <listener class-name="Tests.TestListener"/>
+        <listener class-name="SetUp.extentReporterNG"/>
+    </listeners>
+
+    <test name="Regression Suit">
+        <classes>
+            <class name="Tests.Demo">
+                <methods>
+                    <include name="homeScreen"/>
+                    <include name="resumeTailoring"/>
+                    <include name="confirmAndDelete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

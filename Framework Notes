@@ -1,0 +1,90 @@
+Executing in different environments:
+1) GO TO setupFramework.java and change value in "String URL=prop.getProperty("QAbaseURL");"
+2) GO TO testng.xml and change the value in method below:
+   <methods>
+      <include name="homeScreenQA"/>
+   </methods>
+3) GO TO singleSignOn.java and change the values @Test(alwaysRun = true) TO  (True OR False)
+
+Bypassing Security:
+>mvn dependency:resolve -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true
+
+Creating a new client:
+1) Change value "String clientName = "autoClient2";" in clientPage.java
+2) Change value "String clientName = "autoClient2";" in homeScreenPage.java
+
+Allure EE:
+https://docs.qameta.io/allure-ee/tools/idea/
+
+Allure Report command:
+allure serve
+allure serve target/allure-results
+allure generate allure-results --clean -o allure-report
+allure serve C:\Users\jedgal001\Desktop\Disclosure_IJ\allure-report
+allure generate 'C:\Users\jedgal001\Desktop\Disclosure_IJ\allure-report' && allure open
+allure generate 'C\Users\jedgal001\Desktop\Disclosure_IJ\allure-report' && allure open
+
+Troubleshooting:
+If 'regression_FRS102_103_105_Mainchecklist' fails while a section in progress:
+1) In RegrsssionFRS.java, change 'hs.answerSections' to 'hs.answerSectionsInProgress'
+2) In FRS102_103_105, go to method 'mainCheckListResponse' and change 'withSkipLines(0)'
+   value to match value of section in progress
+
+Tips:
+1) Delete content in Difference.csv, DiscloseResponses.csv & DiscrepanciesFile.csv before every run
+2) When comparing two files replace contents of both Data_FRS102.csv & Data_FRS102 - Copy.csv OR
+   In CompareCSVFilesPage.java, go to compareCSVFiles method and change value of fileNameINWrite
+   to DiscloseResponses.csv
+
+DRAFTS:
+String[] col= new String[3];
+String[] col2= new String[35];
+
+col[0] = questionTextVal;
+col[1] = Title;
+col[2] = questionDiscription;
+
+col2[29] = questionTextVal;
+col2[30] = Title;
+col2[31] = questionDiscription;
+
+            writer.writeNext(col);
+            writer2.writeNext(col2);
+
+ <groups>
+    <run>
+      <exclude name="brokenTests"  />
+      <include name="checkinTests"  />
+    </run>
+  </groups>
+
+  <dependency>
+      <groupId>org.apache.xmlbeans</groupId>
+      <artifactId>xmlbeans</artifactId>
+      <version>4.0.0</version>
+  </dependency>
+
+   <dependency>
+  		  <groupId>io.qameta.allure</groupId>
+  		  <artifactId>allure-junit4</artifactId>
+  		  <version>2.13.6</version>
+  		  <scope>test</scope>
+  </dependency>
+
+  public void compareValues(WebDriver driver, String fieldName, int expVal, int actVal) {
+          try {
+  			if (Integer.compare(expVal, actVal) == 0) {
+  				Reporter.log(fieldName + " Match Successful: " + actVal);
+  				System.out.println(fieldName + " Match Successful: " + actVal);
+  			}else {
+  				Reporter.log(fieldName + " MisMatch Detected. Expected: " + expVal + " Actual: " + actVal);
+  				System.out.println(fieldName + " MisMatch Detected. Expected: " + expVal + " Actual: " + actVal);
+  			}
+  		} catch (Exception e){
+  			System.out.println("Mismatch");
+  			e.printStackTrace();
+  		}
+
+  	}
+
+

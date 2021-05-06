@@ -1,0 +1,2840 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "UK000824",
+    "children" : [ {
+      "name" : "15392@UK000824.main(1)",
+      "children" : [ {
+        "name" : "resumeTailoring",
+        "uid" : "4ba6ceda4c564e69",
+        "parentUid" : "8eb8532884ff5a386a427fe33b84d45a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602501362808,
+          "stop" : 1602501386692,
+          "duration" : 23884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "c6f69a36af224397",
+        "parentUid" : "8eb8532884ff5a386a427fe33b84d45a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602501236824,
+          "stop" : 1602501355974,
+          "duration" : 119150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "confirmAndDelete",
+        "uid" : "7870dc0dee0387bb",
+        "parentUid" : "8eb8532884ff5a386a427fe33b84d45a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602501393510,
+          "stop" : 1602501416035,
+          "duration" : 22525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8eb8532884ff5a386a427fe33b84d45a"
+    }, {
+      "name" : "11516@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "554b7e77877deb71",
+        "parentUid" : "5b781d95ef1c55a3dce0e6e31dbf2dd9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1602164593962,
+          "stop" : 1602164593962,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "browserShutDown",
+        "uid" : "c760062afb559a26",
+        "parentUid" : "5b781d95ef1c55a3dce0e6e31dbf2dd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602164593952,
+          "stop" : 1602164593952,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "resumeTailoring",
+        "uid" : "bab07bf5b9db80cd",
+        "parentUid" : "5b781d95ef1c55a3dce0e6e31dbf2dd9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602164543488,
+          "stop" : 1602164593920,
+          "duration" : 50432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "45b171e02ea5f028",
+        "parentUid" : "5b781d95ef1c55a3dce0e6e31dbf2dd9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602164440901,
+          "stop" : 1602164539626,
+          "duration" : 98725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b781d95ef1c55a3dce0e6e31dbf2dd9"
+    }, {
+      "name" : "14872@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7e2399b1936d1fdc",
+        "parentUid" : "53258bf06079730024aee2494355a4d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602088527273,
+          "stop" : 1602088625726,
+          "duration" : 98453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53258bf06079730024aee2494355a4d0"
+    }, {
+      "name" : "4552@UK000824.main(1)",
+      "children" : [ {
+        "name" : "browserShutDown",
+        "uid" : "7881a495592928c4",
+        "parentUid" : "181ebee4d1660f7186000582dcea75a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602086138766,
+          "stop" : 1602086138766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "d8e19226ad54c1fb",
+        "parentUid" : "181ebee4d1660f7186000582dcea75a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602086111973,
+          "stop" : 1602086138731,
+          "duration" : 26758
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "181ebee4d1660f7186000582dcea75a5"
+    }, {
+      "name" : "13772@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "f73a0b1993dd1a15",
+        "parentUid" : "0a1fba96e8c7be7d4e20ef39658bc7a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602164978652,
+          "stop" : 1602164999846,
+          "duration" : 21194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "80036896abc23f57",
+        "parentUid" : "0a1fba96e8c7be7d4e20ef39658bc7a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602164852584,
+          "stop" : 1602164949969,
+          "duration" : 97385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "resumeTailoring",
+        "uid" : "cd224b475d787ee6",
+        "parentUid" : "0a1fba96e8c7be7d4e20ef39658bc7a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602164955047,
+          "stop" : 1602164973114,
+          "duration" : 18067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a1fba96e8c7be7d4e20ef39658bc7a1"
+    }, {
+      "name" : "13716@UK000824.main(1)",
+      "children" : [ {
+        "name" : "Continue from where you stopped during tailoring",
+        "uid" : "920f3c84a2c1a66c",
+        "parentUid" : "4b74210b550abb98d36e505c37002ca5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602669357155,
+          "stop" : 1602669427726,
+          "duration" : 70571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete record",
+        "uid" : "f4d1d2e00ad2f33a",
+        "parentUid" : "4b74210b550abb98d36e505c37002ca5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602669432099,
+          "stop" : 1602669450992,
+          "duration" : 18893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Tailoring first set of questions",
+        "uid" : "a26bf3e997aa560d",
+        "parentUid" : "4b74210b550abb98d36e505c37002ca5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602669242841,
+          "stop" : 1602669352980,
+          "duration" : 110139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b74210b550abb98d36e505c37002ca5"
+    }, {
+      "name" : "9728@UK000824.main(1)",
+      "children" : [ {
+        "name" : "tailorQuestionnaire",
+        "uid" : "79dcc38ba9f0e52d",
+        "parentUid" : "e64db213c8c9ec39a06f8bfb7bf74449",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602062090992,
+          "stop" : 1602062090994,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "bd86e25a2ca5746",
+        "parentUid" : "e64db213c8c9ec39a06f8bfb7bf74449",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061960851,
+          "stop" : 1602062082570,
+          "duration" : 121719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e64db213c8c9ec39a06f8bfb7bf74449"
+    }, {
+      "name" : "6388@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "c9642d8420b83a7f",
+        "parentUid" : "ca13851197d0600ebd4f806ce5feab27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602160277460,
+          "stop" : 1602160299318,
+          "duration" : 21858
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca13851197d0600ebd4f806ce5feab27"
+    }, {
+      "name" : "18212@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "984e4dbbbf973fa9",
+        "parentUid" : "585170935a768b7aa3cc67823ec3fe2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602162947690,
+          "stop" : 1602163048613,
+          "duration" : 100923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "confirmAndDelete",
+        "uid" : "1de1fa39d62f907d",
+        "parentUid" : "585170935a768b7aa3cc67823ec3fe2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602163054253,
+          "stop" : 1602163074848,
+          "duration" : 20595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "585170935a768b7aa3cc67823ec3fe2e"
+    }, {
+      "name" : "16428@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "eaaf5ad527d04393",
+        "parentUid" : "21f4e68ede2557f14e25ba6a3cb3a45d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602086469819,
+          "stop" : 1602086499497,
+          "duration" : 29678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21f4e68ede2557f14e25ba6a3cb3a45d"
+    }, {
+      "name" : "19444@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "89b80a48597e1f7d",
+        "parentUid" : "77243755f3ef2970e39bdcac5722357d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602065972529,
+          "stop" : 1602066032434,
+          "duration" : 59905
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77243755f3ef2970e39bdcac5722357d"
+    }, {
+      "name" : "3596@UK000824.main(1)",
+      "children" : [ {
+        "name" : "browserShutDown",
+        "uid" : "49b9977ef326c955",
+        "parentUid" : "233215e8d7fbbe2bc2bf82a1ef6ec825",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602065378142,
+          "stop" : 1602065378142,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "4fbcdb4266c8b1ab",
+        "parentUid" : "233215e8d7fbbe2bc2bf82a1ef6ec825",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602065278743,
+          "stop" : 1602065374085,
+          "duration" : 95342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "233215e8d7fbbe2bc2bf82a1ef6ec825"
+    }, {
+      "name" : "17940@UK000824.main(1)",
+      "children" : [ {
+        "name" : "resumeTailoring",
+        "uid" : "c8a11149faf208c7",
+        "parentUid" : "887dbcf08595a197b67642cdcbbfd797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602165641700,
+          "stop" : 1602165707908,
+          "duration" : 66208
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "confirmAndDelete",
+        "uid" : "9d124a8bd9950a01",
+        "parentUid" : "887dbcf08595a197b67642cdcbbfd797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602165711807,
+          "stop" : 1602165735433,
+          "duration" : 23626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "b92a69fef740ef34",
+        "parentUid" : "887dbcf08595a197b67642cdcbbfd797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602165540544,
+          "stop" : 1602165636550,
+          "duration" : 96006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "887dbcf08595a197b67642cdcbbfd797"
+    }, {
+      "name" : "10420@UK000824.main(1)",
+      "children" : [ {
+        "name" : "browserShutDown",
+        "uid" : "efd02bf134a64607",
+        "parentUid" : "e43a63bb02ece517c33ec77ced9b41d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602081701165,
+          "stop" : 1602081701166,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "3c498e7d2b9a3e3e",
+        "parentUid" : "e43a63bb02ece517c33ec77ced9b41d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602081677582,
+          "stop" : 1602081701065,
+          "duration" : 23483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e43a63bb02ece517c33ec77ced9b41d4"
+    }, {
+      "name" : "840@UK000824.main(1)",
+      "children" : [ {
+        "name" : "resumeTailoring",
+        "uid" : "61f445ba617f822a",
+        "parentUid" : "491b529d9f8c0e76e3b0ae728fc1077c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602247985022,
+          "stop" : 1602248051138,
+          "duration" : 66116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "confirmAndDelete",
+        "uid" : "bbd1dd1dc7af1a3a",
+        "parentUid" : "491b529d9f8c0e76e3b0ae728fc1077c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602248055587,
+          "stop" : 1602248072739,
+          "duration" : 17152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "7de86b5b70693a9e",
+        "parentUid" : "491b529d9f8c0e76e3b0ae728fc1077c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602247877530,
+          "stop" : 1602247978991,
+          "duration" : 101461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "491b529d9f8c0e76e3b0ae728fc1077c"
+    }, {
+      "name" : "10140@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "2a03c6604a05dd0d",
+        "parentUid" : "a85c925799456b58a66514d15deaa7db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602148606993,
+          "stop" : 1602148718488,
+          "duration" : 111495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a85c925799456b58a66514d15deaa7db"
+    }, {
+      "name" : "17284@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "800c00c308774fb2",
+        "parentUid" : "b1f67d1d9e5c9b9551cfdb2b517c9797",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602086303277,
+          "stop" : 1602086325782,
+          "duration" : 22505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1f67d1d9e5c9b9551cfdb2b517c9797"
+    }, {
+      "name" : "13748@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreenQA",
+        "uid" : "71e6797ebff6a149",
+        "parentUid" : "95eaf91515482a2f37b4c0be7d978456",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602083054128,
+          "stop" : 1602083072018,
+          "duration" : 17890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95eaf91515482a2f37b4c0be7d978456"
+    }, {
+      "name" : "13540@UK000824.main(1)",
+      "children" : [ {
+        "name" : "resumeTailoring",
+        "uid" : "79542236dfb173a",
+        "parentUid" : "9d25c845bdcbc2041b11f92d46b653c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602247542983,
+          "stop" : 1602247559479,
+          "duration" : 16496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "confirmAndDelete",
+        "uid" : "68a57c700ca535bc",
+        "parentUid" : "9d25c845bdcbc2041b11f92d46b653c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602247564970,
+          "stop" : 1602247579944,
+          "duration" : 14974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "cecff1252201c81d",
+        "parentUid" : "9d25c845bdcbc2041b11f92d46b653c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602247442369,
+          "stop" : 1602247538293,
+          "duration" : 95924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d25c845bdcbc2041b11f92d46b653c4"
+    }, {
+      "name" : "3280@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "dc31cd06f2baca82",
+        "parentUid" : "01715c4d5e86ad94765505430a49e307",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602065793227,
+          "stop" : 1602065814191,
+          "duration" : 20964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01715c4d5e86ad94765505430a49e307"
+    }, {
+      "name" : "16228@UK000824.main(1)",
+      "children" : [ {
+        "name" : "tailorQuestionnaire",
+        "uid" : "52fb60c1d22ff0a0",
+        "parentUid" : "25148e142cbe519b72c348de1e1135a6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1602061155890,
+          "stop" : 1602061155890,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Setup",
+        "uid" : "97d6a8af95141c25",
+        "parentUid" : "25148e142cbe519b72c348de1e1135a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061155841,
+          "stop" : 1602061155844,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "d375b35e997363b6",
+        "parentUid" : "25148e142cbe519b72c348de1e1135a6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1602061155860,
+          "stop" : 1602061155863,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "browserShutDown",
+        "uid" : "d0b18cad7f0f3665",
+        "parentUid" : "25148e142cbe519b72c348de1e1135a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061155903,
+          "stop" : 1602061155903,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "browserShutDown",
+        "uid" : "96816297b65ac58d",
+        "parentUid" : "25148e142cbe519b72c348de1e1135a6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602061155880,
+          "stop" : 1602061155880,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25148e142cbe519b72c348de1e1135a6"
+    }, {
+      "name" : "13672@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "f38175546f07a8ba",
+        "parentUid" : "feac215fb5dcb2edbda7dca5ab2dce86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602159964666,
+          "stop" : 1602159989556,
+          "duration" : 24890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "feac215fb5dcb2edbda7dca5ab2dce86"
+    }, {
+      "name" : "16824@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "1b44cae30b4d7068",
+        "parentUid" : "2d58341687b1bef07e8a08bb6dae3c49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602159339822,
+          "stop" : 1602159356238,
+          "duration" : 16416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d58341687b1bef07e8a08bb6dae3c49"
+    }, {
+      "name" : "1560@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "220c3278bc123d5c",
+        "parentUid" : "65e9f28cc3c86fe322be6b4d7c5c68b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602064014250,
+          "stop" : 1602064121336,
+          "duration" : 107086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65e9f28cc3c86fe322be6b4d7c5c68b3"
+    }, {
+      "name" : "4080@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "4a82acea385ef729",
+        "parentUid" : "6fbe0c83edb94ed956ac32675fff7e2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602067339680,
+          "stop" : 1602067429363,
+          "duration" : 89683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fbe0c83edb94ed956ac32675fff7e2e"
+    }, {
+      "name" : "2436@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "1167118e47cfc0e8",
+        "parentUid" : "f0961f61bc686dd44bb1a1b452a56eae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602069235496,
+          "stop" : 1602069318512,
+          "duration" : 83016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0961f61bc686dd44bb1a1b452a56eae"
+    }, {
+      "name" : "1768@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "47bc68095ee917c5",
+        "parentUid" : "4ea08a383c10ff0e60ebb9a43c8ec309",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602084578218,
+          "stop" : 1602084587176,
+          "duration" : 8958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ea08a383c10ff0e60ebb9a43c8ec309"
+    }, {
+      "name" : "7900@UK000824.main(1)",
+      "children" : [ {
+        "name" : "Tailoring first set of questions",
+        "uid" : "e5eff6736614a57f",
+        "parentUid" : "3509b782b24bf8cd3bd17fb3d2c455cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602667887653,
+          "stop" : 1602667997898,
+          "duration" : 110245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Continue from where you stopped during tailoring",
+        "uid" : "58a0970aa804a51e",
+        "parentUid" : "3509b782b24bf8cd3bd17fb3d2c455cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602668001524,
+          "stop" : 1602668017311,
+          "duration" : 15787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete record",
+        "uid" : "95eb139121f9017b",
+        "parentUid" : "3509b782b24bf8cd3bd17fb3d2c455cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602668021899,
+          "stop" : 1602668036605,
+          "duration" : 14706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3509b782b24bf8cd3bd17fb3d2c455cc"
+    }, {
+      "name" : "5620@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "f2f431a111357137",
+        "parentUid" : "2c46947a0f0da696062ca3692c03ade4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602161257807,
+          "stop" : 1602161283347,
+          "duration" : 25540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c46947a0f0da696062ca3692c03ade4"
+    }, {
+      "name" : "14992@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "eeaa4b92d0ead888",
+        "parentUid" : "4487c0e9f4dd30a5608ba411652d8414",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602162350390,
+          "stop" : 1602162366356,
+          "duration" : 15966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4487c0e9f4dd30a5608ba411652d8414"
+    }, {
+      "name" : "17876@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreenQA",
+        "uid" : "77e5fe790f24e7d3",
+        "parentUid" : "3feb28742b70562583c591133aa3c387",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602083745904,
+          "stop" : 1602083775373,
+          "duration" : 29469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3feb28742b70562583c591133aa3c387"
+    }, {
+      "name" : "12264@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "2bce2d1c4e444a1",
+        "parentUid" : "f5be325e126289a59f04266c73385c7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602146470878,
+          "stop" : 1602146483190,
+          "duration" : 12312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5be325e126289a59f04266c73385c7e"
+    }, {
+      "name" : "14232@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "d60a613b087c103c",
+        "parentUid" : "1beadc53b1ab535bdb0b57c447bc3e70",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602159140658,
+          "stop" : 1602159153872,
+          "duration" : 13214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1beadc53b1ab535bdb0b57c447bc3e70"
+    }, {
+      "name" : "14584@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b38d05d5637df4c5",
+        "parentUid" : "d53688e170252439e02c4b79edc1488a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602071540966,
+          "stop" : 1602071584835,
+          "duration" : 43869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d53688e170252439e02c4b79edc1488a"
+    }, {
+      "name" : "8096@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreenQA",
+        "uid" : "67c3cef7988b0955",
+        "parentUid" : "c3979a42e5ba5fcaf034fa20529b0b7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602082035573,
+          "stop" : 1602082041146,
+          "duration" : 5573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c3979a42e5ba5fcaf034fa20529b0b7e"
+    }, {
+      "name" : "13556@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "f9cf828b7014d1db",
+        "parentUid" : "caf1cf6c2cf81b140e30ca7af745db46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990050560,
+          "stop" : 1601990112697,
+          "duration" : 62137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "tailorQuestionnaire",
+        "uid" : "692143ca22587fc8",
+        "parentUid" : "caf1cf6c2cf81b140e30ca7af745db46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601990118366,
+          "stop" : 1601990118366,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "caf1cf6c2cf81b140e30ca7af745db46"
+    }, {
+      "name" : "15416@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "70eca6eb9ed095a1",
+        "parentUid" : "f6eb1992f91b02de3df12d1f1d102122",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602070936853,
+          "stop" : 1602071029697,
+          "duration" : 92844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6eb1992f91b02de3df12d1f1d102122"
+    }, {
+      "name" : "12352@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "8fdd2b4ec0d75eeb",
+        "parentUid" : "257ae5a63f51c312269cff43737ba601",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602160850129,
+          "stop" : 1602160927138,
+          "duration" : 77009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "257ae5a63f51c312269cff43737ba601"
+    }, {
+      "name" : "16556@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "5c446ba48e12410a",
+        "parentUid" : "8a7f0d0dff565a8b9fcd6a37ff63929c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602064900946,
+          "stop" : 1602065019248,
+          "duration" : 118302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a7f0d0dff565a8b9fcd6a37ff63929c"
+    }, {
+      "name" : "18356@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "ed13ec4da8c669a4",
+        "parentUid" : "83a6cb2334c4f7f30260d4b284dde3ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602161579739,
+          "stop" : 1602161611526,
+          "duration" : 31787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83a6cb2334c4f7f30260d4b284dde3ba"
+    }, {
+      "name" : "15852@UK000824.main(1)",
+      "children" : [ {
+        "name" : "confirmAndDelete",
+        "uid" : "d41736fdcef37cb5",
+        "parentUid" : "fe29c478fca0d02125cf5ce830294bc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602162113554,
+          "stop" : 1602162146705,
+          "duration" : 33151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe29c478fca0d02125cf5ce830294bc9"
+    }, {
+      "name" : "17392@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "cfe9d9482f45edfa",
+        "parentUid" : "54447e5625178ae57177eb5c9d91d8bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601905758219,
+          "stop" : 1601905815487,
+          "duration" : 57268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54447e5625178ae57177eb5c9d91d8bc"
+    }, {
+      "name" : "3908@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3fa6541d1de0dae6",
+        "parentUid" : "695237f21b35935731427c7f58d50140",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602071974033,
+          "stop" : 1602072065774,
+          "duration" : 91741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "695237f21b35935731427c7f58d50140"
+    }, {
+      "name" : "3320@UK000824.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "6a2e193c0e9bf7b3",
+        "parentUid" : "4b2059e1dc583f425816d0dd388ddc41",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602063038654,
+          "stop" : 1602063158786,
+          "duration" : 120132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b2059e1dc583f425816d0dd388ddc41"
+    } ],
+    "uid" : "75d880ead854cfb4c0638a6717198cee"
+  }, {
+    "name" : "UK930027",
+    "children" : [ {
+      "name" : "3664@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "ed0f477ec6481d4d",
+        "parentUid" : "47db92fc2d6f8197f4353ec430befe56",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601396543714,
+          "stop" : 1601396562710,
+          "duration" : 18996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "47db92fc2d6f8197f4353ec430befe56"
+    }, {
+      "name" : "644@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "842b0a6659db7808",
+        "parentUid" : "e97630ae45d8376bd31e137ed4e081f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601575070230,
+          "stop" : 1601575095592,
+          "duration" : 25362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e97630ae45d8376bd31e137ed4e081f0"
+    }, {
+      "name" : "14276@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "a292d01105b893e1",
+        "parentUid" : "577656b6ddb6c53f1d53517bd831a082",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601306018011,
+          "stop" : 1601306018011,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "59a106336d6ad879",
+        "parentUid" : "577656b6ddb6c53f1d53517bd831a082",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601306012401,
+          "stop" : 1601306017993,
+          "duration" : 5592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "577656b6ddb6c53f1d53517bd831a082"
+    }, {
+      "name" : "15756@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "ea7776a814f2d535",
+        "parentUid" : "b75cf99ceabe1d1eedce39ff4436899a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601302568900,
+          "stop" : 1601302570374,
+          "duration" : 1474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "da4f040c6278265a",
+        "parentUid" : "b75cf99ceabe1d1eedce39ff4436899a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601302570397,
+          "stop" : 1601302570398,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b75cf99ceabe1d1eedce39ff4436899a"
+    }, {
+      "name" : "12512@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b0cca7b711174af9",
+        "parentUid" : "57cb016d6163aff1b85e539395e1e8fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601641815932,
+          "stop" : 1601641815945,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57cb016d6163aff1b85e539395e1e8fa"
+    }, {
+      "name" : "14780@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "d45539e3ce63de83",
+        "parentUid" : "261d4d4173fe1b998029909e841a63e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601636351627,
+          "stop" : 1601636374038,
+          "duration" : 22411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "261d4d4173fe1b998029909e841a63e8"
+    }, {
+      "name" : "2900@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "1db426813042d92c",
+        "parentUid" : "6d90846cbe60ee76554bafa5450f47a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601644760246,
+          "stop" : 1601644779915,
+          "duration" : 19669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d90846cbe60ee76554bafa5450f47a9"
+    }, {
+      "name" : "11200@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "973cb29d92f1ea84",
+        "parentUid" : "734d78d205e467ebc89e9dd34d94433b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601306658321,
+          "stop" : 1601306667296,
+          "duration" : 8975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "d1be62db8e0734e0",
+        "parentUid" : "734d78d205e467ebc89e9dd34d94433b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601306667315,
+          "stop" : 1601306667315,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "734d78d205e467ebc89e9dd34d94433b"
+    }, {
+      "name" : "18572@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "e443bef815c85f72",
+        "parentUid" : "09d0faa42e55c96df18cd0f8dad54659",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601569643819,
+          "stop" : 1601569649871,
+          "duration" : 6052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09d0faa42e55c96df18cd0f8dad54659"
+    }, {
+      "name" : "15696@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3bd6504860cd656e",
+        "parentUid" : "a180a75b5de2957f0dab85428d2cc4d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601655554840,
+          "stop" : 1601655614986,
+          "duration" : 60146
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a180a75b5de2957f0dab85428d2cc4d5"
+    }, {
+      "name" : "1228@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7572638b54b15516",
+        "parentUid" : "1d12f54023e74cf438f561a6c8f76c7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601468717232,
+          "stop" : 1601468732973,
+          "duration" : 15741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d12f54023e74cf438f561a6c8f76c7c"
+    }, {
+      "name" : "8812@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "375b7e7c227945ec",
+        "parentUid" : "91a90eda88aa109b0945f239266b4016",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601304492999,
+          "stop" : 1601304492999,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "eefbc8c2d3c0004c",
+        "parentUid" : "91a90eda88aa109b0945f239266b4016",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601304486698,
+          "stop" : 1601304492980,
+          "duration" : 6282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91a90eda88aa109b0945f239266b4016"
+    }, {
+      "name" : "9840@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "bac909160f932008",
+        "parentUid" : "333e24120df787e64e700035b7b32f72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601648680588,
+          "stop" : 1601648706112,
+          "duration" : 25524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "333e24120df787e64e700035b7b32f72"
+    }, {
+      "name" : "6992@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "73c89991ccdc0704",
+        "parentUid" : "8da986fa96f87614c42dfd72f516198c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601643190769,
+          "stop" : 1601643212225,
+          "duration" : 21456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8da986fa96f87614c42dfd72f516198c"
+    }, {
+      "name" : "11900@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "d04ff04dfbf28221",
+        "parentUid" : "999c50da4f62b3e901cc4aae827a6cd2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601574661084,
+          "stop" : 1601574685267,
+          "duration" : 24183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "999c50da4f62b3e901cc4aae827a6cd2"
+    }, {
+      "name" : "12912@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "ff6eb5d072b1abdd",
+        "parentUid" : "5b4f1112760b051f06cf82ad7aaeb3b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601572421445,
+          "stop" : 1601572447013,
+          "duration" : 25568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b4f1112760b051f06cf82ad7aaeb3b6"
+    }, {
+      "name" : "6920@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "8d2d5f738bcdaa37",
+        "parentUid" : "f55975bf55a87971553b66d8352cd288",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601646629410,
+          "stop" : 1601646651817,
+          "duration" : 22407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f55975bf55a87971553b66d8352cd288"
+    }, {
+      "name" : "13176@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "a7103f6ba206b297",
+        "parentUid" : "1ca941a0c882bd2ff5d70bd240fa2e2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601642512823,
+          "stop" : 1601642512915,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ca941a0c882bd2ff5d70bd240fa2e2f"
+    }, {
+      "name" : "20648@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "1571643b16ca6889",
+        "parentUid" : "a7d2d40da50b995f30ab15a22b1451df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601307945374,
+          "stop" : 1601307945374,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "4b6056182a2f5165",
+        "parentUid" : "a7d2d40da50b995f30ab15a22b1451df",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601307932735,
+          "stop" : 1601307945347,
+          "duration" : 12612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7d2d40da50b995f30ab15a22b1451df"
+    }, {
+      "name" : "16552@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "77e35edf69c47313",
+        "parentUid" : "69bf6ef05aecaba25753fbc1b9c162d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601389449562,
+          "stop" : 1601389460301,
+          "duration" : 10739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "69bf6ef05aecaba25753fbc1b9c162d8"
+    }, {
+      "name" : "12796@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "57cff263bfbd6107",
+        "parentUid" : "3b553e4c7c57e70d31fe751ce1e853ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601627364321,
+          "stop" : 1601627389635,
+          "duration" : 25314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b553e4c7c57e70d31fe751ce1e853ec"
+    }, {
+      "name" : "1500@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "cc7e986b3f37901b",
+        "parentUid" : "414bcea005c57b1f38d8b37ba1dd9b31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601303937070,
+          "stop" : 1601303960213,
+          "duration" : 23143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "5df9d6195c93fb5",
+        "parentUid" : "414bcea005c57b1f38d8b37ba1dd9b31",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601303960228,
+          "stop" : 1601303960228,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "414bcea005c57b1f38d8b37ba1dd9b31"
+    }, {
+      "name" : "16964@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7c7ed8137224aca9",
+        "parentUid" : "4a3fbe538a7ecc1d0d62cb75ab336bff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601560553279,
+          "stop" : 1601560575831,
+          "duration" : 22552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a3fbe538a7ecc1d0d62cb75ab336bff"
+    }, {
+      "name" : "13100@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "c641a5bfa4be780c",
+        "parentUid" : "42f4199009d234e31ea01da0d3b47856",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601399580977,
+          "stop" : 1601399594621,
+          "duration" : 13644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42f4199009d234e31ea01da0d3b47856"
+    }, {
+      "name" : "1796@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "25c6ea51b780d56e",
+        "parentUid" : "569fdc42552a70bd61d26056b0528033",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601397759915,
+          "stop" : 1601397780787,
+          "duration" : 20872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "569fdc42552a70bd61d26056b0528033"
+    }, {
+      "name" : "7592@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "ff29bffb755cdba6",
+        "parentUid" : "913d6266a5a3cb134cbe19eaf2384143",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601648556251,
+          "stop" : 1601648581249,
+          "duration" : 24998
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "913d6266a5a3cb134cbe19eaf2384143"
+    }, {
+      "name" : "7052@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b26280d9c7e7ee19",
+        "parentUid" : "bd20a903ba96694f5e3d00cec232c3b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601627507682,
+          "stop" : 1601627532173,
+          "duration" : 24491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd20a903ba96694f5e3d00cec232c3b2"
+    }, {
+      "name" : "20496@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3117539036ab0984",
+        "parentUid" : "799527c01032b1971d64167b5407bf7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601314699866,
+          "stop" : 1601314703573,
+          "duration" : 3707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "799527c01032b1971d64167b5407bf7f"
+    }, {
+      "name" : "4344@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3da7fda46e0c6e4b",
+        "parentUid" : "4c0a196396fe82cde668959dc4e01ef3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601565060236,
+          "stop" : 1601565081693,
+          "duration" : 21457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c0a196396fe82cde668959dc4e01ef3"
+    }, {
+      "name" : "16204@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7f9fa97d018f4ae7",
+        "parentUid" : "2544372d936329b8a4c59c480be70096",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601642180940,
+          "stop" : 1601642180945,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2544372d936329b8a4c59c480be70096"
+    }, {
+      "name" : "11916@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "f3bf0274c07ffad4",
+        "parentUid" : "d90768c542011d0fba4fe509109651ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601635551789,
+          "stop" : 1601635579242,
+          "duration" : 27453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d90768c542011d0fba4fe509109651ef"
+    }, {
+      "name" : "13236@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "60b7bb8a6c12c324",
+        "parentUid" : "9e07e515b2cfe72529ac690146ce72b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601564309394,
+          "stop" : 1601564434444,
+          "duration" : 125050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "browserShutDown",
+        "uid" : "4b78398d654ddcf2",
+        "parentUid" : "9e07e515b2cfe72529ac690146ce72b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601564434491,
+          "stop" : 1601564434492,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e07e515b2cfe72529ac690146ce72b3"
+    }, {
+      "name" : "15108@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "df5058238247750e",
+        "parentUid" : "7d83b63271e1c94a4d9bd1ac5462f34a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601561530141,
+          "stop" : 1601561752838,
+          "duration" : 222697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "browserShutDown",
+        "uid" : "8ca31ff3c8c1f3ce",
+        "parentUid" : "7d83b63271e1c94a4d9bd1ac5462f34a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601561752893,
+          "stop" : 1601561752894,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7d83b63271e1c94a4d9bd1ac5462f34a"
+    }, {
+      "name" : "10092@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "d22a08adc5c8ce5d",
+        "parentUid" : "ce2a25e2f5f625c35b6f27b0c8f7c983",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601646147056,
+          "stop" : 1601646167944,
+          "duration" : 20888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce2a25e2f5f625c35b6f27b0c8f7c983"
+    }, {
+      "name" : "8304@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "c5512449ba9bd3d8",
+        "parentUid" : "699fb56bbf3beaa7d79164658eec4b0c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601571457129,
+          "stop" : 1601571477589,
+          "duration" : 20460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "699fb56bbf3beaa7d79164658eec4b0c"
+    }, {
+      "name" : "6620@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "77fdccc33d239ee8",
+        "parentUid" : "82e4daba298f2d620f680066db3aae7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601648343036,
+          "stop" : 1601648368869,
+          "duration" : 25833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82e4daba298f2d620f680066db3aae7b"
+    }, {
+      "name" : "13068@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "c8dd1b80631896e9",
+        "parentUid" : "9a29efc6ddbb92fb315fb37c9e9c39dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601466078553,
+          "stop" : 1601466088121,
+          "duration" : 9568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a29efc6ddbb92fb315fb37c9e9c39dd"
+    }, {
+      "name" : "10392@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "22ce595c62308eec",
+        "parentUid" : "648afdd9184619cadacf20d2a4486752",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601398714580,
+          "stop" : 1601398728946,
+          "duration" : 14366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "648afdd9184619cadacf20d2a4486752"
+    }, {
+      "name" : "22232@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "8b8e0a9d6b998062",
+        "parentUid" : "4e064564869b9d147b774fae9027d408",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601316743511,
+          "stop" : 1601316749505,
+          "duration" : 5994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e064564869b9d147b774fae9027d408"
+    }, {
+      "name" : "17148@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "11e2d092cda32b37",
+        "parentUid" : "596ada6e33b9c801ab49a7e99505bb9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601565403851,
+          "stop" : 1601565425680,
+          "duration" : 21829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "596ada6e33b9c801ab49a7e99505bb9b"
+    }, {
+      "name" : "6092@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "dc6f7c37a65e3e3a",
+        "parentUid" : "c193a7c48c87569175cf7ecafda6a4ec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601644264083,
+          "stop" : 1601644283662,
+          "duration" : 19579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c193a7c48c87569175cf7ecafda6a4ec"
+    }, {
+      "name" : "13972@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "498e7ec263b98277",
+        "parentUid" : "9688f3052e2805e471e76f281f0c15d0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601572971520,
+          "stop" : 1601572997186,
+          "duration" : 25666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9688f3052e2805e471e76f281f0c15d0"
+    }, {
+      "name" : "17524@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "2b381257ddce5a2d",
+        "parentUid" : "56430ff13929531183b460f9db8e80a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601570171896,
+          "stop" : 1601570190373,
+          "duration" : 18477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56430ff13929531183b460f9db8e80a2"
+    }, {
+      "name" : "20248@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "a3ccbb7248bb28f5",
+        "parentUid" : "836693ce4e22fe3dc8e0612404af73cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601315739473,
+          "stop" : 1601315743501,
+          "duration" : 4028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "836693ce4e22fe3dc8e0612404af73cd"
+    }, {
+      "name" : "13704@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "5264a2b1836bbcd5",
+        "parentUid" : "a59e49448b01ae54bee8bb410fa2653c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601310010921,
+          "stop" : 1601310020743,
+          "duration" : 9822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a59e49448b01ae54bee8bb410fa2653c"
+    }, {
+      "name" : "5412@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3292f9c046688f1a",
+        "parentUid" : "52b956daf8026af7d7607b7b06011966",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601645919516,
+          "stop" : 1601645944559,
+          "duration" : 25043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52b956daf8026af7d7607b7b06011966"
+    }, {
+      "name" : "7860@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "d69efb942fcf4f25",
+        "parentUid" : "b2f1933363a4fc3447e395ca514aa944",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601639554946,
+          "stop" : 1601639554960,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2f1933363a4fc3447e395ca514aa944"
+    }, {
+      "name" : "18680@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "d09bae6fb84197a8",
+        "parentUid" : "7c4294b0bdc561aa4b92c4b4a07899e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601313726616,
+          "stop" : 1601313734275,
+          "duration" : 7659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c4294b0bdc561aa4b92c4b4a07899e9"
+    }, {
+      "name" : "17076@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "25f2c7c94a975de8",
+        "parentUid" : "43ece715cd5091c0711e6892031c9be9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601655182737,
+          "stop" : 1601655226106,
+          "duration" : 43369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43ece715cd5091c0711e6892031c9be9"
+    }, {
+      "name" : "4372@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "99043442937c6406",
+        "parentUid" : "02acfd197aaa6fb091d8eb5c8c387335",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601568932559,
+          "stop" : 1601568953747,
+          "duration" : 21188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02acfd197aaa6fb091d8eb5c8c387335"
+    }, {
+      "name" : "15552@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "be3b648b73300e8a",
+        "parentUid" : "f3a40ee41d15d4801c47d597961c0b33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601654800625,
+          "stop" : 1601654828307,
+          "duration" : 27682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3a40ee41d15d4801c47d597961c0b33"
+    }, {
+      "name" : "12140@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "aa2d8b2379c51901",
+        "parentUid" : "54b39ffc8c3ae2756697347183615354",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601630445660,
+          "stop" : 1601630474147,
+          "duration" : 28487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54b39ffc8c3ae2756697347183615354"
+    }, {
+      "name" : "1600@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7ab1169d6c1397c2",
+        "parentUid" : "364710f2db2faeb662c1f228ccc82bc6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1601384398991,
+          "stop" : 1601384398996,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "beforeMethod",
+        "uid" : "c92c4d8a67d88c93",
+        "parentUid" : "364710f2db2faeb662c1f228ccc82bc6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601384398971,
+          "stop" : 1601384398972,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "364710f2db2faeb662c1f228ccc82bc6"
+    }, {
+      "name" : "1284@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "4c00c513f35b618e",
+        "parentUid" : "4042d82c7741078c97d63f26db3fd377",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601310471559,
+          "stop" : 1601310477827,
+          "duration" : 6268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4042d82c7741078c97d63f26db3fd377"
+    }, {
+      "name" : "9660@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "e17f7c10bbf0ccce",
+        "parentUid" : "fb47cd5906c7a14bd47cb6cafc833326",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601316312637,
+          "stop" : 1601316316693,
+          "duration" : 4056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb47cd5906c7a14bd47cb6cafc833326"
+    }, {
+      "name" : "11664@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "23cd345e804af893",
+        "parentUid" : "804dfd034f86ee457ae91a811c2ae7c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601644927978,
+          "stop" : 1601644958157,
+          "duration" : 30179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "804dfd034f86ee457ae91a811c2ae7c7"
+    }, {
+      "name" : "13920@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "1fd6f09690b724eb",
+        "parentUid" : "cb2d4d1c8a0ca64c0431bea1afdc0a95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601634643283,
+          "stop" : 1601634670690,
+          "duration" : 27407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb2d4d1c8a0ca64c0431bea1afdc0a95"
+    }, {
+      "name" : "9260@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "8c12dc4512181121",
+        "parentUid" : "032c2771d0721d33abc3c942c8e9412d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601645074326,
+          "stop" : 1601645093022,
+          "duration" : 18696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "032c2771d0721d33abc3c942c8e9412d"
+    }, {
+      "name" : "2392@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "9cc775bc0a7a3742",
+        "parentUid" : "cd95da425995ba92fd89f1d817704d03",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601643639836,
+          "stop" : 1601643659503,
+          "duration" : 19667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd95da425995ba92fd89f1d817704d03"
+    }, {
+      "name" : "18308@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "171ca1cbba086d9c",
+        "parentUid" : "6535bbc400bbee482c7e43583f7f822c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601569342314,
+          "stop" : 1601569363426,
+          "duration" : 21112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6535bbc400bbee482c7e43583f7f822c"
+    }, {
+      "name" : "15376@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "c7f2ccf4ab66bab7",
+        "parentUid" : "250942af3cdece21e456c834a7fa9a3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601633563000,
+          "stop" : 1601633591502,
+          "duration" : 28502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "250942af3cdece21e456c834a7fa9a3a"
+    }, {
+      "name" : "8920@UK930027.main(1)",
+      "children" : [ {
+        "name" : "browserShutDown",
+        "uid" : "8a38b0e0fd607dc7",
+        "parentUid" : "6eee1666d8d2e04cfc0f0e62bef37f27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601564658078,
+          "stop" : 1601564658079,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "homeScreen",
+        "uid" : "28b8722a226c116c",
+        "parentUid" : "6eee1666d8d2e04cfc0f0e62bef37f27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601564602451,
+          "stop" : 1601564658044,
+          "duration" : 55593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6eee1666d8d2e04cfc0f0e62bef37f27"
+    }, {
+      "name" : "17308@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3ebd090fc2e07961",
+        "parentUid" : "4fa95498d2a4a3ad2e72c29c172955cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601646361252,
+          "stop" : 1601646381135,
+          "duration" : 19883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fa95498d2a4a3ad2e72c29c172955cc"
+    }, {
+      "name" : "2300@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "3aaf12c97f576220",
+        "parentUid" : "ca0e285f736c97ebc993dc2ced984bc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601394444946,
+          "stop" : 1601394453179,
+          "duration" : 8233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca0e285f736c97ebc993dc2ced984bc4"
+    }, {
+      "name" : "15636@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7f6fd68af3e62c4f",
+        "parentUid" : "53a4038c463904c912f35008d2ecfe3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601637961551,
+          "stop" : 1601637990531,
+          "duration" : 28980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a4038c463904c912f35008d2ecfe3f"
+    }, {
+      "name" : "6952@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "45b0673fa14c3097",
+        "parentUid" : "2580e5ffcf30bb924a9c027e4eb0dacd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601641682500,
+          "stop" : 1601641682515,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2580e5ffcf30bb924a9c027e4eb0dacd"
+    }, {
+      "name" : "13632@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "864f52695b306eb3",
+        "parentUid" : "a129c1525c89783442f797bc6e60af1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601391601938,
+          "stop" : 1601391618285,
+          "duration" : 16347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a129c1525c89783442f797bc6e60af1b"
+    }, {
+      "name" : "1224@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "599b260bdbd4b394",
+        "parentUid" : "5a874959aee308a9b05960183a6fb5da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601646949193,
+          "stop" : 1601646976242,
+          "duration" : 27049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a874959aee308a9b05960183a6fb5da"
+    }, {
+      "name" : "17444@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "51aebf476ea3e586",
+        "parentUid" : "f0252c948cb4591f4b2df150f9a02db3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601394247129,
+          "stop" : 1601394255723,
+          "duration" : 8594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0252c948cb4591f4b2df150f9a02db3"
+    }, {
+      "name" : "9164@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "e89b36434e217f57",
+        "parentUid" : "e5dbd2ff1ea4583cd840e219554be026",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601645532095,
+          "stop" : 1601645556138,
+          "duration" : 24043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5dbd2ff1ea4583cd840e219554be026"
+    }, {
+      "name" : "364@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "84e9f63d230736e6",
+        "parentUid" : "075e52e7520e7c82c3c036fd6410aaf3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601647115567,
+          "stop" : 1601647143251,
+          "duration" : 27684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "075e52e7520e7c82c3c036fd6410aaf3"
+    }, {
+      "name" : "17112@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "7f1989f64672f8e7",
+        "parentUid" : "5179971d66bf07875c6ab3feaf5b71a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601637733892,
+          "stop" : 1601637761142,
+          "duration" : 27250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5179971d66bf07875c6ab3feaf5b71a5"
+    }, {
+      "name" : "7272@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "1b01d45c9e88f852",
+        "parentUid" : "453f26e01d5f6dee75f9ce2c71a96d99",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601565771415,
+          "stop" : 1601565793324,
+          "duration" : 21909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "453f26e01d5f6dee75f9ce2c71a96d99"
+    }, {
+      "name" : "17780@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "9b71f443e4290a3c",
+        "parentUid" : "5b57915f17805af3ec36e1c26a85d27d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601388520422,
+          "stop" : 1601388525453,
+          "duration" : 5031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b57915f17805af3ec36e1c26a85d27d"
+    }, {
+      "name" : "17288@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "2eb25c613c4a3e3d",
+        "parentUid" : "561b66f8b45781e2599e568c50a5bbc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601648961237,
+          "stop" : 1601648980988,
+          "duration" : 19751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "561b66f8b45781e2599e568c50a5bbc0"
+    }, {
+      "name" : "7740@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b4108c888c1f1f64",
+        "parentUid" : "d42ccca25c3738d94f316a4a83fd5b0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601468453452,
+          "stop" : 1601468463388,
+          "duration" : 9936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d42ccca25c3738d94f316a4a83fd5b0b"
+    }, {
+      "name" : "11564@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "bbad362c26051497",
+        "parentUid" : "ef40e6ce68bd913e3f9dbbe6c14fd911",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601642782295,
+          "stop" : 1601642802099,
+          "duration" : 19804
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef40e6ce68bd913e3f9dbbe6c14fd911"
+    }, {
+      "name" : "13352@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "6fe16ae1e1ac3a34",
+        "parentUid" : "b11edeadfc7e80fb14ec2132fe25608e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601641909361,
+          "stop" : 1601641909462,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b11edeadfc7e80fb14ec2132fe25608e"
+    }, {
+      "name" : "17544@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b9a2230bde4ea221",
+        "parentUid" : "0124dee535a797af8f3385daa1784e3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601391018385,
+          "stop" : 1601391028568,
+          "duration" : 10183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0124dee535a797af8f3385daa1784e3c"
+    }, {
+      "name" : "17560@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "f3a034fe14430af8",
+        "parentUid" : "3252e81c71efdc28db2f2aaa63131a7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601637015810,
+          "stop" : 1601637039590,
+          "duration" : 23780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3252e81c71efdc28db2f2aaa63131a7f"
+    }, {
+      "name" : "15480@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "55f4c59b39541923",
+        "parentUid" : "14755e7f1fc4360c95407af8879bb42a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601637244511,
+          "stop" : 1601637271748,
+          "duration" : 27237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14755e7f1fc4360c95407af8879bb42a"
+    }, {
+      "name" : "8180@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "b16cdcb723f27289",
+        "parentUid" : "5d26c51c266d2e84ffd7a1a9ec89ac57",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601631268720,
+          "stop" : 1601631292584,
+          "duration" : 23864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d26c51c266d2e84ffd7a1a9ec89ac57"
+    }, {
+      "name" : "14836@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "8d9290bd12d480c0",
+        "parentUid" : "98a26b54bb637b3e5c8d92e25d96f4f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601560391287,
+          "stop" : 1601560401803,
+          "duration" : 10516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98a26b54bb637b3e5c8d92e25d96f4f8"
+    }, {
+      "name" : "5552@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "53477b713c7a4f30",
+        "parentUid" : "81e24a992f7b823227cb606759cae5b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601388594821,
+          "stop" : 1601388601881,
+          "duration" : 7060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81e24a992f7b823227cb606759cae5b9"
+    }, {
+      "name" : "14792@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "35d3eb7ed32c61fa",
+        "parentUid" : "d5e22bb21d46662082cb8a0ca7f3e143",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601316579787,
+          "stop" : 1601316588440,
+          "duration" : 8653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5e22bb21d46662082cb8a0ca7f3e143"
+    }, {
+      "name" : "10268@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "56c0c54e4898f9eb",
+        "parentUid" : "ba700fa4db92b5793ee3d8deaeca23e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601399093374,
+          "stop" : 1601399107769,
+          "duration" : 14395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba700fa4db92b5793ee3d8deaeca23e6"
+    }, {
+      "name" : "11944@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "917994d3694a7af6",
+        "parentUid" : "bebda1286f918d46230e414ae153030a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601562962416,
+          "stop" : 1601562984745,
+          "duration" : 22329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bebda1286f918d46230e414ae153030a"
+    }, {
+      "name" : "14344@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "fe2ce600ceb419a9",
+        "parentUid" : "4d32e2148a8405a74589a5d0e5ae6e9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601465890002,
+          "stop" : 1601465904516,
+          "duration" : 14514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4d32e2148a8405a74589a5d0e5ae6e9c"
+    }, {
+      "name" : "9920@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "a58a21361b75b996",
+        "parentUid" : "4347617e83be6537b8bf707690a2c847",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601564786444,
+          "stop" : 1601564808881,
+          "duration" : 22437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4347617e83be6537b8bf707690a2c847"
+    }, {
+      "name" : "12652@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "e526fb6519134f0c",
+        "parentUid" : "6bbfdc1bb451ab1d899d02d6a26568e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601643379349,
+          "stop" : 1601643408338,
+          "duration" : 28989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bbfdc1bb451ab1d899d02d6a26568e5"
+    }, {
+      "name" : "14352@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "ca91edf27ea588db",
+        "parentUid" : "ef64aa94c0a1aab22d82666dd95d1d6b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601644077957,
+          "stop" : 1601644102789,
+          "duration" : 24832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef64aa94c0a1aab22d82666dd95d1d6b"
+    }, {
+      "name" : "11676@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "55e6a7487e3e599e",
+        "parentUid" : "041cb74891cfd5e58cfc351298ddef81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601565537203,
+          "stop" : 1601565558725,
+          "duration" : 21522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "041cb74891cfd5e58cfc351298ddef81"
+    }, {
+      "name" : "15152@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "8d57981fe41e3926",
+        "parentUid" : "c9c822858fd6e6e8a47c17a3d7bd3b7b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1601397291959,
+          "stop" : 1601397328259,
+          "duration" : 36300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9c822858fd6e6e8a47c17a3d7bd3b7b"
+    }, {
+      "name" : "2600@UK930027.main(1)",
+      "children" : [ {
+        "name" : "homeScreen",
+        "uid" : "343ccd1346534383",
+        "parentUid" : "1957b0dcf602015f5402e25c2803a5f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1601564100543,
+          "stop" : 1601564125346,
+          "duration" : 24803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1957b0dcf602015f5402e25c2803a5f4"
+    } ],
+    "uid" : "970a248b09a3799012397b4bad8b320f"
+  } ]
+}

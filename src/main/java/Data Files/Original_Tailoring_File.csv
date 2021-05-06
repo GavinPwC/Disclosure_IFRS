@@ -1,0 +1,143 @@
+T2.1,The entity is not within the scope of a SORP
+T2.5,The entity is not a public benefit entity.
+T2.6,The entity is not part of a public benefit entity group.
+T2.29,You do not wish to include disclosure for investment trusts
+T2.44,The entity is not a UK authorised fund
+T3.1.1.1,The accounting period starts on 01/01/2019
+T3.1.1.2,The accounting period ends on 31/12/2019
+T3.1.1.6,These are not the first accounts that the entity has produced.
+T3.1.1.7,The reporting period is one year.
+T3.1.2.2,You do not want the checklist to check company size
+T3.1.2.25,The entity qualifies for Medium exemptions.
+T3.1.2.26,The entity is not a micro entity
+T3.1.2.34,The entity is not an overseas company
+T3.1.2.40,"The entity is not a private company, public company, unlimited company or LLP."
+T3.1.2.41,The entity is not a Co-operative and Community Benefit Society
+T3.1.3.1,The entity is a subsidiary within a group.
+T3.1.4.1,The entity or any subsidiaries was active during the period.
+T3.1.5.1,The entity is intending to apply the subsidiary exemption from audit
+T3.1.5.2,The entity is not of a type that excludes it from applying the subisidairy accounts audit exemption.
+T3.1.5.4,All members of the company have agreed to the exemption in respect of the financial year in question.
+T3.1.5.4,The parent undertaking has given a guarantee under section 479C of the Companies Act 2006 in respect of the financial year in question.
+T3.1.5.4,"The company is included in the consolidated accounts drawn up for the financial year in question, or to an an earlier date in that year, by the parent undertaking in accordance with required legislation."
+T3.1.5.4,The parent undertaking has disclosed in the notes to the consolidated accounts that the entity is exempt from the requirements to the audit of individual accounts by virtue of the Companies Act 2006 s.479AA.
+T3.1.5.4,The audit exemption statements (CA 06 s.475(2) and (3)) have been included on the balance sheet.
+T3.1.5.4,Members accounting for over 10% of a class of issued shares demanded an audit
+T3.1.5.5,The subsidiary has not met all conditions to take advantage of the available exemption. The checklist will now assume that the exemption conditions are not being applied.
+T3.1.7.1.2,These are not the first FRS 102 accounts for the entity.
+T3.1.7.1.3,There have been no effects from any amendment to an FRS or Abstract for the current or prior periods or that might have an effect on future periods.
+T3.1.7.2.1,The most recent previous annual financial statements of the entity do not contain an explicit and unreserved statement of compliance with this FRS.
+T3.1.7.2.2,"As the entity's most recent previous annual financial statements did not contain an explicit and unreserved statement of compliance with FRS 102, the entity applied section 35, ""Transition to this FRS""."
+T3.1.7.2.3,It is not impracticable for the entity to restate the opening statement of financial position at the date of transition for one or more of the adjustments required by paragraph 35.7.
+T3.1.7.2.4,It is not impracticable for the entity to provide any disclosures required by this FRS for any period before the period in which it prepares its first financial statements that conform to this FRS.
+T3.2.1.1,The reporting entity is not a financial institution.
+T3.2.3.1,"The entity's securities are not publicly traded, or the entity is in the process of filing its financial statements with a securities commission or other regulatory organisation for the purpose of issuing any class of instruments in a public market."
+T3.2.3.15,The entity does not voluntarily disclose earnings per share
+T3.2.4.1,"The parent of the group of which this entity is a member does not prepare publicly available consolidated financial statements which are intended to give a true and fair view (of the assets, liabilities, financial position and profit or loss)"
+T3.2.4.1,The parent of the group of which this entity is a member does not include this entity in the consolidation
+T3.2.5.3,The entity presents total comprehensive income in two separate statements
+T3.2.5.4,There are non profit and loss items in the current or previous period to record as Other Comprehensive Income
+T3.2.5.7,The Entity (or in the case of a group the group of which this entity is a parent) is not involved in extractive industries
+T3.2.5.8,The entity does not issue Insurance Contracts
+T3.2.5.9,The entity is not an insurance company or group
+T3.2.5.11,The insurer does not issue contracts with a discretionary participation feature
+T3.3.1,"There are no material departures from applicable legislation, or accounting standards"
+T3.3.2,"There are no material departures from applicable legislation, or accounting standards"
+T3.3.4,Management have produced financial statements on a going concern basis
+T3.3.5,"Management is not aware, in making its assessment of an entity's ability to continue as a going concern, of material uncertainties related to events or conditions that cast significant doubt upon that entity s ability to continue as a going concern"
+T3.3.6,The entity has not changed the presentation or classification of items in the financial statements
+T3.4.1.1,The entity has not disposed of any material subsidiaries or unincorporated businesses
+T3.4.1.1,The entity has not carried out research and development
+T3.4.1.1,The entity has not operated in non-UK markets
+T3.4.1.1,The entity does not have more than one class of business
+T3.4.1.2,The entity has not applied a voluntary change in accounting policy which has had an effect on the current period or any prior period
+T3.4.1.4,"The entity has not adjusted the carrying amount of an asset or a liability, or the amount of the periodic consumption of an asset giving rise to a change in accounting estimate"
+T3.4.1.5,Errors have not been detected relating to prior periods
+T3.4.1.7,The entity has events after the balance sheet date (adjusting or not)?
+T3.4.1.7,The entity does not have other exceptional or extraordinary items
+T3.4.1.8,The entity has not paid or proposed dividends
+T3.4.2.2,The entitys statutory framework does not prevent it using a Companies Act balance sheet format
+T3.4.2.6,The entity follows statutory balance sheet format 1 (vertical)
+T3.4.2.7,The entity does not have Intangible Assets
+T3.4.2.7,The entity has tangible fixed assets
+T3.4.2.7,"The entity has property, plant and equipment"
+T3.4.2.7,The entity does not have investment property
+T3.4.2.7,The entity does not have biological assets related to agricultural activity
+T3.4.2.7,The entity has investments in associates
+T3.4.2.7,The entity does not have heritage assets
+T3.4.2.7,The entity has investments (including subsidiaries)
+T3.4.2.7,"The entity has investments in: 
+
+joint ventures; 
+jointly controlled entities; 
+jointly controlled operations, or 
+jointly controlled assets"
+T3.4.2.7,The entity has financial instruments
+T3.4.2.7,The entity has financial instruments measured at fair value
+T3.4.2.7,The entity does not have impaired assets
+T3.4.2.7,The entity does not have contingent assets
+T3.4.2.7,The entity does not have Share-based payment transactions
+T3.4.2.7,The entity has share capital
+T3.4.2.7,The entity does not have Inventory/stock/work in progress
+T3.4.2.7,The entity does not have long term contracts
+T3.4.2.7,The entity has debtors
+T3.4.2.7,The entity has creditors or loans except debentures
+T3.4.2.7,The entity has Provisions and contingent liabilities
+T3.4.2.7,The entity has actual or potential deferred tax
+T3.4.2.7,The entity has leases
+T3.4.2.7,The entity does not have grants
+T3.4.2.8,Past acquisitions have not given rise to any goodwill.
+T3.4.2.10,None of the fair value through p&l financial instruments non-derivatives that are not held as part of a trading portfolio
+T3.4.2.11,The entity has not defaulted
+T3.4.2.12,The entity has investments included at a valuation
+T3.4.2.13,The entity does not have land or buildings for its own use
+T3.4.2.14,The cost of none of the asset(s) include capitalised finance costs
+T3.4.2.16,The entity has not entered into a binding sale agreement at the reporting date for a major disposal of assets or a disposal group
+T3.4.3.2,The entity has presented its change in equity in a separate Statement of Changes in Equity
+T3.4.4.1,The entity is using the Indirect method for reporting cash flow from operating activities
+T3.4.5.1.1,The entity does not wish to voluntarily provide information described as segment information
+T3.4.5.2.7,Delivery is not in paper form
+T3.4.5.2.9,The entity's statutory framework does not prevents using a Companies Act profit and loss account format
+T3.4.5.2.14,"The entity follows profit and loss format 1 (expenses by function, vertical)"
+T3.4.5.3.3,The entity is not voluntarily applying the Quoted Companies Alliance Corporate Governance Code
+T3.4.6.1,The entity's investments are unlisted
+T3.4.6.2,There are no current asset investments
+T3.4.6.3,The entity has fixed asset investments only
+T3.4.6.4,The entity does not have associated undertakings
+T3.4.6.4,The entity does not have significant shareholdings in at least one undertaking
+T3.4.6.5,The entity has accounted for its investment in associates in accordance with the cost model provided by paragraphs 14.5 to 14.6 of FRS 102
+T3.4.6.6,The entity is not a sponsoring entity that recognises the assets and liabilities held by an intermediary
+T3.4.8.1,"The entity does not have a policy of revaluing property, plant and equipment at fair value"
+T3.4.9.1,The financial statements of the reporting entity include provisions (ie liabilities of uncertain timing or amount)
+T3.4.9.1,The financial statements of the reporting entity do not include contingent liabilities
+T3.4.9.1,The financial statements of the reporting entity do not include amounts in respect of financial guarantee contracts
+T3.4.9.2,"The entity has no disputes with other parties where the outcome of these disputes would be seriously prejudiced by satisfying the full disclosure requirements for provisions, contingent liabilities and contingent assets"
+T3.5.2,The entity (transferor) has not transferred to another party non-cash collateral that the other party (transferee) has the right by contract or custom to sell or repledge
+T3.5.3,"The entity has not transferred financial assets to another party in a transaction that does not qualify for derecognition, because the entity has retained significant risks and rewards of ownership of the transferred asset"
+T3.7.1,The entity has not committed to provide resources to other entities which is not a loan
+T3.8.1.1,The entity's employees are not covered by defined contribution or money purchase pension schemes or by entity contributions to personal pension plans
+T3.8.1.1,The entity's employees are covered by defined benefit pension schemes
+T3.8.1.1,The entity's employees are not covered by unfunded pensions
+T3.8.1.1,The entity's employees are not covered by post-retirement benefits (funded or unfunded) other than pensions
+T3.8.1.3,There is not a multi-employer defined benefit scheme
+T3.10.1,The entity has not accounted for other long-term employee benefits
+T3.10.1,The entity has not accounted for termination benefits
+T3.10.2,The entity has not early adopted the amendments to FRS 102: Multiple employee benefits
+T3.11.1,The entity did not have business combinations in the period
+T3.11.3,The entity has not effected a group reconstruction in the reporting period
+T3.11.5,The entity does not have discontinued operations
+T3.13.1,"The entity did not enter into transactions with related parties, and there are no outstanding balances between the entity and related parties"
+T3.14.1.1,"The reporting entity does not have Finance leases, as a lessee"
+T3.14.1.2,The reporting entity has Operating leases as lessee
+T3.14.1.3,"The reporting entity does not have Finance leases, as a lessor"
+T3.14.1.4,"The reporting entity does not have Operating leases, as a lessor"
+T3.15.1,The reporting entity has not recognised revenue arising from the sale of good
+T3.15.1,The reporting entity has recognised revenue arising from the rendering of services
+T3.15.1,The entity has not recognised revenue arising from construction contracts in which the entity is the contractor
+T3.16.1,The reporting entity does not report foreign activities as transactions in foreign currencies
+T3.16.1,The reporting entity does not report foreign activities as foreign operations
+T3.16.1,The reporting entity does not present its financial statements in a foreign currency
+T3.16.3,The functional currency of the entity is not the currency of a hyperinflationary economy and therefore it has prepared financial statements adjusted for the effects of hyperinflation
+T3.16.4,The presentation currency does not differ from the functional currency
+T3.16.5,There has not been a change in the functional currency of either the reporting entity or a significant foreign operation
+End Tailoring,

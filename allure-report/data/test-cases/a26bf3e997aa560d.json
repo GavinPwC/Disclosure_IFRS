@@ -1,0 +1,2501 @@
+{
+  "uid" : "a26bf3e997aa560d",
+  "name" : "Tailoring first set of questions",
+  "fullName" : "Tests.singleSignOn.homeScreen",
+  "historyId" : "1ee3b878f73d4b683f269d0b5e455d26",
+  "time" : {
+    "start" : 1602669242841,
+    "stop" : 1602669352980,
+    "duration" : 110139
+  },
+  "description" : " Tailoring first set of questions in production environment",
+  "descriptionHtml" : "<p>Tailoring first set of questions in production environment</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1602669236533,
+      "stop" : 1602669242596,
+      "duration" : 6063
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : " Tailoring first set of questions in production environment",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login production environment ",
+      "time" : {
+        "start" : 1602669242884,
+        "stop" : 1602669244879,
+        "duration" : 1995
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter email credentials for PwC authentication ",
+        "time" : {
+          "start" : 1602669244526,
+          "stop" : 1602669244879,
+          "duration" : 353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        }, {
+          "name" : "Login",
+          "value" : "John.edgal@pwc.com"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Confirm home page title and navigate to answerset page ",
+      "time" : {
+        "start" : 1602669244880,
+        "stop" : 1602669260445,
+        "duration" : 15565
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select a specific menu option",
+        "time" : {
+          "start" : 1602669254047,
+          "stop" : 1602669257445,
+          "duration" : 3398
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        }, {
+          "name" : "strelement",
+          "value" : "By.xpath: //*[@id=\"answersets-link\"]/span[2]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Begin a new answer set",
+      "time" : {
+        "start" : 1602669260445,
+        "stop" : 1602669281579,
+        "duration" : 21134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select desired checklist",
+        "time" : {
+          "start" : 1602669266171,
+          "stop" : 1602669266279,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        }, {
+          "name" : "value",
+          "value" : "By.xpath: //*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Add reference",
+        "time" : {
+          "start" : 1602669266303,
+          "stop" : 1602669266487,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select reviewer for the tailoring",
+        "time" : {
+          "start" : 1602669266576,
+          "stop" : 1602669281579,
+          "duration" : 15003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "End to End tailoring process",
+      "time" : {
+        "start" : 1602669281579,
+        "stop" : 1602669352977,
+        "duration" : 71398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669292834,
+          "stop" : 1602669292865,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669296009,
+          "stop" : 1602669296028,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669299127,
+          "stop" : 1602669299148,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Accept initial acknowledgements",
+        "time" : {
+          "start" : 1602669302148,
+          "stop" : 1602669305516,
+          "duration" : 3368
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Retrieve amount of questions left to be answered",
+          "time" : {
+            "start" : 1602669305498,
+            "stop" : 1602669305515,
+            "duration" : 17
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "driver",
+            "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669308127,
+          "stop" : 1602669308143,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Retrieve amount of questions left to be answered",
+        "time" : {
+          "start" : 1602669309341,
+          "stop" : 1602669309354,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Answer questionaire with specific responses",
+        "time" : {
+          "start" : 1602669310423,
+          "stop" : 1602669352977,
+          "duration" : 42554
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Answer a question",
+          "time" : {
+            "start" : 1602669310423,
+            "stop" : 1602669352977,
+            "duration" : 42554
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669310549,
+              "stop" : 1602669310577,
+              "duration" : 28
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669310577,
+              "stop" : 1602669310594,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669310594,
+              "stop" : 1602669310644,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669310644,
+              "stop" : 1602669310671,
+              "duration" : 27
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669310671,
+              "stop" : 1602669310696,
+              "duration" : 25
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669314837,
+              "stop" : 1602669314852,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669314852,
+              "stop" : 1602669314876,
+              "duration" : 24
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669314876,
+              "stop" : 1602669314910,
+              "duration" : 34
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669314910,
+              "stop" : 1602669314927,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669314927,
+              "stop" : 1602669314943,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669319097,
+              "stop" : 1602669319111,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669319111,
+              "stop" : 1602669319127,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669319127,
+              "stop" : 1602669319161,
+              "duration" : 34
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669319161,
+              "stop" : 1602669319174,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669319174,
+              "stop" : 1602669319189,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669323332,
+              "stop" : 1602669323350,
+              "duration" : 18
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669323350,
+              "stop" : 1602669323364,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669323365,
+              "stop" : 1602669323395,
+              "duration" : 30
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669323395,
+              "stop" : 1602669323411,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669323411,
+              "stop" : 1602669323426,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669327562,
+              "stop" : 1602669327577,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669327577,
+              "stop" : 1602669327592,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669327592,
+              "stop" : 1602669327622,
+              "duration" : 30
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669327622,
+              "stop" : 1602669327637,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669327638,
+              "stop" : 1602669327653,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669331802,
+              "stop" : 1602669331816,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669331817,
+              "stop" : 1602669331831,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669331832,
+              "stop" : 1602669331861,
+              "duration" : 29
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669331861,
+              "stop" : 1602669331875,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669331875,
+              "stop" : 1602669331894,
+              "duration" : 19
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669336042,
+              "stop" : 1602669336059,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669336059,
+              "stop" : 1602669336074,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669336074,
+              "stop" : 1602669336104,
+              "duration" : 30
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669336104,
+              "stop" : 1602669336118,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669336118,
+              "stop" : 1602669336134,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669340299,
+              "stop" : 1602669340315,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669340315,
+              "stop" : 1602669340330,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669340330,
+              "stop" : 1602669340358,
+              "duration" : 28
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669340358,
+              "stop" : 1602669340373,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669340373,
+              "stop" : 1602669340387,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669344547,
+              "stop" : 1602669344565,
+              "duration" : 18
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669344565,
+              "stop" : 1602669344580,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669344580,
+              "stop" : 1602669344608,
+              "duration" : 28
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669344608,
+              "stop" : 1602669344623,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669344623,
+              "stop" : 1602669344638,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve folder name for question being answered",
+            "time" : {
+              "start" : 1602669348815,
+              "stop" : 1602669348832,
+              "duration" : 17
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve amount of questions left to be answered",
+            "time" : {
+              "start" : 1602669348832,
+              "stop" : 1602669348846,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Retrieve question being answered",
+            "time" : {
+              "start" : 1602669348846,
+              "stop" : 1602669348877,
+              "duration" : 31
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if a problem has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669348877,
+              "stop" : 1602669348892,
+              "duration" : 15
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          }, {
+            "name" : "Check if an alert has occured when answering main checklist",
+            "time" : {
+              "start" : 1602669348892,
+              "stop" : 1602669348908,
+              "duration" : 16
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "driver",
+              "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "driver",
+            "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+          }, {
+            "name" : "questionAmount",
+            "value" : "10"
+          }, {
+            "name" : "response",
+            "value" : "No"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 50,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "driver",
+          "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 51,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "ChromeDriver: chrome on WINDOWS (2ee0a607ed8979efea66552aa2751aa6)"
+      }, {
+        "name" : "questionNumber",
+        "value" : "3"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 59,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 68,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browserShutDown",
+    "time" : {
+      "start" : 1602669352999,
+      "stop" : 1602669354242,
+      "duration" : 1243
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeScreen"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Regression Suit"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.singleSignOn"
+  }, {
+    "name" : "host",
+    "value" : "UK000824"
+  }, {
+    "name" : "thread",
+    "value" : "13716@UK000824.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5eff6736614a57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602667887653,
+        "stop" : 1602667997898,
+        "duration" : 110245
+      }
+    }, {
+      "uid" : "c6f69a36af224397",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602501236824,
+        "stop" : 1602501355974,
+        "duration" : 119150
+      }
+    }, {
+      "uid" : "7de86b5b70693a9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602247877530,
+        "stop" : 1602247978991,
+        "duration" : 101461
+      }
+    }, {
+      "uid" : "cecff1252201c81d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602247442369,
+        "stop" : 1602247538293,
+        "duration" : 95924
+      }
+    }, {
+      "uid" : "b92a69fef740ef34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602165540544,
+        "stop" : 1602165636550,
+        "duration" : 96006
+      }
+    }, {
+      "uid" : "80036896abc23f57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602164852584,
+        "stop" : 1602164949969,
+        "duration" : 97385
+      }
+    }, {
+      "uid" : "45b171e02ea5f028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602164440901,
+        "stop" : 1602164539626,
+        "duration" : 98725
+      }
+    }, {
+      "uid" : "984e4dbbbf973fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602162947690,
+        "stop" : 1602163048613,
+        "duration" : 100923
+      }
+    }, {
+      "uid" : "2a03c6604a05dd0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602148606993,
+        "stop" : 1602148718488,
+        "duration" : 111495
+      }
+    }, {
+      "uid" : "2bce2d1c4e444a1",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.name: ctl00$phCenter$txtEMAIL (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1602146470878,
+        "stop" : 1602146483190,
+        "duration" : 12312
+      }
+    }, {
+      "uid" : "7e2399b1936d1fdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602088527273,
+        "stop" : 1602088625726,
+        "duration" : 98453
+      }
+    }, {
+      "uid" : "eaaf5ad527d04393",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate element with text: UK PWC IFRS UK and FRS 101 (1.2.1.0)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1602086469819,
+        "stop" : 1602086499497,
+        "duration" : 29678
+      }
+    }, {
+      "uid" : "800c00c308774fb2",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:12106}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 4510504dfb18a24500b26a77965c87ac",
+      "time" : {
+        "start" : 1602086303277,
+        "stop" : 1602086325782,
+        "duration" : 22505
+      }
+    }, {
+      "uid" : "d8e19226ad54c1fb",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"add-client-button\"] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1602086111973,
+        "stop" : 1602086138731,
+        "duration" : 26758
+      }
+    }, {
+      "uid" : "47bc68095ee917c5",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: /html/body/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/form/div[3]/div/div/div[2]/input",
+      "time" : {
+        "start" : 1602084578218,
+        "stop" : 1602084587176,
+        "duration" : 8958
+      }
+    }, {
+      "uid" : "3c498e7d2b9a3e3e",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:9740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 693e335a06bff9ff8f23cd42151fef36\n*** Element info: {Using=xpath, value=.//option[contains(., \"(1.2.1.0)\")]}",
+      "time" : {
+        "start" : 1602081677582,
+        "stop" : 1602081701065,
+        "duration" : 23483
+      }
+    }, {
+      "uid" : "3fa6541d1de0dae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602071974033,
+        "stop" : 1602072065774,
+        "duration" : 91741
+      }
+    }, {
+      "uid" : "b38d05d5637df4c5",
+      "status" : "broken",
+      "statusDetails" : "unexpected alert open: {Alert text : Internal Server Error}\n  (Session info: chrome=85.0.4183.121): Internal Server Error\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:6330}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 02d794e24a2eca9f35b4686b8c609097\n*** Element info: {Using=xpath, value=//*[@id=\"select2-tickonceanswer-container\"]}",
+      "time" : {
+        "start" : 1602071540966,
+        "stop" : 1602071584835,
+        "duration" : 43869
+      }
+    }, {
+      "uid" : "70eca6eb9ed095a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602070936853,
+        "stop" : 1602071029697,
+        "duration" : 92844
+      }
+    }, {
+      "uid" : "1167118e47cfc0e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602069235496,
+        "stop" : 1602069318512,
+        "duration" : 83016
+      }
+    }, {
+      "uid" : "4a82acea385ef729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602067339680,
+        "stop" : 1602067429363,
+        "duration" : 89683
+      }
+    }, {
+      "uid" : "89b80a48597e1f7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602065972529,
+        "stop" : 1602066032434,
+        "duration" : 59905
+      }
+    }, {
+      "uid" : "dc31cd06f2baca82",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"add-client-parent\"]/span/span[1]/span/span[2]/span (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1602065793227,
+        "stop" : 1602065814191,
+        "duration" : 20964
+      }
+    }, {
+      "uid" : "4fbcdb4266c8b1ab",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:3007}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5f807575f86386fc313b2477928e7dd7\n*** Element info: {Using=xpath, value=//*[@id=\"select2-tickonceanswer-container\"]}",
+      "time" : {
+        "start" : 1602065278743,
+        "stop" : 1602065374085,
+        "duration" : 95342
+      }
+    }, {
+      "uid" : "5c446ba48e12410a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"infoanswer\"] (tried for 50 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5ed56df96b4f88e62f1f24957ab86682",
+      "time" : {
+        "start" : 1602064900946,
+        "stop" : 1602065019248,
+        "duration" : 118302
+      }
+    }, {
+      "uid" : "220c3278bc123d5c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"infoanswer\"] (tried for 50 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2529}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 29c3cc9a153588feb1e04566802dffb8",
+      "time" : {
+        "start" : 1602064014250,
+        "stop" : 1602064121336,
+        "duration" : 107086
+      }
+    }, {
+      "uid" : "6a2e193c0e9bf7b3",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"infoanswer\"] (tried for 50 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3cbc2bd75d2b1d79e9b8316e6b394be4",
+      "time" : {
+        "start" : 1602063038654,
+        "stop" : 1602063158786,
+        "duration" : 120132
+      }
+    }, {
+      "uid" : "bd86e25a2ca5746",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"infoanswer\"] (tried for 50 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK000824', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bce2f2f2b545a239dd790e9968648339",
+      "time" : {
+        "start" : 1602061960851,
+        "stop" : 1602062082570,
+        "duration" : 121719
+      }
+    }, {
+      "uid" : "d375b35e997363b6",
+      "status" : "skipped",
+      "statusDetails" : "C:\\Users\\jedgal001\\Desktop\\Disclosure\\src\\main\\java\\setUp\\data.properties (The system cannot find the path specified)",
+      "time" : {
+        "start" : 1602061155860,
+        "stop" : 1602061155863,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "f9cf828b7014d1db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601990050560,
+        "stop" : 1601990112697,
+        "duration" : 62137
+      }
+    }, {
+      "uid" : "cfe9d9482f45edfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601905758219,
+        "stop" : 1601905815487,
+        "duration" : 57268
+      }
+    }, {
+      "uid" : "3bd6504860cd656e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601655554840,
+        "stop" : 1601655614986,
+        "duration" : 60146
+      }
+    }, {
+      "uid" : "25f2c7c94a975de8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601655182737,
+        "stop" : 1601655226106,
+        "duration" : 43369
+      }
+    }, {
+      "uid" : "be3b648b73300e8a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"select2-SignOffs_0__ReviewerID-container\"] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601654800625,
+        "stop" : 1601654828307,
+        "duration" : 27682
+      }
+    }, {
+      "uid" : "2eb25c613c4a3e3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601648961237,
+        "stop" : 1601648980988,
+        "duration" : 19751
+      }
+    }, {
+      "uid" : "bac909160f932008",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate element with text: AutoClient1\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601648680588,
+        "stop" : 1601648706112,
+        "duration" : 25524
+      }
+    }, {
+      "uid" : "ff29bffb755cdba6",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate element with text: \"clientName\"\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601648556251,
+        "stop" : 1601648581249,
+        "duration" : 24998
+      }
+    }, {
+      "uid" : "77fdccc33d239ee8",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate element with text: AutoClient1\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601648343036,
+        "stop" : 1601648368869,
+        "duration" : 25833
+      }
+    }, {
+      "uid" : "84e9f63d230736e6",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]",
+      "time" : {
+        "start" : 1601647115567,
+        "stop" : 1601647143251,
+        "duration" : 27684
+      }
+    }, {
+      "uid" : "599b260bdbd4b394",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]",
+      "time" : {
+        "start" : 1601646949193,
+        "stop" : 1601646976242,
+        "duration" : 27049
+      }
+    }, {
+      "uid" : "8d2d5f738bcdaa37",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601646629410,
+        "stop" : 1601646651817,
+        "duration" : 22407
+      }
+    }, {
+      "uid" : "3ebd090fc2e07961",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601646361252,
+        "stop" : 1601646381135,
+        "duration" : 19883
+      }
+    }, {
+      "uid" : "d22a08adc5c8ce5d",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:10846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 381425cea510a01f8152b99110b9e8b0",
+      "time" : {
+        "start" : 1601646147056,
+        "stop" : 1601646167944,
+        "duration" : 20888
+      }
+    }, {
+      "uid" : "3292f9c046688f1a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"select2-ClientID-result-2c1j-61374\"] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601645919516,
+        "stop" : 1601645944559,
+        "duration" : 25043
+      }
+    }, {
+      "uid" : "e89b36434e217f57",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"select2-ClientID-result-2c1j-61374\"] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601645532095,
+        "stop" : 1601645556138,
+        "duration" : 24043
+      }
+    }, {
+      "uid" : "8c12dc4512181121",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601645074326,
+        "stop" : 1601645093022,
+        "duration" : 18696
+      }
+    }, {
+      "uid" : "23cd345e804af893",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 1",
+      "time" : {
+        "start" : 1601644927978,
+        "stop" : 1601644958157,
+        "duration" : 30179
+      }
+    }, {
+      "uid" : "1db426813042d92c",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 1",
+      "time" : {
+        "start" : 1601644760246,
+        "stop" : 1601644779915,
+        "duration" : 19669
+      }
+    }, {
+      "uid" : "dc6f7c37a65e3e3a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601644264083,
+        "stop" : 1601644283662,
+        "duration" : 19579
+      }
+    }, {
+      "uid" : "ca91edf27ea588db",
+      "status" : "broken",
+      "statusDetails" : "Cannot locate option with value: 2\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601644077957,
+        "stop" : 1601644102789,
+        "duration" : 24832
+      }
+    }, {
+      "uid" : "9cc775bc0a7a3742",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"span\"\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601643639836,
+        "stop" : 1601643659503,
+        "duration" : 19667
+      }
+    }, {
+      "uid" : "e526fb6519134f0c",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.id: //*[@id=\"select2-ClientID-container\"]",
+      "time" : {
+        "start" : 1601643379349,
+        "stop" : 1601643408338,
+        "duration" : 28989
+      }
+    }, {
+      "uid" : "73c89991ccdc0704",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.id: //*[@id=\"select2-ClientID-container\"]",
+      "time" : {
+        "start" : 1601643190769,
+        "stop" : 1601643212225,
+        "duration" : 21456
+      }
+    }, {
+      "uid" : "bbad362c26051497",
+      "status" : "broken",
+      "statusDetails" : "Element should have been \"select\" but was \"span\"\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1601642782295,
+        "stop" : 1601642802099,
+        "duration" : 19804
+      }
+    }, {
+      "uid" : "a7103f6ba206b297",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601642512823,
+        "stop" : 1601642512915,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "7f9fa97d018f4ae7",
+      "status" : "broken",
+      "statusDetails" : "\nCannot inject @Test annotated Method [homeScreen] with [interface org.openqa.selenium.WebDriver].\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "time" : {
+        "start" : 1601642180940,
+        "stop" : 1601642180945,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "6fe16ae1e1ac3a34",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601641909361,
+        "stop" : 1601641909462,
+        "duration" : 101
+      }
+    }, {
+      "uid" : "b0cca7b711174af9",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601641815932,
+        "stop" : 1601641815945,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "45b0673fa14c3097",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601641682500,
+        "stop" : 1601641682515,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "d69efb942fcf4f25",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601639554946,
+        "stop" : 1601639554960,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "7f6fd68af3e62c4f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"select2-ClientID-results\"]/li[2]\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:32634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: f4d117df482572996e8d6dd8b82cc432\n*** Element info: {Using=xpath, value=//*[@id=\"select2-ClientID-results\"]/li[2]}",
+      "time" : {
+        "start" : 1601637961551,
+        "stop" : 1601637990531,
+        "duration" : 28980
+      }
+    }, {
+      "uid" : "7f1989f64672f8e7",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: /html/body/span/span/span[2]/ul/li[2]",
+      "time" : {
+        "start" : 1601637733892,
+        "stop" : 1601637761142,
+        "duration" : 27250
+      }
+    }, {
+      "uid" : "55f4c59b39541923",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]",
+      "time" : {
+        "start" : 1601637244511,
+        "stop" : 1601637271748,
+        "duration" : 27237
+      }
+    }, {
+      "uid" : "f3a034fe14430af8",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.id: //*[@id=\"select2-ClientID-container\"]",
+      "time" : {
+        "start" : 1601637015810,
+        "stop" : 1601637039590,
+        "duration" : 23780
+      }
+    }, {
+      "uid" : "d45539e3ce63de83",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"add-client-parent\"]/span/span[1]/span/span[2]/span",
+      "time" : {
+        "start" : 1601636351627,
+        "stop" : 1601636374038,
+        "duration" : 22411
+      }
+    }, {
+      "uid" : "f3bf0274c07ffad4",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: /html/body/span/span/span[2]/ul/li[2]",
+      "time" : {
+        "start" : 1601635551789,
+        "stop" : 1601635579242,
+        "duration" : 27453
+      }
+    }, {
+      "uid" : "1fd6f09690b724eb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/span/span/span[2]/ul/li[2]\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:29057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b483e67795d48f1b9ace8a2b55a716a0\n*** Element info: {Using=xpath, value=/html/body/span/span/span[2]/ul/li[2]}",
+      "time" : {
+        "start" : 1601634643283,
+        "stop" : 1601634670690,
+        "duration" : 27407
+      }
+    }, {
+      "uid" : "c7f2ccf4ab66bab7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"select2-ClientID-results\"]/li[2]\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:27947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a36a4efe3354f9600a80ae7696d4f114\n*** Element info: {Using=xpath, value=//*[@id=\"select2-ClientID-results\"]/li[2]}",
+      "time" : {
+        "start" : 1601633563000,
+        "stop" : 1601633591502,
+        "duration" : 28502
+      }
+    }, {
+      "uid" : "b16cdcb723f27289",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:25437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: acb334060d4ed53cb903017d4f313af7",
+      "time" : {
+        "start" : 1601631268720,
+        "stop" : 1601631292584,
+        "duration" : 23864
+      }
+    }, {
+      "uid" : "aa2d8b2379c51901",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:24547}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1f7dca7b0039cff673b9756e7363f32a",
+      "time" : {
+        "start" : 1601630445660,
+        "stop" : 1601630474147,
+        "duration" : 28487
+      }
+    }, {
+      "uid" : "b26280d9c7e7ee19",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/span/span/span[1]/input (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:23450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 91131863201219f7eb23cbb5ef1f39e3",
+      "time" : {
+        "start" : 1601627507682,
+        "stop" : 1601627532173,
+        "duration" : 24491
+      }
+    }, {
+      "uid" : "57cff263bfbd6107",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/span/span/span[1]/input (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:23354}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5a40d5238adb7f9b3a50d64d2f15e616",
+      "time" : {
+        "start" : 1601627364321,
+        "stop" : 1601627389635,
+        "duration" : 25314
+      }
+    }, {
+      "uid" : "842b0a6659db7808",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/span/span/span[1]/input (tried for 5 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:4766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a9276e2acc45a3f3249c2acabab6a454",
+      "time" : {
+        "start" : 1601575070230,
+        "stop" : 1601575095592,
+        "duration" : 25362
+      }
+    }, {
+      "uid" : "d04ff04dfbf28221",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:4324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3fc73d2163535631fc7fdde71d987a70",
+      "time" : {
+        "start" : 1601574661084,
+        "stop" : 1601574685267,
+        "duration" : 24183
+      }
+    }, {
+      "uid" : "498e7ec263b98277",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3fc97c7970ffb87fa16be12d995f9d70\n*** Element info: {Using=xpath, value=//*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]}",
+      "time" : {
+        "start" : 1601572971520,
+        "stop" : 1601572997186,
+        "duration" : 25666
+      }
+    }, {
+      "uid" : "ff6eb5d072b1abdd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:2021}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 067cf9b611ab1db48d34bf47c36e253b\n*** Element info: {Using=xpath, value=//*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]}",
+      "time" : {
+        "start" : 1601572421445,
+        "stop" : 1601572447013,
+        "duration" : 25568
+      }
+    }, {
+      "uid" : "c5512449ba9bd3d8",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:1939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fe2a99c9dfbf6b1df179c3a070b41c0f",
+      "time" : {
+        "start" : 1601571457129,
+        "stop" : 1601571477589,
+        "duration" : 20460
+      }
+    }, {
+      "uid" : "2b381257ddce5a2d",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:35441}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e22fd4eacd677b51a0251e02c4a5ca4e",
+      "time" : {
+        "start" : 1601570171896,
+        "stop" : 1601570190373,
+        "duration" : 18477
+      }
+    }, {
+      "uid" : "e443bef815c85f72",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.name: ctl00$phCenter$txtEMAIL",
+      "time" : {
+        "start" : 1601569643819,
+        "stop" : 1601569649871,
+        "duration" : 6052
+      }
+    }, {
+      "uid" : "171ca1cbba086d9c",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //a[@title=\"Add to Access List\"]",
+      "time" : {
+        "start" : 1601569342314,
+        "stop" : 1601569363426,
+        "duration" : 21112
+      }
+    }, {
+      "uid" : "99043442937c6406",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@title=\"Add to Access List\"]",
+      "time" : {
+        "start" : 1601568932559,
+        "stop" : 1601568953747,
+        "duration" : 21188
+      }
+    }, {
+      "uid" : "1b01d45c9e88f852",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"add-client-form\"]/div[3]/div/div/div[2]/table/tbody/tr/td[3]/a/span",
+      "time" : {
+        "start" : 1601565771415,
+        "stop" : 1601565793324,
+        "duration" : 21909
+      }
+    }, {
+      "uid" : "55e6a7487e3e599e",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element with By.xpath: //*[@id=\"add-client-form\"]/div[3]/div/div/div[2]/table/tbody/tr/td[3]",
+      "time" : {
+        "start" : 1601565537203,
+        "stop" : 1601565558725,
+        "duration" : 21522
+      }
+    }, {
+      "uid" : "11e2d092cda32b37",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id=\"add-client-button\"] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601565403851,
+        "stop" : 1601565425680,
+        "duration" : 21829
+      }
+    }, {
+      "uid" : "3da7fda46e0c6e4b",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element withBy.xpath: //*[@id=\"add-client-form\"]/div[3]/div/div/div[2]/table/tbody/tr/td[3]/a",
+      "time" : {
+        "start" : 1601565060236,
+        "stop" : 1601565081693,
+        "duration" : 21457
+      }
+    }, {
+      "uid" : "a58a21361b75b996",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element withBy.xpath: //*[@id=\"add-client-form\"]/div[3]/div/div/div[2]/table/tbody/tr/td[3]/a",
+      "time" : {
+        "start" : 1601564786444,
+        "stop" : 1601564808881,
+        "duration" : 22437
+      }
+    }, {
+      "uid" : "28b8722a226c116c",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:29734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 640c8e54adb48122abc701b18bf1225e",
+      "time" : {
+        "start" : 1601564602451,
+        "stop" : 1601564658044,
+        "duration" : 55593
+      }
+    }, {
+      "uid" : "60b7bb8a6c12c324",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:1041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ab6c609f80a6491f84227fe37684b4ce",
+      "time" : {
+        "start" : 1601564309394,
+        "stop" : 1601564434444,
+        "duration" : 125050
+      }
+    }, {
+      "uid" : "343ccd1346534383",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element withBy.xpath: //*[@id=\"add-client-button\"]",
+      "time" : {
+        "start" : 1601564100543,
+        "stop" : 1601564125346,
+        "duration" : 24803
+      }
+    }, {
+      "uid" : "917994d3694a7af6",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element withBy.xpath: //*[@id=\"add-client-button\"]",
+      "time" : {
+        "start" : 1601562962416,
+        "stop" : 1601562984745,
+        "duration" : 22329
+      }
+    }, {
+      "uid" : "df5058238247750e",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:1133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 15f31386e21c559326d053ba6e91a8a5",
+      "time" : {
+        "start" : 1601561530141,
+        "stop" : 1601561752838,
+        "duration" : 222697
+      }
+    }, {
+      "uid" : "7c7ed8137224aca9",
+      "status" : "broken",
+      "statusDetails" : "javascript error: arg1 is not defined\n  (Session info: chrome=85.0.4183.121)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:32705}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: b8135c444381aed913f9d045ca75811f",
+      "time" : {
+        "start" : 1601560553279,
+        "stop" : 1601560575831,
+        "duration" : 22552
+      }
+    }, {
+      "uid" : "8d9290bd12d480c0",
+      "status" : "failed",
+      "statusDetails" : "Unable to find element withBy.xpath: //*[@id=\"navMenuLink\"]/div/span[1]",
+      "time" : {
+        "start" : 1601560391287,
+        "stop" : 1601560401803,
+        "duration" : 10516
+      }
+    }, {
+      "uid" : "7572638b54b15516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601468717232,
+        "stop" : 1601468732973,
+        "duration" : 15741
+      }
+    }, {
+      "uid" : "b4108c888c1f1f64",
+      "status" : "failed",
+      "statusDetails" : "Element not displayed or not enabledBy.xpath: //*[@id=\"answersets-link\"]/span[2]",
+      "time" : {
+        "start" : 1601468453452,
+        "stop" : 1601468463388,
+        "duration" : 9936
+      }
+    }, {
+      "uid" : "c8dd1b80631896e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601466078553,
+        "stop" : 1601466088121,
+        "duration" : 9568
+      }
+    }, {
+      "uid" : "fe2ce600ceb419a9",
+      "status" : "broken",
+      "statusDetails" : "Logo is NOT displayed",
+      "time" : {
+        "start" : 1601465890002,
+        "stop" : 1601465904516,
+        "duration" : 14514
+      }
+    }, {
+      "uid" : "c641a5bfa4be780c",
+      "status" : "broken",
+      "statusDetails" : "Logo is NOT displayed",
+      "time" : {
+        "start" : 1601399580977,
+        "stop" : 1601399594621,
+        "duration" : 13644
+      }
+    }, {
+      "uid" : "56c0c54e4898f9eb",
+      "status" : "broken",
+      "statusDetails" : "Logo is NOT displayed",
+      "time" : {
+        "start" : 1601399093374,
+        "stop" : 1601399107769,
+        "duration" : 14395
+      }
+    }, {
+      "uid" : "22ce595c62308eec",
+      "status" : "broken",
+      "statusDetails" : "Logo is NOT displayed",
+      "time" : {
+        "start" : 1601398714580,
+        "stop" : 1601398728946,
+        "duration" : 14366
+      }
+    }, {
+      "uid" : "25c6ea51b780d56e",
+      "status" : "broken",
+      "statusDetails" : "Logo is NOT displayed",
+      "time" : {
+        "start" : 1601397759915,
+        "stop" : 1601397780787,
+        "duration" : 20872
+      }
+    }, {
+      "uid" : "8d57981fe41e3926",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[2]/div/div/div/div/div/div[1]/div/span/img (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601397291959,
+        "stop" : 1601397328259,
+        "duration" : 36300
+      }
+    }, {
+      "uid" : "ed0f477ec6481d4d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div/div/div/div/div[1]/div/span/img\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:27404}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a9e5a8123902ada5dd78b065f4a7bb11\n*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div/div/div[1]/div/span/img}",
+      "time" : {
+        "start" : 1601396543714,
+        "stop" : 1601396562710,
+        "duration" : 18996
+      }
+    }, {
+      "uid" : "3aaf12c97f576220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601394444946,
+        "stop" : 1601394453179,
+        "duration" : 8233
+      }
+    }, {
+      "uid" : "51aebf476ea3e586",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601394247129,
+        "stop" : 1601394255723,
+        "duration" : 8594
+      }
+    }, {
+      "uid" : "864f52695b306eb3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601391601938,
+        "stop" : 1601391618285,
+        "duration" : 16347
+      }
+    }, {
+      "uid" : "b9a2230bde4ea221",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601391018385,
+        "stop" : 1601391028568,
+        "duration" : 10183
+      }
+    }, {
+      "uid" : "77e35edf69c47313",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601389449562,
+        "stop" : 1601389460301,
+        "duration" : 10739
+      }
+    }, {
+      "uid" : "53477b713c7a4f30",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601388594821,
+        "stop" : 1601388601881,
+        "duration" : 7060
+      }
+    }, {
+      "uid" : "9b71f443e4290a3c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div/div/div/div/div[2]/div/div/div[1]/a\"}\n  (Session info: chrome=85.0.4183.121)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'UK930027', ip: '192.168.0.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\\Users\\JEDGAL~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:25656}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bd42eb675d297e804f015fe05ffbc0cd\n*** Element info: {Using=xpath, value=/html/body/div[2]/div/div/div/div/div/div[2]/div/div/div[1]/a}",
+      "time" : {
+        "start" : 1601388520422,
+        "stop" : 1601388525453,
+        "duration" : 5031
+      }
+    }, {
+      "uid" : "7ab1169d6c1397c2",
+      "status" : "skipped",
+      "statusDetails" : "null value in entry: url=null",
+      "time" : {
+        "start" : 1601384398991,
+        "stop" : 1601384398996,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "8b8e0a9d6b998062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601316743511,
+        "stop" : 1601316749505,
+        "duration" : 5994
+      }
+    }, {
+      "uid" : "35d3eb7ed32c61fa",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601316579787,
+        "stop" : 1601316588440,
+        "duration" : 8653
+      }
+    }, {
+      "uid" : "e17f7c10bbf0ccce",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601316312637,
+        "stop" : 1601316316693,
+        "duration" : 4056
+      }
+    }, {
+      "uid" : "a3ccbb7248bb28f5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601315739473,
+        "stop" : 1601315743501,
+        "duration" : 4028
+      }
+    }, {
+      "uid" : "3117539036ab0984",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601314699866,
+        "stop" : 1601314703573,
+        "duration" : 3707
+      }
+    }, {
+      "uid" : "d09bae6fb84197a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601313726616,
+        "stop" : 1601313734275,
+        "duration" : 7659
+      }
+    }, {
+      "uid" : "4c00c513f35b618e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601310471559,
+        "stop" : 1601310477827,
+        "duration" : 6268
+      }
+    }, {
+      "uid" : "5264a2b1836bbcd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601310010921,
+        "stop" : 1601310020743,
+        "duration" : 9822
+      }
+    }, {
+      "uid" : "1571643b16ca6889",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601307945374,
+        "stop" : 1601307945374,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b6056182a2f5165",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601307932735,
+        "stop" : 1601307945347,
+        "duration" : 12612
+      }
+    }, {
+      "uid" : "d1be62db8e0734e0",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601306667315,
+        "stop" : 1601306667315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "973cb29d92f1ea84",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601306658321,
+        "stop" : 1601306667296,
+        "duration" : 8975
+      }
+    }, {
+      "uid" : "a292d01105b893e1",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601306018011,
+        "stop" : 1601306018011,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "59a106336d6ad879",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601306012401,
+        "stop" : 1601306017993,
+        "duration" : 5592
+      }
+    }, {
+      "uid" : "375b7e7c227945ec",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601304492999,
+        "stop" : 1601304492999,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eefbc8c2d3c0004c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601304486698,
+        "stop" : 1601304492980,
+        "duration" : 6282
+      }
+    }, {
+      "uid" : "5df9d6195c93fb5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601303960228,
+        "stop" : 1601303960228,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc7e986b3f37901b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[2]/div/div/div/div/div/div[2]/div/div/div[1]/a (tried for 20 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1601303937070,
+        "stop" : 1601303960213,
+        "duration" : 23143
+      }
+    }, {
+      "uid" : "da4f040c6278265a",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601302570397,
+        "stop" : 1601302570398,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ea7776a814f2d535",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1601302568900,
+        "stop" : 1601302570374,
+        "duration" : 1474
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a26bf3e997aa560d.json",
+  "parameterValues" : [ ]
+}
