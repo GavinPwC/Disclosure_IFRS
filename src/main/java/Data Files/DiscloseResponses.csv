@@ -375,22 +375,22 @@ Note:""by function"" means cost of sales, distribution, administrative etc. ""by
 "T3.5.2","Transfer of non-cash collateral","Has the entity (transferor) transferred to another party any non-cash collateral that the other party (transferee) has the right by contract or custom to sell or repledge?","N"
 "T3.5.3","Financial instruments - Derecognition of assets -Transfer of assets not resulting in derecognition","Has the entity transferred financial assets to another party in a transaction that does not qualify for derecognition, because the entity has retained significant risks and rewards of ownership of the transferred asset?","N"
 "T3.6.7","IR benchmark reform","Does the entity wish to early adopt the amendments to FRS 102 - interest rate benchmark reform (phase 2)?","N"
-"T3.7.1","Funding commitments: scope","Has the entity committed to provide resources to other entities which is not a loan?","H"
 "T3.7.1","Funding commitments: scope","Has the entity committed to provide resources to other entities which is not a loan?","N"
 "T3.8.1.1","Pension arrangements","Are the entity's employees covered by:
 
-- defined contribution or money purchase pension schemes or by entity contributions to personal pension plans?","Y"
+- defined contribution or money purchase pension schemes or by entity contributions to personal pension plans?","N"
 "T3.8.1.1","Pension arrangements","Are the entity's employees covered by:
 
 - defined benefit pension schemes? 
 
-Note: Under a defined benefit scheme, benefits are determined independently of the contributions payable, for example based on final salary. This would include a defined benefit multi-employer scheme that is being accounted for as a defined contribution arrangement under FRS 102.","N"
+Note: Under a defined benefit scheme, benefits are determined independently of the contributions payable, for example based on final salary. This would include a defined benefit multi-employer scheme that is being accounted for as a defined contribution arrangement under FRS 102.","Y"
 "T3.8.1.1","Pension arrangements","Are the entity's employees covered by:
 
 - any unfunded pensions?","N"
 "T3.8.1.1","Pension arrangements","Are the entity's employees covered by:
 
 - any post-retirement benefits (funded or unfunded) other than pensions?","N"
+"T3.8.1.3","Multi-employer scheme","Is there a multi-employer defined benefit scheme (i.e. one that covers entities not under common control)?","N"
 "T3.10.1","Employee Benefits: scope","Has the entity accounted for any of the following types of employee benefits:
 
 (a) other long-term employee benefits, which are all employee benefits, other than short-term employee benefits, post-employment benefits and termination benefits; or","H"

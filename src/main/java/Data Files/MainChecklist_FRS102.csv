@@ -62,14 +62,6 @@ joint ventures ie treasury shares.",Y
 including the terms and amounts.",Y
 12,2.3.41 Equity: share capital,"(b) A description of each reserve within equity.
 ",Y
-13,2.3.53 Cumulative depreciation and impairment of fixed assets,"For each class of fixed asset, is there stated: Notes: 
-1. Corresponding amounts are not required. 
-2. These statutory movements reconciliations are of accumulated depreciation provisions and so go beyond FRS 102 where the reconciliations could be of the net book value of the assets.",H
-14,2.3.53 Cumulative depreciation and impairment of fixed assets,(a) accumulated provisions at beginning and end of year;,Y
-15,2.3.53 Cumulative depreciation and impairment of fixed assets,(b) charge for year;,Y
-16,2.3.53 Cumulative depreciation and impairment of fixed assets,(c) adjustments for disposals; and,Y
-17,2.3.53 Cumulative depreciation and impairment of fixed assets,(d) other adjustments?,Y
-1,Statement of Changes in Equity and Statement of Income and Retained Earnings,H,H
 1,2.4.1 Presentation,Has the entity presented a statement of changes in equity showing in the statement:,H
 2,2.4.1 Presentation,"(a) total comprehensive income for the period, (where applicable showing separately the total amounts attributable to owners of the parent and to non-controlling interests);",Y
 3,2.4.1 Presentation,"(b) for each component of equity, the effects of retrospective application or retrospective restatement recognised in accordance with FRS 102 Section 10 Accounting Policies, Estimates and Errors?",Y
@@ -87,10 +79,8 @@ including the terms and amounts.",Y
 1,2.5.1 Classification,"Has the entity presented a statement of cash flows for a reporting period classifying by operating activities, investing activities and financing activities?",N
 2,2.5.4 Major Classes,"Has the entity presented separately major classes of gross cash receipts and gross cash payments arising from investing and financing activities, (except to the extent that net presentation is permitted by paragraphs 7.10A to 7.10E of FRS 102)?",N
 3,2.5.5 Acquisitions and Disposals: Aggregate Cashflows,Are the aggregate cash flows arising from acquisitions and from disposals of subsidiaries or other business units presented separately and classified as investing activities?,N/A
-4,2.5.6 Cash flows reportable on a net basis,"Cash flows arising from the following operating, investing or financing activities may be reported on a net basis:",A
-5,2.5.6 Cash flows reportable on a net basis,(a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and,A
+5,2.5.6 Cash flows reportable on a net basis,"(a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and",A
 6,2.5.6 Cash flows reportable on a net basis,"(b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",A
-7,2.5.9 Interest and Dividends,Has the entity presented separately these cash flows and classified them consistently from period to period as shown below:,H
 8,2.5.9 Interest and Dividends,a) interest received (as operating or investing);,Y
 9,2.5.9 Interest and Dividends,b) dividends received (as investing or operating);,N/A
 10,2.5.9 Interest and Dividends,c) interest paid (as financing or operating); and,N/A
@@ -99,7 +89,6 @@ including the terms and amounts.",Y
 13,2.5.13 Aggregate income tax cash flows,"Where the entity has presented income tax cash flows allocated over more than one class of activity in its statement of cash flows, has the entity disclosed the total amount of taxes paid?",N/A
 14,2.5.14 Non-cash transactions,"Where an entity has excluded from the statement of cash flows investing and financing transactions that do not require the use of cash or cash equivalents, has it disclosed such transactions elsewhere in the financial statements in a way that provides all the relevant information about those investing and financing activities?",N/A
 15,2.5.15 Cash and non-cash resources not available for use,"Where an entity holds an amount of significant cash and cash equivalent balances that are not available for use by the entity, has it disclosed the amount of these cash and cash equivalent balances together with a commentary by management?",N/A
-16,2.5.16 Analysis of net debt,"Has the entity disclosed an analysis of changes in net debt from the beginning to the end of the reporting period showing changes resulting from the following: Note. When several balances (or parts thereof) from the statement of financial position have been combined to form the components of opening and closing net debt, sufficient detail shall be shown to enable users to identify these balances. This analysis need not be presented for prior periods.",H
 17,2.5.16 Analysis of net debt,(a) the cash flows of the entity;,N
 18,2.5.16 Analysis of net debt,(b) the acquisition and disposal of subsidiaries;,Y
 19,2.5.16 Analysis of net debt,(c) new finance leases entered into;,Y
@@ -115,12 +104,23 @@ including the terms and amounts.",Y
 3. Any other disclosures (e.g. post balance sheet events, off balance sheet items, capital expenditure commitments)?",Y
 3,3.5 Cross references to notes,Has the entity cross-referenced each item in the financial statements to any related information in the notes?,Y
 4,3.6 Additional disclosures,"Are additional disclosures given beyond the specific requirements of FRS 102 where it is necessary to enable users to understand the effect of particular transactions, other events and conditions on the entity's financial position and financial performance?",Y
-5,3.27 Identification of the financial statements,Has the entity disclosed the following:,H
 6,3.27 Identification of the financial statements,(a) the legal form of the entity;,Y
 7,3.27 Identification of the financial statements,"(c) the address of its registered office (or principal place of business, if different from the registered office);",Y
-8,3.28 Operations and activities,"Has the entity included a description of the nature of the entity s operations and its principal activities, in the business review (or similar statement) accompanying the financial statements, or in the notes?",Y
+8,3.28 Operations and activities,"Has the entity included a description of the nature of the entity's operations and its principal activities, in the business review (or similar statement) accompanying the financial statements, or in the notes?",Y
 ,,,End Section
 ,,,Begin Section
+
+
+
+
+
+
+
+
+
+
+
+
 1,5.2 Categories of financial assets & financial liabilities,"Has the entity disclosed separately the carrying amounts at the reporting date of financial assets and financial liabilities measured at fair value through profit or loss? Note. This disclosure may be made separately by category of financial instrument. Financial liabilities that are not held as part of a trading portfolio and are not derivatives shall be shown separately.
 ",Y
 2,5.3 Significance of financial instruments,"Has the reporting entity disclosed information that enables users of its financial statements to evaluate the significance of financial instruments for its financial position and performance? Note. From 1/1/19 (or for earlier periods where the December 2017 Amendments to FRS 102 (triennial review) are adopted early), when the risks arising from financial instruments are particularly significant to the business (for example because they are principal risks for the entity), additional disclosure may be required. Paragraphs 34.19 to 34.30, which set out disclosure requirements for financial institutions, include examples of disclosure requirements for risks arising from financial instruments that may be relevant in such cases.
@@ -145,7 +145,6 @@ including the terms and amounts.",Y
 9,6.1.19 Investment in associate,Has the entity disclosed its accounting policy for its investments in associates?,Y
 10,6.1.20 Investment in Jointly Controlled Entities,Has the entity disclosed its accounting policy for recognising investments in jointly controlled entities been disclosed in the Financial Statements?,Y
 11,6.1.22 Financial instruments,"Where the entity has recognised financial instruments, has it disclosed, in the summary of significant accounting policies, the measurement basis (or bases) used for financial instruments and the other accounting policies used for financial instruments that are relevant to an understanding of the financial statements?",Y
-12,"6.1.27 Property, plant and equipment","Has the entity disclosed the following for each class of property, plant and equipment:",H
 13,"6.1.27 Property, plant and equipment",(a) the measurement bases used for determining the gross carrying amount;,Y
 14,"6.1.27 Property, plant and equipment","(b) the depreciation methods used, and",Y
 15,"6.1.27 Property, plant and equipment",(c) the useful lives or the depreciation rates used?,Y
@@ -234,7 +233,6 @@ the following in respect of the current reporting period:",H
 4,7.24.5 Non-adjusting events,An entity shall disclose the following for each category of non-adjusting event after the end of the reporting period:,H
 5,7.24.5 Non-adjusting events,(a) the nature of the event; and,Y
 6,7.24.5 Non-adjusting events,(b) an estimate of its financial effect or a statement that such an estimate cannot be made.,Y
-1,7.25.2 Categories of revenue,"Has the entity disclosed the amount of each category of revenue recognised during the period, showing separately, at a minimum, revenue arising from:",H
 2,7.25.2 Categories of revenue,(ii) the rendering of services;,Y
 3,7.25.2 Categories of revenue,(iii) interest;,N/A
 4,7.25.2 Categories of revenue,(iv) royalties;,N/A

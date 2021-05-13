@@ -40,7 +40,7 @@ public class HomeScreenPage {
     //*[@id="g-positioner"]/ul/li[3]/a
 
     public String recordName = "Gavin Caldwell";
-    public String clientName = "GavFRSRegression3";
+    public String clientName = "GavFRSRegression8";
 
     public HomeScreenPage(WebDriver driver) {
         // TODO Auto-generated constructor stub

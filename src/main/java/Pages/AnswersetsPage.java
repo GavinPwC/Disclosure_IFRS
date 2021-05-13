@@ -30,7 +30,6 @@ public class AnswersetsPage extends SetupFramework {
 	By startButton = By.xpath("//*[@id=\"add-new-answerset\"]");
 	By saveReviewerButton = By.xpath("//*[@id=\"SaveReviewers\"]");
 
-
 	By tick = By.xpath("//*[@id=\"Sections_0__Selected\"]");
 	By statusCheck = By.xpath("//*[@id=\"answersets-data\"]/tr[1]/td[3]/span");
 	By sectionCheck = By.xpath("//*[@id=\"answersets-data\"]/tr[1]/td[4]/span");

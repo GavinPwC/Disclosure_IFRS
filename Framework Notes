@@ -87,4 +87,157 @@ col2[31] = questionDiscription;
 
   	}
 
+-----
 
+CUT FROM MAINCHECKLIST: LINES 64-65
+
+AFTER - 12,2.3.41 Equity: share capital,"(b) A description of each reserve within equity.
+
+13,2.3.53 Cumulative depreciation and impairment of fixed assets,"For each class of fixed asset, is there stated: Notes:
+1. Corresponding amounts are not required.
+2. These statutory movements reconciliations are of accumulated depreciation provisions and so go beyond FRS 102 where the reconciliations could be of the net book value of the assets.",H
+14,2.3.53 Cumulative depreciation and impairment of fixed assets,(a) accumulated provisions at beginning and end of year;,Y
+15,2.3.53 Cumulative depreciation and impairment of fixed assets,(b) charge for year;,Y
+16,2.3.53 Cumulative depreciation and impairment of fixed assets,(c) adjustments for disposals; and,Y
+17,2.3.53 Cumulative depreciation and impairment of fixed assets,(d) other adjustments?,Y
+1,Statement of Changes in Equity and Statement of Income and Retained Earnings,H,H
+
+BEFORE - 1,2.4.1 Presentation,Has the entity presented a statement of changes in equity showing in the statement:,H
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 81-84
+
+AFTER - 3,2.5.5 Acquisitions and Disposals: Aggregate Cashflows,Are the aggregate cash flows arising from acquisitions and from disposals of subsidiaries or other business units presented separately and classified as investing activities?,N/A
+
+CUT - 4,2.5.6 Cash flows reportable on a net basis,"Cash flows arising from the following operating, investing or financing activities may be reported on a net basis:",A
+AMEND - 5,2.5.6 Cash flows reportable on a net basis,(a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and,A
+AMEND - 6,2.5.6 Cash flows reportable on a net basis,"(b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",A
+
+BEFORE - 7,2.5.9 Interest and Dividends,Has the entity presented separately these cash flows and classified them consistently from period to period as shown below:,H
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 92-93
+
+BEFORE - 15,2.5.15 Cash and non-cash resources not available for use,"Where an entity holds an amount of significant cash and cash equivalent balances that are not available for use by the entity, has it disclosed the amount of these cash and cash equivalent balances together with a commentary by management?",N/A
+
+16,2.5.16 Analysis of net debt,"Has the entity disclosed an analysis of changes in net debt from the beginning to the end of the reporting period showing changes resulting from the following: Note. When several balances (or parts thereof) from the statement of financial position have been combined to form the components of opening and closing net debt, sufficient detail shall be shown to enable users to identify these balances. This analysis need not be presented for prior periods.",H
+
+AFTER - 17,2.5.16 Analysis of net debt,(a) the cash flows of the entity;,N
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 83-84
+
+BEFORE - 6,2.5.6 Cash flows reportable on a net basis,"(b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",A
+
+7,2.5.9 Interest and Dividends,Has the entity presented separately these cash flows and classified them consistently from period to period as shown below:,H
+
+AFTER - 8,2.5.9 Interest and Dividends,a) interest received (as operating or investing);,Y
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 106-107
+
+BEFORE - 4,3.6 Additional disclosures,"Are additional disclosures given beyond the specific requirements of FRS 102 where it is necessary to enable users to understand the effect of particular transactions, other events and conditions on the entity's financial position and financial performance?",Y
+
+5,3.27 Identification of the financial statements,Has the entity disclosed the following:,H
+
+AFTER - 6,3.27 Identification of the financial statements,(a) the legal form of the entity;,Y
+
+-----
+
+MOVED ON MAINCHECKLIST: LINES
+
+BEFORE
+7,3.27 Identification of the financial statements,"(c) the address of its registered office (or principal place of business, if different from the registered office);",Y
+,,,End Section
+,,,Begin Section
+8,3.28 Operations and activities,"Has the entity included a description of the nature of the entity s operations and its principal activities, in the business review (or similar statement) accompanying the financial statements, or in the notes?",Y
+
+AFTER
+7,3.27 Identification of the financial statements,"(c) the address of its registered office (or principal place of business, if different from the registered office);",Y
+8,3.28 Operations and activities,"Has the entity included a description of the nature of the entity s operations and its principal activities, in the business review (or similar statement) accompanying the financial statements, or in the notes?",Y
+,,,End Section
+,,,Begin Section
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 115-1116
+
+BEFORE - 2,5.3 Significance of financial instruments,"Has the reporting entity disclosed information that enables users of its financial statements to evaluate the significance of financial instruments for its financial position and performance? Note. From 1/1/19 (or for earlier periods where the December 2017 Amendments to FRS 102 (triennial review) are adopted early), when the risks arising from financial instruments are particularly significant to the business (for example because they are principal risks for the entity), additional disclosure may be required. Paragraphs 34.19 to 34.30, which set out disclosure requirements for financial institutions, include examples of disclosure requirements for risks arising from financial instruments that may be relevant in such cases.
+",Y
+
+,,,End Section
+,,,Begin Section
+
+AFTER - 3,5.6 Change in basis of valuation,"If a reliable measure of fair value is no longer available for any financial insturments that would otherwise be required to be measured at fair value through profit or loss, has the entity disclosed that fact and the carrying amount of those financial instruments?",Y
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 109-110
+
+BEFORE - 8,3.28 Operations and activities,"Has the entity included a description of the nature of the entity's operations and its principal activities, in the business review (or similar statement) accompanying the financial statements, or in the notes?",Y
+
+,,,End Section
+,,,Begin Section
+
+AFTER - 1,5.2 Categories of financial assets & financial liabilities,"Has the entity disclosed separately the carrying amounts at the reporting date of financial assets and financial liabilities measured at fair value through profit or loss? Note. This disclosure may be made separately by category of financial instrument. Financial liabilities that are not held as part of a trading portfolio and are not derivatives shall be shown separately.
+",Y
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 147-148
+
+BEFORE - 11,6.1.22 Financial instruments,"Where the entity has recognised financial instruments, has it disclosed, in the summary of significant accounting policies, the measurement basis (or bases) used for financial instruments and the other accounting policies used for financial instruments that are relevant to an understanding of the financial statements?",Y
+
+12,"6.1.27 Property, plant and equipment","Has the entity disclosed the following for each class of property, plant and equipment:",H
+,,,End Section
+,,,Begin Section
+
+AFTER - 13,"6.1.27 Property, plant and equipment",(a) the measurement bases used for determining the gross carrying amount;,Y
+
+-----
+
+CUT FROM MAINCHECKLIST: LINES 235
+
+BEFORE - 6,7.24.5 Non-adjusting events,(b) an estimate of its financial effect or a statement that such an estimate cannot be made.,Y
+
+1,7.25.2 Categories of revenue,"Has the entity disclosed the amount of each category of revenue recognised during the period, showing separately, at a minimum, revenue arising from:",H
+
+AFTER - 2,7.25.2 Categories of revenue,(ii) the rendering of services;,Y
+
+---
+
+CUT FROM MAINCHECKLIST: LINES
+
+BEFORE -
+
+AFTER -
+
+---
+
+CUT FROM MAINCHECKLIST: LINES
+
+BEFORE -
+
+AFTER -
+
+---
+
+CUT FROM MAINCHECKLIST: LINES
+
+BEFORE -
+
+AFTER -
+
+---
+
+CUT FROM MAINCHECKLIST: LINES
+
+BEFORE -
+
+AFTER -
+
+---

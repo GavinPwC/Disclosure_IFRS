@@ -131,7 +131,8 @@ public class FRS102_103_105 {
                     // Execute blocks of code based on QResponse
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         //display summary after completing section
                         cf.refreshForElement(driver, sectionSummary);
@@ -149,7 +150,8 @@ public class FRS102_103_105 {
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         // display final summary upon completion of final section
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(5000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -191,7 +193,8 @@ public class FRS102_103_105 {
 
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -208,7 +211,8 @@ public class FRS102_103_105 {
 
                         //tq.checkAlert(driver);
                         //tq.checkProblem(driver);
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(3000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -250,7 +254,8 @@ public class FRS102_103_105 {
 
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -267,7 +272,8 @@ public class FRS102_103_105 {
 
                         //tq.checkAlert(driver);
                         //tq.checkProblem(driver);
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(3000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -310,7 +316,8 @@ public class FRS102_103_105 {
 
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -327,7 +334,8 @@ public class FRS102_103_105 {
 
                         //tq.checkAlert(driver);
                         //tq.checkProblem(driver);
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(3000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -370,7 +378,8 @@ public class FRS102_103_105 {
 
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -386,7 +395,8 @@ public class FRS102_103_105 {
 
                         //tq.checkAlert(driver);
                         //tq.checkProblem(driver);
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(3000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -428,7 +438,8 @@ public class FRS102_103_105 {
 
                     if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
 
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
 
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -444,7 +455,8 @@ public class FRS102_103_105 {
 
                         //tq.checkAlert(driver);
                         //tq.checkProblem(driver);
-                        By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
                         Thread.sleep(3000);
                         cf.refreshForElement(driver, sectionSummary);
                         String Summary = driver.findElement(sectionSummary).getText();
@@ -537,7 +549,8 @@ public class FRS102_103_105 {
                 tq.checkProblem(driver);
             } else if (QResponse.equalsIgnoreCase("End Tailoring")){
 
-                By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                By sectionSummary = By.id("main-detail-panels");
 
                 tq.completeTailoring(driver);
                 cf.refreshForElement(driver, sectionSummary);

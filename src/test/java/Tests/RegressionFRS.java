@@ -38,18 +38,17 @@ public class RegressionFRS extends LandingPage {
         fr.FRS102_103_105_Logic1_Tailoring(driver); // Tailors question according to logic
     }
 
-    @Test(alwaysRun = false, priority = 0, description = "Tailoring Questionnaire QA",
-            groups = {"Smoke Test"})
-    @Description(" Tailoring set of questions in QA environment")
-    @Severity(SeverityLevel.CRITICAL)
-    public void regression_FRS102_103_105_QA() throws Exception {
-
-        testSetup();
-        goToHomePageQA(driver);
-        h.assertTitles(driver);  // Confirm that the titles on homepage are correct
-        as.createNewAnswersetQA(driver); //Create an answer set
-        fr.FRS102_103_105_Logic1_Tailoring(driver); // Tailors question according to logic
-    }
+//    @Test(alwaysRun = false, priority = 0, description = "Tailoring Questionnaire QA",
+//            groups = {"Smoke Test"})
+//    @Description(" Tailoring set of questions in QA environment")//    @Severity(SeverityLevel.CRITICAL)
+//    public void regression_FRS102_103_105_QA() throws Exception {
+//
+//        testSetup();
+//        goToHomePageQA(driver);
+//        h.assertTitles(driver);  // Confirm that the titles on homepage are correct
+//        as.createNewAnswersetQA(driver); //Create an answer set
+//        fr.FRS102_103_105_Logic1_Tailoring(driver); // Tailors question according to logic
+//    }
 
     @Test(alwaysRun = true, priority = 1, description = "Tailoring Review",
             groups = {"Smoke Test"})
@@ -77,17 +76,17 @@ public class RegressionFRS extends LandingPage {
         fr.FRS102_103_105_Logic1_mainChecklist(driver); // Answer main checklist until completion
     }
 
-    @Test(alwaysRun = false)
-    @Description("Answering the FRS main checklist in QA environment")
-    @Severity(SeverityLevel.CRITICAL)
-    public void regression_FRS102_103_105_Mainchecklist_QA() throws Exception {
-
-        testSetup();
-        goToHomePageQA(driver);
-        h.assertTitles(driver);  // Confirm that the titles on homepage are correct
-        hs.answerSections(driver); // Navigate to answer section page
-        fr.FRS102_103_105_Logic1_mainChecklist(driver); // Answer main checklist until completion
-    }
+//    @Test(alwaysRun = false)
+//    @Description("Answering the FRS main checklist in QA environment")
+//    @Severity(SeverityLevel.CRITICAL)
+//    public void regression_FRS102_103_105_Mainchecklist_QA() throws Exception {
+//
+//        testSetup();
+//        goToHomePageQA(driver);
+//        h.assertTitles(driver);  // Confirm that the titles on homepage are correct
+//        hs.answerSections(driver); // Navigate to answer section page
+//        fr.FRS102_103_105_Logic1_mainChecklist(driver); // Answer main checklist until completion
+//    }
 
     @Test(alwaysRun = true, priority = 3, description = "Second Review and Roll Forward",
             groups = {"Smoke Test"})

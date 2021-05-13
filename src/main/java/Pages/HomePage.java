@@ -22,9 +22,10 @@ public class HomePage extends SetupFramework {
 	By menuIcon = By.xpath("//*[@id=\"navMenuLink\"]/div/span[1]");
 	By answersetMenuItem = By.xpath("//*[@id=\"answersets-link\"]/span[2]");
 	By clientMenuItem = By.xpath("//*[@id=\"clients-link\"]/span[2]");
-	By reportingMenuItem = By.xpath("//*[@id=\"reporting-link\"]/span[2]");
-	//By title = By.xpath("/html/body/div[2]/div/div/div/div/div/div[1]/div/span/img");
+	By reportingMenuItem = By.xpath("//span[contains(text(),'Reporting')]");
+	By requestreportenuItem = By.xpath("//body/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/ul[1]/li[1]/a[1]/span[2]");
 
+	//By title = By.xpath("/html/body/div[2]/div/div/div/div/div/div[1]/div/span/img");
 
 	public HomePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -78,8 +79,12 @@ public class HomePage extends SetupFramework {
 		//assertLogoImage2(driver);   **WORKING PROGRESS**
 		cf.clickElement(driver, menuIcon);
 
-		// Select answersets from menu option, use this method to select menu options
+		// Select reports from menu option, use this method to select menu options
 		selectMenuOption(driver, reportingMenuItem);
+		Thread.sleep(3000);
+
+		// Select reports from menu option, use this method to select menu options
+		selectMenuOption(driver, requestreportenuItem);
 		Thread.sleep(3000);
 	}
 

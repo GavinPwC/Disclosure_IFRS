@@ -39,7 +39,7 @@ public class ClientPage extends SetupFramework {
 	//*[@id="add-client-form"]/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]
 	//By clientField2 = By.xpath("/html/body/div[5]/div[5]/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/form/div/div[1]/div[1]/div[1]/div/div/div/div/select");
 	
-	public String clientName = "GavFRSRegression3";
+	public String clientName = "GavFRSRegression8";
 	
 	public ClientPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -87,7 +87,7 @@ public class ClientPage extends SetupFramework {
 		cf.waitForDesiredElement(driver, clientField2, 50);
 
 		// Scroll through list to find name that matches your clientName (See variable above)
-		for(Integer i=1; i<=5;i++) {
+		for(Integer i=1; i<=10;i++) {
 
 			By new_client_AutoClient = By.xpath("//*[@id=\"select2-ClientID-results\"]/li["+i+"]");
 			String clientVal= driver.findElement(new_client_AutoClient).getText();
