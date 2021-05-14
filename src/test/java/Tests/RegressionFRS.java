@@ -74,6 +74,7 @@ public class RegressionFRS extends LandingPage {
         h.assertTitles(driver);  // Confirm that the titles on homepage are correct
         hs.answerSections(driver); // Navigate to answer section page
         fr.FRS102_103_105_Logic1_mainChecklist(driver); // Answer main checklist until completion
+        //fr.FRS102_103_105_Logic1_TailoringMainTest_CSVTEST(driver); // csv TEST
     }
 
 //    @Test(alwaysRun = false)
