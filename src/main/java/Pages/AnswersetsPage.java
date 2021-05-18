@@ -35,7 +35,7 @@ public class AnswersetsPage extends SetupFramework {
 	By sectionCheck = By.xpath("//*[@id=\"answersets-data\"]/tr[1]/td[4]/span");
 	By start = By.xpath("//*[@id=\"select-sections\"]");
 	
-	public String checklistNameIFRS    = "UK PWC IFRS UK and FRS 101 (1.2.2.0)";
+	public String checklistNameIFRS    = "UK PWC IFRS UK and FRS 101 (1.2.4.0)";
 	public String checklistNameFRS     = "UK PWC FRS 102, 103 and 105 (3.0.8.0)";
 	public String checklistNameReduced = "IFRS PWC reduced tailoring (5.3.8.0)";
 	public String reviewer = "Gavin Caldwell";
@@ -71,7 +71,7 @@ public class AnswersetsPage extends SetupFramework {
 
 		cf.waitForDesiredElement(driver, addButton, 30);
 		cf.scrollToElement(driver, checklistField);
-		checklistSelectValForFRS(driver); // Remove or Add the "I" at the end to switch between FRS & IFRS checklists
+		checklistSelectValForIFRS(driver); // Remove or Add the "I" at the end to switch between FRS & IFRS checklists
 
 		//Scroll down so start button and reference field are visible
 		cf.scrollToElement(driver, startButton);

@@ -1,328 +1,232 @@
-T1.1,Purpose of the checklist,"The purpose of this checklist is to assist experienced accountants in determining whether financial statements comply with the disclosure requirements of FRS 102 The Financial Reporting Standard applicable in the UK and Republic of Ireland.
+0.1A,Pre-Tailoring Use,Do you wish to enable pre-tailoring options?,N
+0.1,Purpose of the checklist,"The purpose of this checklist is to assist experienced accountants in determining whether financial statements comply with the disclosure requirements of:
 
-The checklist also includes relevant disclosures derived from: 
+- FRS 101 and/or relevant International Financial Reporting Standards (IFRSs) issued by the International Accounting Standards Board (IASB) as endorsed for use in the European Union;
+- International Accounting Standards (IASs) issued by the International Accounting Standards Committee (IASC) and adopted by the IASB that are endorsed for use in the in the European Union; and ;
+- Interpretations issued by International Financial Reporting Interpretations Committee (IFRIC) predecessor body, the Standing Interpretations Committee (SIC) that are endorsed for use in the European Union. IFRSs, IASs, IFRICs, and SICs are referred to collectively in this checklist as IFRSs.
 
-- IFRSs referenced from FRS 102;
+As well as IFRS, various UK specific disclosures are included in the checklist. These include relevant disclosures derived from: - FRS 101, The Companies Acts (2006) & supporting legislation affecting accounts, directors' remuneration reports, & directors' reports; - AIM and Listing Rules; - The UK Corporate Governance Code; - Investment and Venture Capital Trusts SORP; - Guidelines for Portfolio Companies and Private Equity firms; - Guidance on the Strategic Report June 2014; - Summary financial statements; and - Preliminary announcements. There are also some example wordings for UK audit reports.",A
+0.1.1a,Listing Rules,The checklist does not deal with Listing Rule and Disclosure and Transparency Rules requirements for entities that are not incorporated in the United Kingdom. They should instead consult the Listing Rules and Disclosure and Transparency Rules directly.,A
+0.1.1,Purpose of the checklist,"We have tried to ensure that all requirements are included in the checklist and that the link between the tailoring questions and the disclosure requirements is robust. However we can give no warranty as to the accuracy or completeness of the software. It still remains the responsibility of the user to ensure that the financial statements comply with all disclosure requirements. Please be aware that this checklist does not cover the recognition, measurement and presentation requirements of IFRSs, although reference to these aspects of standards are made where is it is considered relevant, for example in help screens giving background information on disclosure requirements. Note: This checklist should generally only be used for accounting periods beginning on or after 1 March 2012. Where the financial statements are for a period beginning before this date, please contact Pentana in order to ascertain the most suitable checklist to apply in your scenario.",A
+0.2,Introduction,"The user's answers to the tailoring questions will impact the disclosures identified as applicable to the financial statements in the detailed disclosure requirements section of the checklist. For example, if the user specifies that the entity does not have intangible assets in its financial statements, the user will not be prompted with the disclosure requirements applicable to intangible assets. It is therefore imperative that these questions are answered accurately. In order to answer the tailoring assumptions accurately the user must have a good understanding of the entity as well as the recognition, measurement and presentation requirements of all IFRSs applicable to the entity's financial statements You have to answer all tailoring questions before you can proceed with the detailed disclosure questions. In the case of a parent entity preparing consolidated financial statements, references to ""entity"" apply equally to its consolidated financial statements as well as its separate financial statements (if prepared) except for the following: · If a single financial report contains both consolidated financial statements and the separate financial statements of the parent, segment disclosures required by IAS 14 'Segment Reporting' or IFRS 8 'Operating Segments' only need to be presented on the basis of the consolidated financial statements; and · If the entity presents both consolidated financial statements and separate financial statements, disclosures required by IAS 33 'Earnings per Share' only need to be presented on the basis of consolidated financial statements.",A
+0.3.0,UK Accounting period start,What is the first day of the entity’s accounting period?,01/01/2020
+0.3.1,UK Accounting period end date,What is the accounting period end date?,12/31/2020
+0.4.1,Warning,NOTE: Except where stated this checklist incorporates the disclosure requirements of the most recent standards issued by the IASB including those that have been endorsed for use in the European Union as at 31st March 2020.,A
+0.5,First Accounting period,Is this the entity's first accounting period since incorporation?,N
+0.5.1,Beginning of comparative period,Please enter the date of the beginning of the entity's comparative accounting period.,01/01/2020
+0.5.2,Length of accounting period,"Is the period covered by the financial statements equal to one year? Note: You should answer ""Yes"" to this question if the accounts cover a 52 or 53 week period;",Y
+0.6A.1,Overseas company,Is the entity an overseas company as defined in the Companies Act 2006? See Help for guidance.,N
+0.6,UK Companies Act,Is it a UK Companies Act entity?,Y
+0.6.0,Charity,Is the entity a charity?,N
+0.6.0.2,UK Parent or subsidiary,"Which of the following best describes the entity?
 
-- The Companies Acts (2006) & supporting legislation affecting accounts, directors' remuneration reports, & directors' reports; 
+(1) the entity is a parent but not a subsidiary
 
-- The LLP SORP (2015 and 2017) and LLP legislation; 
+(2) the entity is a parent and a wholly-owned subsidiary
 
-- The charity SORP (2015 and 2019) including Scottish charity legislation; 
+(3) the entity is a parent and a subsidiary, but not a wholly-owned subsidiary
 
-- The AIC SORP (2014 and 2018); 
+(4) the entity is a subsidiary, but not a parent
 
-- The IMA SORP (2014 and 2017); 
+(5) the entity is neither a parent nor a subsidiary
 
-- The academies accounts direction 2014 to 2015, 2015 to 2016, 2016 to 2017, 2017 to 2018 and 2018 to 2019 for those applying the charity SORP 2015 or 2018; 
+Note: Please see help text for definitions of a parent and subsidiary under IFRS 10 Consolidated Financial Statements and IAS 27 Consolidated and Separate Financial Statements.",2
+0.6.1,UK Active or dormant entities,Was the entity active at any time in the period? (Answer 'yes' unless dormant as defined on the help screen),Y
+0.6.1.1,UK Dormant subsidiary accounts exemption,Is the dormant entity intending to apply the subsidiary exemption from preparing individual accounts (see Help)?,N
+0.6.2.5.3,Insurance Company,Is the entity an insurance company?,N
+0.7,First time adoption of IFRS,"Are these the entity's first IFRS financial statements (see Help screen)?
 
-- Registered housing provider SORP 2014 and 2018 including accounts directions and determinations for England, Scotland and Wales;
+Note: Please also answer this question as ""No"" to this question if the entity has applied IFRSs in the past (regardless of applying IFRS 1 or SIC-8) but its most recent previous annual financial statements did not contain an explicit and unreserved statement of compliance with IFRS, but in these financial statements the entity intends to not to apply IFRS 1 - First Time Adoption but IAS 8 instead.",N
+0.7.1,Resuming the preparation of IFRS annual financial statements,"Has the entity has applied IFRSs in the past (regardless of applying IFRS 1 or SIC-8 in the past) but its most recent previous annual financial statements did not contain an explicit and unreserved statement of compliance with IFRS, but in these financial statements the entity does not intend to apply IFRS 1 - First Time Adoption, but instead apply IFRSs restrospectively in accordance with IAS 8?",Y
+0.7.6,Changes in accounting policies or use of exemptions under IFRS 1,Has the entity changed its accounting policies or use of exemptions in IFRS 1 in these first IFRS financial statements since issuing its first IFRS interim financial report?,N
+0.11,Listed ordinary or potential ordinary shares,"Are the entity's ordinary shares or potential ordinary shares traded in a public market (a domestic or foreign stock exchange or an over-the-counter market, including local or regional markets), or does the entity file, or is in the process of filing, its financial statements with a securities commission or other regulatory organisation for the purpose of issuing ordinary shares in a public market?",N
+0.12,Other listed status,"Are any of the entity's other equity instruments (i.e. other than ordinary and potential ordinary shares) or debt instruments traded in a public market (a domestic or foreign stock exchange or an over-the-counter market, including local or regional markets), or does the entity file, or is in the process of filing, its financial statements with a securities commission or other regulatory organisation for the purpose of issuing ordinary shares in a public market?",N
+0.9,Consolidated accounts requirement,Does the entity's ultimate or any intermediate parent prepare consolidated financial statements available for public use that comply with IFRSs?,N
+0.12,Consolidated accounts,Is the entity a UK entity exempt from preparing consolidated financial statements under UK law? See Help for guidance.,N
+0.14,Consolidated and separate financial statements,"The entity is required to prepare consolidated financial statements. Notwithstanding this requirement, the entity may be required to prepare separate financial statements (recording interests in subsidiaries, associates and jointly controlled entities at cost or as financial assets unless they are classified as held for sale). Do you want this checklist to include the disclosures required in the entity's separate financial statements as well as its consolidated financial statements?",Y
+0.14.2.1,Separate financial statements,Is the entity preparing separate financial statements as its only financial statements?,N
+0.14.3,IFRS 10 Consolidated Financial Statements- Types of Entity,"Please select the following entities which the entity has a relationship with for the purpose of applying IFRS 10 Consolidated Financial Statements:
 
-- Accounting for further and higher education SORP 2014 and 2019 including accounts directions and determinations for England, Scotland and Wales;
+(1) Subsidiaries
 
--- The UK Corporate Governance Code; 
+(2) Consolidated Structured Entities
 
-- Operating and Financial Reviews; and 
+(3) Unconsolidated Structured Entities",1
+0.14.3.1,Initial Application of IFRS 10 Consolidated Financial Statements,Is this the initial application of IFRS 10 to financial statements for a continuing user of IFRSs?,N
+0.14.4,Investment entity status,At any time during the period was the entity an investment entity in accordance with the definitions as stated in IFRS 10 - Consolidated Financial Statements?,N
+0.15,Non-controlling interests (minority interests),Are there any non-controlling interests (minority interests) in the group?,N
+0.15.2,Subsidiary financial statements - reporting date different to parent,Are the financial statements of a subsidiary which are used in the preparation of consolidated financial statements of a date or for a period that is different from that of the consolidated financial statements?,N
+0.16.1,Financial Institution,Is the entity a financial institution?,N
+0.16.2,Limited Life Entity,Is the entity a limited life entity?,N
+0.16.3,Venture Capital Organisation or Similar Entity,Is the entity a venture capital organisation that on initial recognition has designated investments in associates or jointly controlled entities at fair value through profit or loss or held for trading and are accounted for at fair value in accordance with IAS 39?,N
+0.16.4,"Mutual Fund, Unit Trust or Similar Entity","Is the entity a mutual fund, unit trust or a similar entity including an investment-linked insurance fund that on initial recognition has designated investments in associates at fair value through profit or loss or held for trading and are accounted for at fair value in accordance with IAS 39?",N
+0.16.4.4,Income Streams,"Does the entity have income streams (for example interest, revenues, royalties, dividends)?",N
+0.16.4.4.1,Income Streams,Does the entity's income include revenue from contracts with customers?,N
+0.16.5,Rate Regulated Activity,Do any of the entity's operations constitute rate regulated activity?,N
+0.16.6,Commodity Trader/ Broker,Is the entity a commodity broker-trader that records its inventory at fair value less costs to sell under IAS 2 Inventories (see help text)?,N
+0.16.7,Mutual insurer,Is the company a mutual insurer?,N
+0.16.8,Insurance contracts,"Does the entity issue either:
+Insurance Contracts (as defined in IFRS 4); or
+Financial instruments with discretionary participation features (as defined in IFRS 4)?",N
+0.16.8B,Practical expedient to reassess contracts,"Has the entity chosen to apply the practical expedient in C3 of IFRS 16 to not reassess whether a contract is, or contains, a lease at the date of initial application?",Y
+0.18,Agricultural activity,Is the entity engaged in agricultural activity?,Y
+0.18.1,Agriculture - holding of bearer plants,As part of the entity's agricultural activities does the entity hold bearer plants? (See help text),N
+0.19,Concession operator or concession provider,Is the entity a concession operator or concession provider (see help screen),N
+0.21,Hyperinflationary currency,Is the entity's functional currency the currency of a hyperinflationary economy?,N
+,,(a) present its financial statements in a currency other than its functional currency?,N
+,,(b) display any supplementary financial information in a currency different to its functional currency or presentation currency?,N
+0.23,Foreign operations,Does the entity have any foreign operations?,Y
+,,"(a) Property, plant and equipment",Y
+,,(b) Investment property,N
+,,(c) Goodwill,N
+,,(d) Intangible assets other than goodwill,Y
+,,(e) Investments in associates within the scope of IAS 28 'Investments in associates' (see Help! screen),N
+,,(fa) Investments in Joint Arrangements in scope of IFRS 11 'Joint Arrangements'.,N
+,,(g) Biological assets,N
+,,(h) Inventories,N
+,,(i) Provisions,Y
+,,(j) Current tax liabilities or assets (or current tax expense / income during any period presented),Y
+,,(k) Deferred tax liabilities or assets (or deferred tax expense / income during any period presented),Y
+,,(l) Defined benefit plan assets or liabilities NB You should answer No to this question if the only defined benefit obligations are through multi-employer plans accounted for as a defined contribution scheme.,N
+,,(o) are there any financial assets within the scope of IFRS 7 'Financial Instruments: Disclosures',Y
+,,(p) are there any financial liabilities within the scope of IFRS 7 'Financial Instruments: Disclosures',Y
+,,(q) Is the entity a lessor in accordance with IFRS 16?,Y
+,,(r) Is the entity a lessee in accordance with IFRS 16?,Y
+,,(s) Does the lessor have finance leases?,N
+,,(t) Does the lessor have operating leases?,Y
+0.24A,Practical expedient retrospectively,Has the entity chosen to apply the practical expedient in C5(b) of IFRS 16 to retrospectively apply this standard with the cumulative effect of initially apply the standard recognised at the date of initial application in accordance with C7 to C13?,Y
+0.24B,Practical expedient retrospectively,Has the entity chosen to use one or more of the practical expedients in C10 of IFRS 16 to leases previously classified as operating leases?,Y
+,,,N
+0.25.3,Hedges of a Net Investment in a Foreign Operation,Does the entity hedge the foreign currency risk arising from its net investments in a foreign operation and wish to qualify for hedge accounting under IAS 39?,N
+0.25.6C,First Time adoption of IFRS 9,"Is the first time that the entity has adopted the latest selected IFRS 9 version, in these financial statements?
 
-- Preliminary announcements.
-",A
-T1.2,Disclaimer,"We have tried to ensure that all requirements are included in the checklist and that the link between the tailoring questions and the disclosure requirements is robust. However we can give no warranty as to the accuracy or completeness of the software. 
+Note: Select ""Yes"" if the entity has previously adopted an older version of IFRS 9 (e.g. 2009) and now adopting a later IFRS 9 (e.g. 2014) early.",N
+0.25.6.2,Classification of financial assets under IFRS 9,"Which of the following financial assets are recognised in the entity's financial statements?
 
-It still remains the responsibility of the user to ensure that the financial statements comply with all disclosure requirements. 
+(1) Financial assets measured at fair value through profit or loss as mandatorily required by IFRS 9.
 
-Please be aware that this checklist does not cover the recognition, measurement and presentation requirements of FRS 102 or referenced IFRSs, although reference to these aspects of standards are made where is it is considered relevant, for example in help screens giving background information on disclosure requirements.",A
-T1.3,Applicable Period,"This checklist should only be used for accounting periods ending on or after 31 December 2012 where FRS 102 is being adopted.
+(2) Financial assets measured at fair value through profit or loss as designated at initial recognition under IFRS 9.
 
-Where the financial statements are for a periods ending before this date, please contact Ideagen in order to ascertain the
-most suitable checklist to apply in your scenario.",A
-T2.1,SORPS,"Is the entity within the scope of a SORP or Accounts Direction (or volunteering to comply with one where it does not conflict with the framework adopted)?
+(3) Financial assets measured at amortised cost.
 
+(4) Financial assets measured at fair value through other comprehensive income.",2
+0.25.6.3,Classification of financial liabilites under IFRS 9,"Which of the following financial liabilities are recognised in the entity's financial statements?
 
-Note. Where the entity is a charity but a separate SORP exists for a particular class of charity, eg SORP applicable for Registered Social Housing Providers or further and higher education, those SORPs should be used and not the charity SORP.",None
-T2.4,Public Benefit Entity,Is the reporting entity a public benefit entity?,N
-T2.4A,Public Benefit Entity,Is the reporting entity part of a public benefit group?,N
-T2.27,Investment trusts,Do you wish to include the disclosure requirements of the AIC SORP 2014 and AIC SORP 2018 for the Financial statements of Investment Trust Companies and Venture Capital Trusts?,N
-T2.44,UK Authorised funds,"Is the entity a UK authorised fund? Note. If the answer is 'Yes', the checklist will include the requirements from the IMA SORP for financial statements of Uk Authorised Funds (issued May 2014 and June 2017).",N
-T1.1.1,Accounting period start date,What is the first day of the entity�s accounting period?,01/01/2019
-T1.1.2,Accounting period end date,What is the last day of the entity's accounting period?,31/12/2019
-T1.1.6,First financial statements,Are these the first financial statements produced by the entity?,N
-T1.1.7,Frequency of reporting,Are the annual financial statements being presented for a period of other than a year (e.g. because of a change in year end)?,N
-T3.1.2.2,UK Exity from the EU, Does the entity wish to early adopt the amendments to FRS 102 - UK exit from the EU?, N,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-T1.2.2,Entity size,"Do you want the checklist to assist in determining whether the company or LLP is small, medium or large? Note. This will not determine if the entity can adopt the micro-entity provisions.",N
-T3.1.2.25,Size of entity,"Does the entity qualify for: -Small exemptions; - Medium-sized exemptions, or - None of the above?",Medium
-T1.2.17,Micro,Is the entity adopting the micro entity regulations?  See Help for guidance.,N
-T1.2.23A,Overseas company,Is the entity an overseas company as defined in the Companies Act 2006? See Help for guidance.,N
-T1.2.24,Type of entity,"Please select the type of entity that this checklist is being answered for: 
-Private Company - a UK private company that is limited by shares (Ltd or c.i.c); 
-Public Company - a UK public limited company (Plc) or c.i.c.; 
-Unlimited Company - a UK unlimited company (or c.i.c.) or a company limited by [membership] guarantee; 
-LLP - a limited liability partnership (LLP) incorporated in Great Britain under the 2000 Act, or 
-None of the above? 
-If the entity is a Qualifying Partnerships, please tick private company. If the entity is a Co-operative and Community Benefit Societies select none of the above.",None of the above
-T1.2.25,Co-ops and Community benefit societies,Is the entity a Co-operative and Community Benefit Society?,N
-T1.3.1,Group membership,Please select which item(s) describe the group membership of the entity (tick all that apply):,Subsidiary
-T1.4.1,Active or dormant entity?,"Was the entity, including any subsidiaries, active at any time in the period?
+(1) Financial liabilities measured at fair value through profit that meet the definition of held for trading under IFRS 9.
 
+(2) Financial liabilities measured at fair value through profit or loss as designated at initial recognition under IFRS 9.
 
-
-(Answer 'yes' unless dormant as defined on the help screen)",Y
-T1.5.1,Subsidiary accounts audit exemption,Is the entity intending to apply the subsidiary exemption from audit (see Help)?,Y
-T1.5.2,Subsidiary accounts audit exemption exclusions,"At any time within the financial year in question was the entity:-
-
-(a) a quoted company as defined in section 385(2) of the Companies Act 2006, 
-
-(b) a company that� 
-
-(i) is an authorised insurance company, a banking company, an e-money issuer, a MiFID investment firm or a UCITS management company, or 
-
-(ii) carries on insurance market activity, or 
-
-(c) a special register body as defined in section 117(1) of the Trade Union and Labour 
-Relations (Consolidation) Act 1992 (c 52) or an employers� association as defined 
-in section 122 of that Act or Article 4 of the Industrial Relations (Northern Ireland) 
-Order 1992 (S.I. 1992/807) (NI 5).",N
-,Subsidiary accounts audit exemption exclusions,(a) all members of the company have agreed to the exemption in respect of the financial year in question?,Y
-,Subsidiary accounts audit exemption exclusions,(b) the parent undertaking has given a guarantee under section 479C of the Companies Act 2006 in respect of the financial year in question?,Y
-,Subsidiary accounts audit exemption exclusions,"(c) the company is included in the consolidated accounts drawn up for the financial year in question, or to an an earlier date in that year, by the parent undertaking in accordance with :-
-
-(i) the provisions of the Seventh Directive (83/349/EEC), or
-
-(ii) international accounting standards?",Y
-,Subsidiary accounts audit exemption exclusions,(d) the parent undertaking has disclosed in the notes to the consolidated accounts that the entity is exempt from the requirements to the audit of individual accounts by virtue of the Companies Act 2006 s.479AA?,Y
-,Subsidiary accounts audit exemption exclusions,(e) the audit exemption statements (CA 06 s.475(2) and (3)) have been included on the balance sheet?,Y
-,Subsidiary accounts audit exemption exclusions,(f) members accounting for over 10% of a class of issued shares demand an audit (not applicable for LLPs)?,Y
-T1.5.4A,Warning - exemption conditions not met,The subsidiary must meet all the above conditions to take advantage of the available exemption. The checklist will now assume that the exemption conditions are not being applied.,OK
-T1.7.1.2,Initial adoption of FRS 102,"Are these the entity's first set of accounts under FRS 102?
-
-(See Help)
-
-Please answer ""No"" if the entity has applied FRS 102 in a previous accounting period, even if the accounts did not contain an explicit and unreserved statement of compliance with FRS 102.",N
-T1.7.1.3,Amended Standards or Abstracts,Has an amendment to any FRS or Abstract had an effect on the current or prior periods or might have an effect on future periods?,N
-T1.7.2.1,Previous Annual Financial Statements,Do the most recent previous annual financial statements of the entity contain an explicit and unreserved statement of compliance with this FRS?,N
-T1.7.2.2,Transition to FRS102,"As the entity's most recent previous annual financial statements did not contain an explicit and unreserved statement of compliance with FRS 102, has the entity:
-
-(1) applied section 35, ""Transition to this FRS"", or
-
-(2) applied FRS 102 retrospectively in accordance with Section 10 Accounting Policies, Changes in Estimates and Errors as if the entity had never stopped applying FRS 102?
-
-Note: First time adopters of FRS 102 should answer (1) but other entities have a choice of (1) or (2).",1
-T1.7.2.3,Restatement of opening position at the date of transition,Is it impracticable for the entity to restate the opening statement of financial position at the date of transition for one or more of the adjustments required by paragraph 35.7- see Help?,N
-T1.7.2.4,Prior Period Disclosures,Is it impracticable for the entity to provide any disclosures required by this FRS for any period before the period in which it prepares its first financial statements that conform to this FRS?,N
-T2.1.1,Financial Institution,Is the reporting entity a financial institution (see Help)?,N
-T2.3.1,Securities,"Are any of the entity's securities publicly traded, or is the entity in the process of filing its financial statements with a securities commission or other regulatory organisation for the purpose of issuing any class of instruments in a public market?",N
-T2.3.15,Earnings per share,"Does the entity voluntarily disclose earnings per share?
+(3) Financial liabilities measured at amortised cost.",3
+0.25.8.4,Off-setting of recognised financial instruments,Does the entity have recognised financial instruments that are set off in accordance with paragraph 42 of IAS 32?,N
+0.25.8.5,Recognised financial instruments - master netting arrangements and similar agreements,Does the entity have recognised financial instruments that are subject to an enforceable master netting arrangement (or similar agreement) irrespective of whether they are set off in accordance with paragraph 42 of IAS 32?,N
+0.25.9A,Designation of financial asset(s) at FVTPL (IFRS 9),Has the entity designated as measured at fair value a financial asset (or group of financial assets) that would otherwise be measured at amortised cost?,N
+0.25.10A,Reclassification of Financial Assets (IFRS 9),"Has the entity, in the current or previous reporting periods, reclassified any financial assets in accordance with paragraph 4.4.1 of IFRS 9?",N
+0.25.12.1,Transfers of Financial Assets,Has the entity transferred financial assets that are not derecognised in their entirety?,N
+0.25.12.2,Transfers of Financial Assets,Has the entity transferred financial assets that are have been derecognised but the entity has a continuing involvement in them?,N
+0.25.13A,Pledging of collateral,Has the entity pledged financial assets as collateral for liabilities or contingent liabilities?,N
+0.25.15,Compound financial instruments with multiple embedded derivatives,Has the entity issued a compound financial instrument (containing a liability and equity component) which has multiple embedded derivatives whose values are interdependent?,N
+0.25.16,Defaults and breaches regarding loans payable,"Has there been a default or breach in respect of loans payable at the end of the reporting period (for example of principal, interest, sinking fund or redemption terms)?",N
+0.25.17,Other defaults and breaches regarding other loans payable,"Have there been other breaches in respect of other loans payable at the end of the reporting period (breaches other than principal, interest, sinking fund or redemption terms) that permitted the lender to demand accelerated repayment and such breaches were not remedied, or the terms of the loan were not renegotiated on or before the end of the reporting period?",N
+0.25.18,Cash flow hedges,Has the entity designated any cash flow hedges as described in IAS 39 (which qualify for hedge accounting under that standard)?,N
+0.25.19,Fair Value hedges,Has the entity designated any fair value hedges as described in IAS 39 (which qualify for hedge accounting under that standard)?,N
+0.25.21A,Fair value of financial instrument where market for instrument is not active,Is there a difference between the fair value at initial recognition and the amount that would be determined at that date using the valuation technique?,N
+0.25.23,Contracts that contain a discretionary participating feature,Has the entity entered into contracts containing a discretionary participating feature where the fair value of that feature cannot be measured reliably?,N
+0.25.24,Fee income and expense on financial items,Has the entity incurred fee income and/ or expense (other than amounts included in determining the effective interest rate) in respect of financial assets or financial liabilities that are not at fair value through profit or loss?,N
+0.25.25,Fee income and expense in respect of trust and other fiduciary duties,"Has the entity incurred fee income and/ or expense in respect of financial assets that result in the holding or investing of assets on behalf of individuals, trust, retirement benefit plans, and other institutions?",N
+0.25.26,Sensitivity analysis,Has the entity prepared a sensitivity analysis for market risk?,N
+0.26.1.2,"Defined contribution plan
+","Does the entity operate one or more defined contribution pension plans?
 ",N
-T2.4.1,Qualifying Entity,Does the parent of the group of which this entity is a member:,H
-,Qualifying Entity,"prepare publicly available consolidated financial statements which are intended to give a true and fair view (of the assets, liabilities, financial position and profit or loss)?",N
-,Qualifying Entity,include this entity in the consolidation?,N
-T2.5.3,Total comprehensive income,"Which approach is taken to total comprehensive income presentation?
-
-
-
-1. Single statement
-
-
-
-2. Two separate statements (Income/p&l and comprehensive income)",2
-T2.5.3.1,Other Comprehensive Income,Are there any non profit and loss items in the current or previous period to record as Other Comprehensive Income?,Y
-T2.5.6,Extractive Industries,Is the Entity (or in the case of a group the group of which this entity is a parent) involved in extractive industries?,N
-T2.5.7,Insurance Contracts,"Does the entity issue either:
-Insurance Contracts (as defined in FRS 102/ 103); or
-Financial instruments with discretionary participation features (as defined in FRS 102/ 103)?",N
-T2.5.8,Insurance,Is the reporting entity either an insurance company or group?,N
-T2.5.10,Discretionary participation,Does the reporting entity issue contracts (either insurance contracts or financial instruments) with discretionary participation features (as defined in FRS 102/ 103)?,N
-T3.1,Departures,"Are there any material departures from applicable legislation, or accounting standards?",N
-T3.1.1,Departures prior period,"Are there any material departures from applicable legislation, or accounting standards in the prior period which affect the amounts recognised in the current period?",N
-T3.3,Going concern,Has management produced financial statements on a going concern basis?,Y
-T3.4,Going concern: Material uncertainties,"Is management aware, in making its assessment of an entity's ability to continue as a going concern, of material uncertainties related to events or conditions that cast significant doubt upon that entity�s ability to continue as a going concern?",N
-T3.5,Change in presentation or classification,Has the entity changed the presentation or classification of items in the financial statements?,N
-T4.1.1,Accounting transactions,Has the entity:,H
-,Accounting transactions,#NAME?,N
-,Accounting transactions,#NAME?,N
-,Accounting transactions,#NAME?,N
-,Accounting transactions,#NAME?,N
-T4.1.2,Voluntary change in AP,Has the entity applied a voluntary change in accounting policy which has had an effect on the current period or any prior period?,N
-T4.1.4,Changes in accounting estimates,"Has the entity adjusted the carrying amount of an asset or a liability, or the amount of the periodic consumption of an asset giving rise to a change in accounting estimate?",N
-T4.1.5,Prior Period Errors,Have any errors been detected relating to prior periods?,N
-T4.1.7,Special transactions,"In relation to the accounting period, has the entity:",H
-,Special transactions,"- events after the balance sheet date (adjusting or not)?
-
-",Y
-,Special transactions,#NAME?,N
-T4.1.8,Dividend paid or proposed,Has the entity paid or proposed dividends?,N
-T4.2.1,Not Cos. Act balance sheet,"Does the entitys statutory framework prevent it using a Companies Act balance sheet format?
-
-Select 'Yes' if you are a charity, academy trust or further and higher educaton establishment.",N
-T4.2.2,Balance sheet format,"Does the entity follow statutory:
-
-1) balance sheet format 1 (vertical); or
-
-2) balance sheet format 2 (horizontal)? This included abridged or adapted balance sheets where relevant.",1
-T4.2.3,Contents,Which of the following items does the entity have:,H
-,Contents,Intangible assets,N
-,Contents,Tangible fixed assets?,Y
-,Contents,"Property, plant and equipment?",Y
-,Contents,Investment property?,N
-,Contents,Biological assets related to agricultural activity?,N
-,Contents,Investments in Associates?,Y
-,Contents,Heritage Assets?,N
-,Contents,investments (including subsidiaries)?,Y
-,Contents,"Investments in: 
-
-joint ventures; 
-jointly controlled entities; 
-jointly controlled operations, or 
-jointly controlled assets?",Y
-,Contents,Financial Instruments?,Y
-,Contents,Financial Instruments measured at fair value?,Y
-,Contents,Impaired assets?,N
-,Contents,Contingent assets?,N
-,Contents,Share-based payment transactions?,N
-,Contents,share capital?,Y
-,Contents,Inventory/stock/work in progress?,N
-,Contents,long term contracts?,N
-,Contents,debtors?,Y
-,Contents,creditors or loans except debentures?,Y
-,Contents,Provisions and contingent liabilities?,Y
-,Contents,actual or potential deferred tax?,Y
-,Contents,Leases?,Y
-,Contents,Grants receivable?,N
-T4.2.4,Purchased goodwill,"Past and current acquisitions have given rise to:
-
-1. Positive goodwill only.
-
-2. Negative goodwill only.
-
-3. Both positive and negative goodwill (on different acquisitions).
-
-4. No goodwill.
-
-Answer 4. if no acquisitions or they had all been disposed of prior to the opening balance sheet date.
-Answer 4. if n/a due to accounts being prepared under the Charities SORP",4
-T4.2.6,Non derivative non trading FVTPL,Are any of the fair value through p&l financial instruments non-derivatives that are not held as part of a trading portfolio?,N
-T4.2.7,Loan Defaults,"Has the entity defaulted on any principal, interest, sinking fund or redemption provisions on loans payable recognised at the balance sheet date or breached any term of a loan agreement that permits the lender to demand repayment (except for breaches that are remedied, or in response to which the terms of the loan are renegotiated on or before the balance sheet date)?",N
-T4.2.8,Investments valued,Are any of the investments (including investments in associates and joint ventures) included at a valuation?,Y
-T4.2.9,Tangible fixed asset details,Does the entity own any:,H
-,Tangible fixed asset details,#NAME?,N
-T4.2.10,Finance costs capitalised,"Does the cost of any asset include capitalised finance costs?
-
-Notes:
-1. Companies Act restricts such interest to the period of production.
+,,(a) contingent assets?,N
+,,(b) contingent liabilities?,Y
+0.35A,"Multi-employer pension plans
+","Is the entity a member of a multi-employer defined benefit scheme?
 ",N
-T4.2.13,Disposals,Has the entity entered into a binding sale agreement at the reporting date for a major disposal of assets or a disposal group?,N
-T4.3.1A,Changes in equity,"Has the entity presented its change in equity:
+0.35A.1.1,"Defined benefit plan between entities under common control
+","Is the entity a member of a defined benefit plan that shares risks between entities under common control?
+",N
+0.36,Share capital,Does the entity have any equity instruments in issue (i.e. does the entity have a share capital)?,Y
+0.37,Related party transactions,B,Y
+0.37A,Separate management entity,Does the entity utilise key management services provided by a separate entity not otherwise related to the entity?,N
+0.37.15A,Negative compensation,Is this period the period of initial application of the amendments to IFRS 9 prepayment features with negative compensation?,N
+0.38,Impairment testing required,Does the entity have intangible assets other than goodwill with an indefinite useful economic life?,N
+,,(a) Classified any operations as discontinued?,N
+,,(b) Classified any assets or liabilities as belonging to a disposal group?,N
+,,(c) Classified any non-current assets as held for sale?,N
+,,(a) during the period?,N
+,,(b) after the balance sheet date but before the financial statements are authorised for issue?,N
+0.59.10,Completion of accounting for business combinations for where initial accounting incomplete,Are there any business combinations in the previous period (accounted for under IFRS 3(2008) for which the initial accounting for the business combination was incomplete in the previous reporting period but that accounting is now complete?,N
+0.59.11,Unexpired contingent consideration arrangements (prior years),At the reporting date is there any unexpired or unsettled contingent consideration liability (or asset) relating to past business combinations accounted under IFRS 3(2008) or in respect of business combinations entered into in prior years?,N
+0.6,Disposals,Did the entity dispose of any operations during the current or any prior period presented?,N
+0.60.1,Distributions of Non- cash Assets to Owners in the reporting period,Has the entity made any distributions of non-cash assets to owners within the scope of IFRIC 17 during the reporting period? (see help screen),N
+0.60.2,Distributions of Non- cash Assets to Owners after the end of the reporting period,Has the entity made any distributions of non-cash assets to owners within the scope of IFRIC 17 after the end of the reporting period but before the financial statements are authorised for issue? (see help screen),N
+0.60.5,Loss of control of subsidiary undertaking during the reporting period,Has the parent entity lost control of any of its subsidiary undertakings during the reporting period (by way of disposal or otherwise)?,N
+0.60.6,Changes in the ownership subsidiaries not resulting in a loss of control,Has there been a change in the parent entity's ownership interests in subsidiaries during the reporting period that have not resulted in a loss of control?,N
+0.60.7,Discontinued operations and items held for sale,Are there any non-current assets (including disposal groups or subsidiaries) held for distribution to owners acting in their capacity of owners?,N
+,,(a) Impairment losses of non-financial assets within the scope of IAS 36 'Impairment of assets' (see Help! screen) during the current or any period presented,Y
+,,(b) Reversals of impairment losses of non-financial assets within the scope of IAS 36 'Impairment of assets' (see Help! screen) during the current or any prior period presented. Note that past impairments of goodwill cannot be reversed.,N
+0.62,Impairment losses,"Which of the following applies to the entity? (1) An impairment loss or reversal of an impairment loss of an individual asset or cash generating unit recognised was material in its own right (2) Impairment losses or reversals of impairment losses of individual assets or cash generating units recognised were material in aggregate, but none were individually material. (3) The entity recognised impairment losses or reversals of impairment losses of individual assets or cash generating units, some of which were individually material, while others were material only when aggregated.",3
+,,(a) Equity-settled share-based payment transactions?,N
+,,(b) Cash-settled share-based payment transactions?,N
+,,(c) Group Cash-settled Share-based Payments where another member of the group (for example the parent company) has the obligation to make the payments to the suppliers of goods or services (for example employees).,N
+0.67.1,Government grants,"Has the entity benefited from government grants in the current or any prior period presented? Note: You should answer ""yes"" to this question even where the entity did not receive any grants during any period presented if either of the following apply: · The entity has deferred income relating to a government grant at any balance sheet date presented or at the beginning of the earliest period presented; or · The entity has an asset at any balance sheet date presented or at the beginning of the earliest period presented, and that asset was initially recognised at an amount net of a grant received.",N
+0.67.2,Incurring borrowing cost,"Has the entity incurred borrowing costs directly attributable to the construction of a qualifying asset (other than qualifying assets measured at fair value or inventories manufactured, or otherwise produced, in large quantities on a repetitive basis)?",N
+0.68,"Property, plant and equipment","Does the entity have a policy of revaluing any class of property, plant and equipment? Note: You should answer ""No"" to this question if the entity: · Is a first time adopter of IFRS; and · Is applying a policy of cost going forward, but chooses to use fair value in its opening IFRS balance sheet as deemed cost for any item of property, plant and equipment.",N
+0.71,Intangible assets,"Does the entity have a policy of revaluing any class of intangible assets? Note: You should answer ""No"" to this question if the entity: · Is a first time adopter of IFRS; and · Is applying a policy of cost going forward, but chooses to use fair value in its opening IFRS balance sheet as deemed cost for any intangible asset.",N
+,,(a) for any reason other than the application of a new Standard or Interpretation?,N
+,,(b) as a result of applying a new Standard or Interpretation in the year the Standard or Interpretation is effective,Y
+,,"(c) as a result of applying a new Standard or Interpretation early, i.e. before its effective date",Y
+0.75A,Change in accounting policy - effect at beginning of preceding period,Does the change in accounting policies referred to in your answer to question 0.74 have a material effect on the statement of financial position at the beginning of the preceding period?,N
+0.77,Correction of prior period errors,Has the entity identified and corrected an error arising in the financial statements of a prior period?,N
+0.77.1,Reclassification of items,Has the entity reclassified items in its financial statements that affect the reclassification of amounts presented in previous periods' financial statements?,N
+0.78,Departure from the requirements of IFRSs,"Has the entity departed from the requirements of any Standard or Interpretation in the current or any prior period presented, because management have concluded that compliance would be so misleading so as to conflict with the objective of financial statements set out in the Framework for the Preparation and Presentation of Financial Statements adopted by the IASB in April 2001?",N
+0.85,Voluntary application of IAS 33 'Earnings per Share',Is the entity voluntarily disclosing earnings per share in accordance with IAS 33 'Earnings per share'? Note: An entity voluntarily disclosing earnings per share must comply fully with IAS 33 'Earnings per Share',N
+0.86.1,Puttable financial instruments classified as equity,Does the entity have any puttable financial instruments classified as equity instruments?,N
+0.86.2,Instruments that impose on the entity obligations only on a liquidation,Does the entity have any instruments that impose an obligation to deliver to another party a pro-rata share of the net assets of the entity only on liquidation?,N
+0.86.5,Extinguishing Financial Liabilities with Equity Instruments,Has the entity extinguished a financial liability (or part of a financial liability) by issuing equity instruments as consideration paid to extinguish the liability (or part of a liability)?,N
+0.87.1A,Statement of Profit or Loss and Other Comprehensive Income,"In respect of the Statement of Profit or Loss and Other Comprehensive Income which of the following presentations has the entity decided to follow?
 
-(1) in a separate Statement of Changes in Equity; or
+(1) the presentation of all items of income and expense in a single statement of profit or loss and other comprehensive income (with profit or loss and other comprehensive income presented in two sections)
 
-(2) in the Statement of Income and Retained Earnings?
+OR
 
-Note: (2) is only permitted when the only changes in equity are:
-a) profit or loss -so no other comprehensive income;
-b) payment of dividends; and
-c) prior period adjustments.",1
-T4.4.1,Cash Flow Presentation,"Which method of presentation does the entity use for reporting cash flow from operating activities?
+(2) the presentation of the profit or loss section in a separate statement of profit or loss, and the presentation of other comprehensive income in a separate statement.
+",2
+0.87.2,Presentation of income tax related to items of other comprehensive income,"In respect of the Presentation of income tax related to items of other comprehensive income which of the following presentations has the entity decided to follow?
 
-Note:The indirect method reconciles profit and cash flow.",Indirect
-T4.5.2.0,Operating Segments,"Does the entity wish to voluntarily provide information described as segment information? 
+(1) Presentation of other comprehensive income net of related tax effects; or
 
-Note: Unless the entity wants to apply IFRS 8 disclosures any disaggregated information should not be described as segment information.",N
-T4.6.7,Filing and other obligations,Is delivery in paper form?,N
-T4.6.8,Filing obligations,"In addition to completing this checklist, those delivering in electronic form or CD-ROM or DVD-ROM should make sure that those forms of documents comply with the Registrar's Rules 2009.",A
-T4.6.9,Not Cos. Act p&l,"Does the entity's statutory framework prevent it using a Companies Act profit and loss account format?
+OR
 
-Select 'Yes' if you are a charity, academy trust or further and higher education establishment.",N
-T4.6.11,Profit and loss account format,"Does the entity follow:
-
-1) profit and loss format 1 (expenses by function, vertical);
-
-2) profit and loss format 2 (expenses by nature, vertical);
-
-3) profit and loss format 3 (expenses by function, horizontal); or
-
-4) profit and loss format 4 (expenses by nature, horizontal)?
-
-Note:""by function"" means cost of sales, distribution, administrative etc. ""by nature"" means raw materials, staff costs, depreciation etc.
-LLP's can only select format 1 or format 2. This included abridged or amended formats where relevant.",1
-T4.7.3,QCA Code compliance,Does the entity voluntarily apply the Quoted Companies Alliance Corporate Governance Code?,N
-T4.8.1,Types of investment,"Are the entity's investments:
-
-1) - unlisted?
-
-2) - listed?
-
-3) - both listed and unlisted?",1
-T4.8.2,Current asset investments,Are there any current asset investments?,N
-T4.8.3,Fixed or current investments,"Does the entity have:
-
-1) fixed asset investments only;
-
-2) current asset investments only; or
-
-3) both fixed and current asset investments?",1
-T4.8.4,Significant shareholdings,"Other than its investments in subsidiary entities, does the entity have:",H
-T4.8.5,Significant shareholdings,- any associated undertakings (generally more than 20% of voting rights)?,N
-T4.8.6,Significant shareholdings,- significant shareholdings in any undertaking (generally more than 20% of any class of shares or 20% of assets)?,N
-T4.8.5,Investments in Associate: scope,"Has the entity accounted for its investment in associates:
-
-1) in accordance with the cost model provided by paragraphs 14.5 to 14.6 of FRS 102;
-
-2) using the fair value model provided by paragraphs 14.9 to 14.10A of FRS 102, or
-
-3) at fair value with changes in fair value recognised in profit or loss?",1
-T4.8.6,Sponsoring Entity,Is the entity a sponsoring entity (see help) that recognises the assets and liabilities held by an intermediary?,N
-T4.10.1,Fair value measurement,"Does the entity have a policy of revaluing property, plant and equipment at fair value?",N
-T4.11.1,Provisions and contingencies: scope,Do the financial statements of the reporting entity include:,H
-T4.11.2,Provisions and contingencies: scope,(a) provisions (ie liabilities of uncertain timing or amount);,Y
-T4.11.3,Provisions and contingencies: scope,(b) contingent liabilities;,N
-T4.11.4,Provisions and contingencies: scope,(c) amounts in respect of financial guarantee contracts?,N
-T4.11.2,Prejudicial disclosures,"Does the entity have any disputes with other parties where the outcome of these disputes would be seriously prejudiced by satisfying the full disclosure requirements for provisions, contingent liabilities and contingent assets?",N
-T5.2,Transfer of non-cash collateral,Has the entity (transferor) transferred to another party any non-cash collateral that the other party (transferee) has the right by contract or custom to sell or repledge?,N
-T5.3,Financial instruments - Derecognition of assets -Transfer of assets not resulting in derecognition,"Has the entity transferred financial assets to another party in a transaction that does not qualify for derecognition, because the entity has retained significant risks and rewards of ownership of the transferred asset?",N
-T3.6.7,IR benchmark reform,Does the entity wish to early adopt the amendments to FRS 102 - interest rate benchmark reform (phase 2)?,N
-T7.1,Funding commitments: scope,Has the entity committed to provide resources to other entities which is not a loan?,N
-T8.1.2,Pension arrangements,#NAME?,N
-T8.1.3,Pension arrangements,"- defined benefit pension schemes? 
-
-Note: Under a defined benefit scheme, benefits are determined independently of the contributions payable, for example based on final salary. This would include a defined benefit multi-employer scheme that is being accounted for as a defined contribution arrangement under FRS 102.",Y
-T8.1.4,Pension arrangements,#NAME?,N
-T8.1.5,Pension arrangements,#NAME?,N
-T8.1.3,Multi-employer scheme,Is there a multi-employer defined benefit scheme (i.e. one that covers entities not under common control)?,N
-T10.1,Employee Benefits: scope,"Has the entity accounted for any of the following types of employee benefits: 
-
-
-
-
-",H
-T10.2,Employee Benefits: scope,"(a) other long-term employee benefits, which are all employee benefits, other than short-term employee benefits, post-employment benefits and termination benefits; or",N
-T10.3,Employee Benefits: scope,"(b) termination benefits, which are employee benefits provided in exchange for the termination of an employee�s employment as a result of either:
-
-(i) an entity�s decision to terminate an employee�s employment before the normal retirement date; or
-
-(ii) an employee�s decision to accept voluntary redundancy in exchange for those benefits?",N
-T10.2,Multi-employer defined benefit plan,Has the entity early adopted the amendments to FRS 102: Multiple employee benefits?,N
-T11.1,Scope: Business combinations effected in the period,Did the entity effect any business combinations in the period?,N
-T11.3,Group reconstructions: scope,Did the entity effect any business combinations in the period? Note. You should answer 'No' to this question if the only business combinations are group reconstructions.,N
-T11.5,Discontinued operations: scope,Does the entity have any discontinued operations?,N
-T13.1,Related Parties,"Has the entity entered into any transactions with related parties, or are there outstanding balances between the entity and related parties?
-
-See help for further guidance on related parties under FRS 102.
-
-Note: If all related party transactions are between members of a group and all involved subsidiaries are wholly owned by such a member, and there are no outstanding balances within that group, no disclosures are required and so a 'N/A' answer can be given. This exemption is not available for charities (see SORP para 9.17 and 23.4) If the entity is applying section 1A of FRS 102, no disclosure is required if the transactions have all been concluded under normal market conditions and so a 'N/A' answer can be given. If there are no transactions but there are outstanding balances you should answer 'Yes' to this question, although if you are using the Companies Act formats, the disclosure of oustanding balances is covered by using those formats and disclosing the balances within debtors and/or creditors. Therefore if this is the case, a 'N/A' answer can be given.",N
-T14.1,Leases: scope,"Does the reporting entity have arrangements, including sale and leaseback transactions, which constitute:",H
-,Finance Leases as lessee: scope,"(a) Finance leases, as a lessee;",N
-,Operating leases as lessee: scope,(b) Operating leases as lessee.,Y
-,Finance Leases as lessor: scope,"(c) Finance leases, as a lessor;",N
-,Operating Leases as lessor: scope,"(d) Operating leases, as a lessor.",N
-T15.1,Revenue,Has the entity recognised revenue arising from the following transactions and events:,H
-,Revenue,(a) the sale of goods;,N
-,Revenue,(b) the rendering of services;,Y
-,Revenue,(c) construction contracts in which the entity is the contractor;,N
-T16.1,Foreign activities,Does the reporting entity have foreign activities which it accounts for as follows:,H
-,Foreign activities,(a) as transactions in foreign currencies;,N
-,Foreign activities,(b) or as foreign operations; or,N
-,Foreign activities,(c) does it present its financial statements in a foreign currency?,N
-T16.3,Hyperinflation,Is the functional currency of the entity the currency of a hyperinflationary economy and therefore it has prepared financial statements adjusted for the effects of hyperinflation?,N
-T16.4,Differing presentation and functional currency,Does the presentation currency differ from the functional currency?,N
-T16.5,Change in functional currency,Has there been a change in the functional currency of either the reporting entity or a significant foreign operation?,N
-,End of Tailoring,You have reached the end of the tailoring section. Assuming all questions have been correctly entered it will shortly be possible to complete the main body of the checklist.,A
-,,,End Tailoring
+(2) Presentation of other comprehensive income before related tax effects?",1
+0.88,Exploration and evaluation activities,"Does the entity enter into the activities of the exploration for, and the evaluation of, mineral resources?",N
+0.88.1,Oil and Gas Assets,Does the entity have oil and gas assets in the development or production phases?,N
+,,(2) Are there assets and/or liabilities not measured at fair value but fair value is disclosed?,N
+0.93,Disclosures ENCOURAGED by IFRSs,"Would you like the checklist to identify disclosures which entities are only ENCOURAGED to make, but not actually required to make for the financial statements to give a fair presentation?",Y
+0.94,Compliance with IFRS Practice Statement 'Management Commentary',Do you want to check management commentary disclosures against the non-mandatory IFRS Practice Statement 'Management Commentary' issued by the IASB in December 2010?,N
+0.100.2,UK Type of entity,What type of UK Companies Act entity is it? 1. Private company limited by shares 2. PLC (ie public) 3. Unlimited or limited by guarantee 4. LLP,1
+0.104.4,UK Size,Under the Companies Act is the entity: 1.Small 2. Medium-Sized 3.Neither small nor medium-sized 4. Not sure (checklist will guide you)?,3
+0.106.1,UK Group members prevent company being small,"Is the only reason that the company did not qualify as small, the fact that some other member of its group at some time in the financial year was from an ineligible category (see Help)?",Y
+0.106.2,UK Directors' report exemptions,"Does the company want to use the directors' report disclosure exemptions, even though it cannot claim the small accounts exemptions?",N
+0.106.3,UK Strategic report exemptions,Does the entity wish to use the Statutory Strategic Report exemptions?,N
+0.106.4,UK Other matters,Does the strategic report contain other matters that the directors consider are of strategic importance (instead of them being in the directors' report through regulations under s416(4))?,Y
+0.106.5,Non-financial information statement,"Was the company at any time within the financial year to which the strategic report relates: (a) a traded company, (b) a banking company, (c) an authorised insurance company, or (d) a company carrying on insurance market activity?",N
+0.106.8,Non-financial information statement,Does the company wish to voluntarily prepare a non-financial information statement in its strategic report?,Y
+0.107,UK Solus p&l not published,Is the Companies Act dispensation from publishing the entity's solus p&l account/income statement used?,N
+0.107.0,UK Separate group accounts,Are the IFRS group accounts separate from the parent's accounts?,N
+0.107.1,UK >250 employees,"Were there, on average for the financial year, more than 250 employees working wholly or mainly in the UK?",Y
+0.107.2,UK Highest paid director,"Is the total of directors' emoluments equal to or in excess of £200,000?",Y
+0.107.2.1,UK Directors' loans,"In respect of arrangements entered into on or after 1 October 2007, section 252 of the Companies Act 2006 extends the definition of 'connected person; in respect of the members of the close family included. The additions include: 1. any other person (of either sex) with whom the director lives as partner in an enduring family relationship [excluding the director's grandparent or grandchild, sister, brother, aunt or uncle, or nephew or niece]; 2. any children or step-children (under the age of 18) of that person in 1. above who live with the director; 3. the director's children or step-children (including adults); 4. the director's parents; 5. a trustee of a trust in which any of the persons referred to above is a beneficiary. In addition, section 252 uses the term 'connected with' rather than 'associated' in (c) above (but with no change in meaning), and in (f) above, refers to a 'firm that is a legal person under the law by which it is governed' rather than a Scottish firm.",A
+0.107.5.1,UK Directors' advances & credits,"At any time in the financial year, did advances or credits granted to directors subsist?",N
+0.107.5.2,UK Directors' guarantees,"At any time in the financial year, were there guarantees subsisting on behalf of directors?",N
+0.107.6,UK Dormant subsidiaries,Are there any dormant subsidiaries?,Y
+0.107.9,Greenhouse gas emissions,Does part 7A of schedule 7 of the large and medium-sized companies and groups (accounts and reports) regulations 2008 apply? See Help for guidance.,N
+0.108.1,QCA Code compliance,Does the entity voluntarily apply the Quoted Companes Alliance Corporate Governance Code?,N
+0.108.0.2,Corporte gov arrangements,"Does the company satisfy either or both of the following requirements—
+(a) it has more than 2000 employees;
+(b)it has—
+(i) a turnover of more than £200 million, and
+(ii) a balance sheet total of more than £2 billion?",Y
+0.108.3.1,UK Portfolio company under private equity,Do you want the software to check whether the report and accounts contains the enhanced disclosures for a portfolio company (see Help)?,N
+0.108.4.2,UK Filing obligations,Is delivery in paper form?,Y
+,End of tailoring,"You have now reached the end of the tailoring questions. If you have answered all the tailoring questions, you may now complete the detailed checklist.",A
