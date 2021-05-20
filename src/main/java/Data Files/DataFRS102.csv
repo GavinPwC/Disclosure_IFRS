@@ -10,7 +10,7 @@ As well as IFRS, various UK specific disclosures are included in the checklist. 
 0.1.1,Purpose of the checklist,"We have tried to ensure that all requirements are included in the checklist and that the link between the tailoring questions and the disclosure requirements is robust. However we can give no warranty as to the accuracy or completeness of the software. It still remains the responsibility of the user to ensure that the financial statements comply with all disclosure requirements. Please be aware that this checklist does not cover the recognition, measurement and presentation requirements of IFRSs, although reference to these aspects of standards are made where is it is considered relevant, for example in help screens giving background information on disclosure requirements. Note: This checklist should generally only be used for accounting periods beginning on or after 1 March 2012. Where the financial statements are for a period beginning before this date, please contact Pentana in order to ascertain the most suitable checklist to apply in your scenario.",A
 0.2,Introduction,"The user's answers to the tailoring questions will impact the disclosures identified as applicable to the financial statements in the detailed disclosure requirements section of the checklist. For example, if the user specifies that the entity does not have intangible assets in its financial statements, the user will not be prompted with the disclosure requirements applicable to intangible assets. It is therefore imperative that these questions are answered accurately. In order to answer the tailoring assumptions accurately the user must have a good understanding of the entity as well as the recognition, measurement and presentation requirements of all IFRSs applicable to the entity's financial statements You have to answer all tailoring questions before you can proceed with the detailed disclosure questions. In the case of a parent entity preparing consolidated financial statements, references to ""entity"" apply equally to its consolidated financial statements as well as its separate financial statements (if prepared) except for the following: · If a single financial report contains both consolidated financial statements and the separate financial statements of the parent, segment disclosures required by IAS 14 'Segment Reporting' or IFRS 8 'Operating Segments' only need to be presented on the basis of the consolidated financial statements; and · If the entity presents both consolidated financial statements and separate financial statements, disclosures required by IAS 33 'Earnings per Share' only need to be presented on the basis of consolidated financial statements.",A
 0.3.0,UK Accounting period start,What is the first day of the entity’s accounting period?,01/01/2020
-0.3.1,UK Accounting period end date,What is the accounting period end date?,12/31/2020
+0.3.1,UK Accounting period end date,What is the accounting period end date?,31/12/2020
 0.4.1,Warning,NOTE: Except where stated this checklist incorporates the disclosure requirements of the most recent standards issued by the IASB including those that have been endorsed for use in the European Union as at 31st March 2020.,A
 0.5,First Accounting period,Is this the entity's first accounting period since incorporation?,N
 0.5.1,Beginning of comparative period,Please enter the date of the beginning of the entity's comparative accounting period.,01/01/2020
@@ -51,7 +51,7 @@ Note: Please also answer this question as ""No"" to this question if the entity 
 
 (2) Consolidated Structured Entities
 
-(3) Unconsolidated Structured Entities",1
+(3) Unconsolidated Structured Entities",1b
 0.14.3.1,Initial Application of IFRS 10 Consolidated Financial Statements,Is this the initial application of IFRS 10 to financial statements for a continuing user of IFRSs?,N
 0.14.4,Investment entity status,At any time during the period was the entity an investment entity in accordance with the definitions as stated in IFRS 10 - Consolidated Financial Statements?,N
 0.15,Non-controlling interests (minority interests),Are there any non-controlling interests (minority interests) in the group?,N
@@ -96,7 +96,8 @@ Financial instruments with discretionary participation features (as defined in I
 ,,(t) Does the lessor have operating leases?,Y
 0.24A,Practical expedient retrospectively,Has the entity chosen to apply the practical expedient in C5(b) of IFRS 16 to retrospectively apply this standard with the cumulative effect of initially apply the standard recognised at the date of initial application in accordance with C7 to C13?,Y
 0.24B,Practical expedient retrospectively,Has the entity chosen to use one or more of the practical expedients in C10 of IFRS 16 to leases previously classified as operating leases?,Y
-,,,N
+0.24BB,Amendments to IAS 16,Has the entity adopted the practical expedient in paragraph 46A of IFRS 16.  Note: This practical expedient is effective for annual reporting periods beginning on or after 1 June 2020. Earlier application is permitted including in financial statements not authorised for issue at 28 May 2020,N
+,Warning - Biological Assets,You have stated that the entity is involved in agricultural activities and has bearer plants and you have selected that the entity does not have any Biological Assets. This can only be true if the only biological assets held by the entity are bearer plants and the accounting period start date is after 01 January 2016 or you have selected to early adopt the amendments to IAS41 and IAS16 issued on 30 June 2014. Please ensure you have answered correctly.,A
 0.25.3,Hedges of a Net Investment in a Foreign Operation,Does the entity hedge the foreign currency risk arising from its net investments in a foreign operation and wish to qualify for hedge accounting under IAS 39?,N
 0.25.6C,First Time adoption of IFRS 9,"Is the first time that the entity has adopted the latest selected IFRS 9 version, in these financial statements?
 
@@ -109,14 +110,14 @@ Note: Select ""Yes"" if the entity has previously adopted an older version of IF
 
 (3) Financial assets measured at amortised cost.
 
-(4) Financial assets measured at fair value through other comprehensive income.",2
+(4) Financial assets measured at fair value through other comprehensive income.",2b
 0.25.6.3,Classification of financial liabilites under IFRS 9,"Which of the following financial liabilities are recognised in the entity's financial statements?
 
 (1) Financial liabilities measured at fair value through profit that meet the definition of held for trading under IFRS 9.
 
 (2) Financial liabilities measured at fair value through profit or loss as designated at initial recognition under IFRS 9.
 
-(3) Financial liabilities measured at amortised cost.",3
+(3) Financial liabilities measured at amortised cost.",3b
 0.25.8.4,Off-setting of recognised financial instruments,Does the entity have recognised financial instruments that are set off in accordance with paragraph 42 of IAS 32?,N
 0.25.8.5,Recognised financial instruments - master netting arrangements and similar agreements,Does the entity have recognised financial instruments that are subject to an enforceable master netting arrangement (or similar agreement) irrespective of whether they are set off in accordance with paragraph 42 of IAS 32?,N
 0.25.9A,Designation of financial asset(s) at FVTPL (IFRS 9),Has the entity designated as measured at fair value a financial asset (or group of financial assets) that would otherwise be measured at amortised cost?,N
@@ -221,6 +222,7 @@ OR
 0.107.5.2,UK Directors' guarantees,"At any time in the financial year, were there guarantees subsisting on behalf of directors?",N
 0.107.6,UK Dormant subsidiaries,Are there any dormant subsidiaries?,Y
 0.107.9,Greenhouse gas emissions,Does part 7A of schedule 7 of the large and medium-sized companies and groups (accounts and reports) regulations 2008 apply? See Help for guidance.,N
+0.108.0,UK Code compliance,Does the entity voluntarily apply the UK Corporate Governance code?,N
 0.108.1,QCA Code compliance,Does the entity voluntarily apply the Quoted Companes Alliance Corporate Governance Code?,N
 0.108.0.2,Corporte gov arrangements,"Does the company satisfy either or both of the following requirements—
 (a) it has more than 2000 employees;
@@ -229,4 +231,5 @@ OR
 (ii) a balance sheet total of more than £2 billion?",Y
 0.108.3.1,UK Portfolio company under private equity,Do you want the software to check whether the report and accounts contains the enhanced disclosures for a portfolio company (see Help)?,N
 0.108.4.2,UK Filing obligations,Is delivery in paper form?,Y
-,End of tailoring,"You have now reached the end of the tailoring questions. If you have answered all the tailoring questions, you may now complete the detailed checklist.",A
+0.108.4.3,End of tailoring,"You have now reached the end of the tailoring questions. If you have answered all the tailoring questions, you may now complete the detailed checklist.",A
+,,,End Tailoring

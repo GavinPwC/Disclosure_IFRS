@@ -14,6 +14,13 @@ public class TailoringQuestionPage {
 	
 	By answerField = By.xpath("//*[@id=\"select2-tickonceanswer-container\"]");
 	By answerField2 = By.xpath("//*[@id=\"tickonceanswer\"]");
+
+	By answerbox1 = By.id("tickmanyanswer0");
+	By answerbox2 = By.id("tickmanyanswer1");
+	By answerbox3 = By.id("tickmanyanswer2");
+	By answerbox4 = By.id("tickmanyanswer3");
+
+	//input[contains(@id,'tickmanyanswer0')]
 	By dateField = By.xpath("//*[@id=\"dateanswer\"]");
 	By nextUnanswered = By.xpath("//*[@id=\"question-nav\"]/div[3]/div[1]/a/span[1]");
 	By previousUnanswered = By.xpath("//*[@id=\"question-nav\"]/div[1]/div[2]/a/span[2]");
@@ -47,8 +54,8 @@ public class TailoringQuestionPage {
 	public String optionN = "No";
 	public String AP_optionY = "Yes";
 	public String AP_optionN = "No";
-	public static final String accountingStartDate = "01/01/2019";
-	public static final String accountingEndDate = "31/12/2019";
+	public static final String accountingStartDate = "01/01/2020";
+	public static final String accountingEndDate = "31/12/2020";
 	
 	public TailoringQuestionPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
@@ -518,6 +525,46 @@ public class TailoringQuestionPage {
 				retrieveQuestionCount(driver);
 				retrieveFolderName(driver);
 				Thread.sleep(1000);
+				cf.scrollToElement(driver, nextUnanswered);
+				cf.clickElement(driver, nextUnanswered);
+				break;
+			case "1b":
+				WebElement CheckBox_1 = driver.findElement(answerbox1);
+				CheckBox_1.click();
+				System.out.println("1 Selected");
+				retrieveQuestionAnswered(driver);
+				retrieveQuestionCount(driver);
+				retrieveFolderName(driver);
+				cf.scrollToElement(driver, nextUnanswered);
+				cf.clickElement(driver, nextUnanswered);
+				break;
+			case "2b":
+				WebElement CheckBox_2 = driver.findElement(answerbox2);
+				CheckBox_2.click();
+				System.out.println("2 Selected");
+				retrieveQuestionAnswered(driver);
+				retrieveQuestionCount(driver);
+				retrieveFolderName(driver);
+				cf.scrollToElement(driver, nextUnanswered);
+				cf.clickElement(driver, nextUnanswered);
+				break;
+			case "3b":
+				WebElement CheckBox_3 = driver.findElement(answerbox3);
+				CheckBox_3.click();
+				System.out.println("3 Selected");
+				retrieveQuestionAnswered(driver);
+				retrieveQuestionCount(driver);
+				retrieveFolderName(driver);
+				cf.scrollToElement(driver, nextUnanswered);
+				cf.clickElement(driver, nextUnanswered);
+				break;
+			case "4b":
+				WebElement CheckBox_4 = driver.findElement(answerbox4);
+				CheckBox_4.click();
+				System.out.println("4 Selected");
+				retrieveQuestionAnswered(driver);
+				retrieveQuestionCount(driver);
+				retrieveFolderName(driver);
 				cf.scrollToElement(driver, nextUnanswered);
 				cf.clickElement(driver, nextUnanswered);
 				break;

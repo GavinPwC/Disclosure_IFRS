@@ -39,7 +39,7 @@ public class ClientPage extends SetupFramework {
 	//*[@id="add-client-form"]/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]
 	//By clientField2 = By.xpath("/html/body/div[5]/div[5]/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/form/div/div[1]/div[1]/div[1]/div/div/div/div/select");
 	
-	public String clientName = "GavIFRS_Automation1";
+	public String clientName = "GavIFRS_Automation2";
 	
 	public ClientPage(WebDriver driver) {
 		// TODO Auto-generated constructor stub

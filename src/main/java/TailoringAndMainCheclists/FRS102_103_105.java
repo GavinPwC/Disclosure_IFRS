@@ -662,13 +662,15 @@ public class FRS102_103_105 {
 
                     String sCellValue = (column.getText());
 
-                    if ((sCellValue.equalsIgnoreCase("Primary Statements"))) {
+                    if ((sCellValue.equalsIgnoreCase("General Requirements"))) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
-                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[4]/span");
-                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[3]/span");
+                        By sectionTickPS = By.xpath("//*[@id=\"Sections_0__Selected\"]");
+                        //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[4]/span");
+                        By sectionName = By.xpath("//td[contains(.,'General Requirements')]");
+                        //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[3]/span");
+                        By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
                         String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Primary Statements";
+                        String startLine = "General Requirements";
 
                         if (Status.equalsIgnoreCase("Not Started")) {
 
@@ -691,7 +693,7 @@ public class FRS102_103_105 {
                             System.out.println("Initial Status: " + Status);
                             System.out.println("Now answering " + Section + " checklist");
                             cf.clickElement(driver, startButton);
-                            //as.selectReviewerMainchecklist(driver); ONLY ADD IF THERE IS AN ERROR AT THE REVIEWER STAGE
+                            //as.selectReviewerMainchecklist(driver); //ONLY ADD IF THERE IS AN ERROR AT THE REVIEWER STAGE
                             cf.waitForDesiredElement(driver, Folder, 90);
                             mainCheckListResponse(driver, startLine);
                         } else {
@@ -700,7 +702,7 @@ public class FRS102_103_105 {
                         }
                     } else if (sCellValue.equalsIgnoreCase("Financial Statement Presentation")) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_2__Selected\"]");
+                        By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
                         By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[4]/span");
                         By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[3]/span");
                         String Status = driver.findElement(sectionStatus).getText();
