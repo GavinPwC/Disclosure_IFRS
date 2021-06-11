@@ -15,7 +15,7 @@
                     <exclude name="regression_GAAP2IFRS2015_QA"/>
                 </methods>
             </class>
-            <class name="Tests.RegressionFRS">
+            <class name="Tests.RegressionIFRS">
                 <methods>
                     <exclude name="regression_FRS102_103_105"/>
                     <exclude name="reviewCompleteTailoringFRS"/>

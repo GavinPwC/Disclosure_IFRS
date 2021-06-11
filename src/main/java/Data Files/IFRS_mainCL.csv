@@ -53,11 +53,11 @@
 50,1.35 Authorisation of financial statements,Disclose the date when the financial statements were authorised for issue and who gave that authorisation.,N
 51,1.36 Amendment of statements after issue,"If the entity's owners or others have the power to amend the financial statements after issue, disclose that fact.",N/A
 52,1.39 Going concern basis,"When management is aware of material uncertainties related to events or conditions that may cast significant doubt upon the entity's ability to continue as a going concern, disclose those uncertainties.",N/A
-53,Accounting Policies,,H
+,,,End Section
+,,,Begin Section
 54,2.1 Going concern basis,"If the financial statements are not prepared on a going concern basis, disclose that fact together with the basis on which the financial statements are prepared and the reason why the entity is not considered to be a going concern.",N/A
 55,2.2 Compliance with IFRS,An entity whose financial statements comply with IFRSs shall make an explicit and unreserved statement of such compliance in the notes. Do not describe financial statements as complying with IFRSs unless they comply with all the requirements of IFRSs,Y
 56,2.3 Compliance with IFRS,"Has the entity provided additional disclosures when compliance with the specific requirements in IFRSs is insufficient to enable users to understand the impact of particular transactions, other events and conditions on the entity s financial position and financial performance?",Y
-57,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,"The entity, that has applied IFRSs in a previous period (but the most recent previous  annual financial statements did not contain an explicit and unreserved statement of compliance with IFRSs) shall disclose:",H
 58,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,(a) the reason it stopped applying IFRSs;,Y
 59,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,(b) the reason it is resuming the application of IFRSs; and,Y
 60,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,"(c) an explanation of  the reasons for electing to apply IFRSs as if
@@ -70,37 +70,36 @@ it had never stopped applying IFRSs.",Y
 66,2.9 New Standard or Interpretation not applied early,(a) that fact;,Y
 67,2.9 New Standard or Interpretation not applied early,(b) known or reasonably estimable information (see Help) relevant to assessing the possible impact that application of the Standard or Interpretation will have on the entity's financial statements in the period of initial application,Y
 68,2.10 Basis of preparation,Present in the notes to the financial statements information about the basis of preparation of the financial statements and the specific accounting policies selected and applied for significant transactions and events.,Y
-69,2.19 Key assumptions and sources of estimation,"Disclose information about the key assumptions concerning the future, and other key sources of estimation uncertainty at the balance sheet date, that have a significant risk of causing a material adjustment to the carrying amounts of assets and liabilities within the next financial year . In respect of those assets and liabilities, include details in the notes of",H
+69,2.19 Key assumptions and sources of estimation,"Disclose information about the key assumptions concerning the future, and other key sources of estimation uncertainty at the balance sheet date, that have a significant risk of causing a material adjustment to the carrying amounts of assets and liabilities within the next financial year . In respect of those assets and liabilities, include details in the notes of",A
 70,2.19 Key assumptions and sources of estimation,(a) their nature; and,Y
 71,2.19 Key assumptions and sources of estimation,(b) their carrying amount as at the balance sheet date,Y
 72,2.21 Significant change to estimated amounts reported in interim accounts,If an estimate of an amount reported in an interim period is changed significantly during the final interim period of the financial year but a separate financial report is not published for that final interim period disclose the nature and amount of that change in estimate in a note to the annual financial statements.,N/A
-73,2.28 Initial application of a Standard or an Interpretation,When initial application of a Standard or Interpretation - has an effect on the current period or any prior period; - would have an effect on the current or prior period except that it is impracticable to determine the amount of the adjustment; or - might have an effect on future periods then disclose:,H
 74,2.28 Initial application of a Standard or an Interpretation,(a) the title of the Standard or Interpretation,Y
 75,2.28 Initial application of a Standard or an Interpretation,"(b) when applicable, that the change in accounting policy is made in accordance with its transitional provisions;",Y
 76,2.28 Initial application of a Standard or an Interpretation,(c) the nature of the change in accounting policy;,Y
 77,2.28 Initial application of a Standard or an Interpretation,"(d) when applicable, a description of the transitional provisions;",Y
 78,2.28 Initial application of a Standard or an Interpretation,(e) when applicable the transitional provisions that might have an effect on future periods.,N/A
+78A,2.28 Initial application of a Standard or an Interpretation,When initial application of a Standard or Interpretation - has an effect on the current period or any prior period; - would have an effect on the current or prior period except that it is impracticable to determine the amount of the adjustment; or - might have an effect on future periods then disclose:,A
 79,2.28 Initial application of a Standard or an Interpretation,"(g) the amount of the adjustment relating to periods before those presented, to the extent practicable;",Y
 80,2.28 Initial application of a Standard or an Interpretation,"(h) if retrospective application is impracticable for a particular period, or for periods before those presented, the circumstances that led to the existence of that condition and a description of how and from when the change in accounting policy has been applied.",N/A
-81,2.29 Voluntary change in accounting policy,When a voluntary change in an accounting policy: - has an effect on the current period or any prior period; - would have an effect on the current or prior period except that it is impracticable to determine the amount of the adjustment; or - might have an effect on future periods then disclose:,H
 82,2.29 Voluntary change in accounting policy,(a) the nature of the change in accounting policy;,Y
 83,2.29 Voluntary change in accounting policy,(b) the reasons why applying the new accounting policy provides reliable and more relevant information;,Y
+83a,2.29 Voluntary change in accounting policy,When a voluntary change in an accounting policy: - has an effect on the current period or any prior period; - would have an effect on the current or prior period except that it is impracticable to determine the amount of the adjustment; or - might have an effect on future periods then disclose:,A
 84,2.29 Voluntary change in accounting policy,(i) for each financial line item affected;,N/A
 85,2.29 Voluntary change in accounting policy,"(d) the amount of the adjustment relating to periods before those presented, to the extent practicable;",N/A
 86,2.29 Voluntary change in accounting policy,"(e) if retrospective application is impracticable for a particular period, or for periods before those presented, the circumstances that led to the existence of that condition and a description of how and from when the change in accounting policy has been applied",N/A
 87,2.30 Changes in accounting estimates,"Disclose the nature and amount of a change in an accounting estimate that has an effect in the current period or is expected to have an effect in future periods, except for the disclosure of the effect on future periods when it is impracticable to estimate that effect. If the amount of the effect in future periods of a change in an accounting estimate is not disclosed because estimating it is impracticable, disclose that fact.",N/A
-88,"2.34 Property, plant and equipment","Disclose for each class of property, plant and equipment:",H
 89,"2.34 Property, plant and equipment",(a) measurement bases for determining the gross carrying amount.,Y
 90,"2.34 Property, plant and equipment",(b) depreciation methods used;,Y
 91,"2.34 Property, plant and equipment",(c) useful lives or the depreciation rates used.,Y
-92,2.44 Intangible assets,"For each class of intangible assets, distinguishing between internally generated intangible assets and other intangible assets, disclose:",H
 93,2.44 Intangible assets,(a) whether the useful lives are indefinite or finite;,Y
 94,2.44 Intangible assets,"(b) if finite, the useful lives or the amortisation rates used;",Y
 95,2.44 Intangible assets,(c) the amortisation methods used for intangible assets with finite useful lives,Y
 96,2.44 Intangible assets,(d) the line item(s) of the income statement in which any amortisation of intangible assets is included.,Y
-97,2.76 Accounting Policies - Financial Instruments,Disclose in the summary of significant accounting policies:,H
 98,2.76 Accounting Policies - Financial Instruments,(a) the measurement basis (or bases) used in preparing the financial statements; and,Y
 99,2.76 Accounting Policies - Financial Instruments,(b) other accounting policies used that are relevant to an understanding of the financial statements.,Y
+,,,End Section
+,,,Begin Section
 100,General,,H
 101,3.1.6 Separate statement of profit or loss,Has the entity presented the following in relation to the separate statement of profit or loss:,H
 102,3.1.6 Separate statement of profit or loss,"(a) Present a separate statement of profit or loss immediately preceding the separate statement presenting other comprehensive income.
@@ -155,15 +154,10 @@ Note: These line items are required to reflect items classified by nature
 
 Entities are encouraged to present the analysis in the statement of comprehensive income or in the separate income statement (if presented).",Y
 126,3.1.24 Expenses by function,"Where expenses are classified by function, disclose additional information on the nature of expenses, including depreciation, amortisation expense and employee benefits expense",Y
-127,Income,,H
 128,"3.2.23 Property, plant and equipment - compensation received","If it is not presented separately on the face of the income statement, disclose the amount of compensation from third parties for items of property, plant and equipment that were impaired, lost or given up that is included in profit or loss",N/A
-129,Expense items,,H
-130,3.3.4 Impairment losses,"For each class of asset, disclose:",H
 131,3.3.4 Impairment losses,(a) the amount of impairment losses recognised in profit or loss during the period and the line item(s) of the income statement in which those impairment losses are included;,Y
 132,3.3.9 Exchange differences,Disclose the amount of exchange differences recognised in profit or loss except for those arising on financial instruments measured at fair value through profit or loss in accordance with IAS 39.,N/A
 133,3.3.11 Research and development costs,Disclose the aggregate amount of research and development expenditure recognised as an expense during the period.,N/A
-134,Taxation,,H
-135,3.4.1 Components of tax expense,"Disclose the major components of tax expense/income separately, including:",H
 136,3.4.1 Components of tax expense,(a) current tax expense (income),Y
 137,3.4.1 Components of tax expense,(b) any adjustments recognised in the period for current tax of prior periods;,Y
 138,3.4.1 Components of tax expense,(c) the amount of deferred tax expense (income) relating to the origination and reversal of temporary differences;,Y
@@ -176,18 +170,18 @@ Entities are encouraged to present the analysis in the statement of comprehensiv
 145,3.4.3 Changes in applicable tax rates,Disclose an explanation of changes in applicable tax rate(s) compared to the previous accounting period.,N/A
 146,3.4.4 Aggregate Current and Deferred Tax Relating to Items Taken to Equity,Disclose separately the aggregate current and deferred tax relating to items that are charged or credited directly to equity (see help text).,N/A
 147,3.4.5 Income tax relating to each component of comprehensive income,Disclose separately the amount of income tax relating to each component of other comprehensive income.,N/A
-148,Dividends,,H
 149,3.5.4 Income tax consequences of dividends,"Disclose the amount of income tax consequences of dividends to shareholders of the entity that were proposed or declared before the financial statements were authorised for issue, but are not recognised as a liability in the financial statements.",N/A
-150,3.5.5 Potential income tax consequences of dividends,"Where income taxes are payable at a higher / lower rate or income taxes are refundable / payable should the entity pay dividends, disclose:",H
 151,3.5.5 Potential income tax consequences of dividends,(a) the nature of the potential income tax consequences that would result from the payment of dividends to its shareholders,N/A
 152,3.5.5 Potential income tax consequences of dividends,(b) the amounts of the potential income tax consequences practicably determinable,N/A
 153,3.5.5 Potential income tax consequences of dividends,(c) whether there are any potential income tax consequences not practicably determinable.,N/A
+,,,End Section
+,,,Begin Section
 154,General,,H
 155,4.1.1 Assets and liabilities,"Present either: a) current and non-current assets, and current and non-current liabilities as separate classifications in its statement of financial position (balance sheet); or (b) assets and liabilities broadly in order of their liquidity, if this is reliable or more relevant. Whichever method of presentation is adopted, for each asset and liability item that combines amounts expected to be recovered or settled (i) no more than 12 months from the reporting date and (ii) more than 12 months after the reporting date, disclose the amount expected to be recovered or settled after more than 12 months.",Y
 156,4.1.4 Additional line items in statement of financial position (balance sheet),"Present additional line items (including by disaggregating the line items in IAS 1 paragraph 54), headings and sub-totals in the statement of financial position (on the face of the balance sheet) when such presentation is relevant to an understanding of the entity's financial position.",Y
 157,4.1.5 Presentation of deferred tax,"When an entity presents current and non-current assets, and non-current and current liabilities, as separate classifications in the statement of financial position (balance sheet), it shall not classify deferred tax assets (liabilities) as current assets (liabilities).",Y
 158,4.1.6 Sub-classifications of items in the statement of financial position (balance sheet),"Disclose either in the statement of financial position (balance sheet) or in the notes, further sub-classifications of the line items presented, classified in a manner appropriate to the entity's operations.",Y
-159,4.1.9 Recognition and reversal of impairment losses,In relation to the recognition and reversal of impairment losses:,H
+159,4.1.9 Recognition and reversal of impairment losses,In relation to the recognition and reversal of impairment losses:,A
 160,4.1.9 Recognition and reversal of impairment losses,(a) the events and circumstances that led to the recognition or reversal of the impairment loss;,N
 161,4.1.9 Recognition and reversal of impairment losses,(b) the amount of the impairment loss;,Y
 162,4.1.9 Recognition and reversal of impairment losses,(c) for an individual asset (i) the nature of the asset;,Y
@@ -196,23 +190,21 @@ Entities are encouraged to present the analysis in the statement of comprehensiv
 165,4.1.9 Recognition and reversal of impairment losses,"(ii) the amount of the impairment loss recognised or reversed by class of assets and, if the entity reports segment information in accordance with IAS 14, by reportable segment based on the entity's primary format (as defined in IAS 14) or by reportable segment under IFRS 8 if IAS 14 is no longer applied;",Y
 166,4.1.9 Recognition and reversal of impairment losses,"(iii) if the aggregation of assets for identifying the cash generating unit has changed since the previous estimate of the cash generating unit's recoverable amount (if any), describe the current and former way of aggregating assets and the reasons for changing the way the cash-generating unit is identified;",Y
 167,4.1.9 Recognition and reversal of impairment losses,(ea) the recoverable amount of the asset (cash-generating unit) and whether the recoverable amount of the asset (cash-generating unit) is its fair value less costs of disposal or its value in use.,Y
+167a,4.1.9 Recognition and reversal of impairment losses,In relation to the recognition and reversal of impairment losses:,A
 168,4.1.9 Recognition and reversal of impairment losses,"(i) the level of the fair value hierarchy (see IFRS 13) within which the fair value measurement of the asset (cash-generating unit) is categorised in its entirety (without taking into account whether the  costs of disposal  are
 observable);",Y
 169,4.1.9 Recognition and reversal of impairment losses,"(g) if recoverable amount is value in use, the discount rate(s) used in the current estimate and previous estimate (if any) of value in use.",Y
-170,4.1.10 Recognition and reversal of impairment losses,"Where no individual impairment loss recognised or reversed during the period is material, disclose the following information for the aggregate impairment losses and the aggregate reversals of impairment losses recognised during the period:",H
 171,4.1.10 Recognition and reversal of impairment losses,(a) the main classes of assets affected by impairment losses and the main classes of assets affected by reversals of impairment losses,Y
 172,4.1.10 Recognition and reversal of impairment losses,(b) the main events and circumstances that led to the recognition of these impairment losses and reversals of impairment losses.,Y
 173,4.1.11 Recoverable amount - assumptions,An entity is ENCOURAGED to disclose assumptions used to determine the recoverable amount of assets with definite useful lives and cash generating units to which · goodwill and · intangible assets with infinite useful lives have not been allocated. Note: Paragraph 134 of IAS 36 requires an entity to disclose information about the estimates used to measure the recoverable amount of a cash-generating unit when goodwill or an intangible asset with an indefinite useful economic life is included in the carrying amount of that unit.,Y
-174,Intangible Assets,,H
+173a,4.1.21 Allocation of g/w and intangibles with indefinite lives insignificant,If: · the carrying amount of goodwill or intangible assets with indefinite useful lives is allocated across multiple cash-generating units (groups of units); · the amount so allocated to each unit (group of units) is not significant in comparison with the entity's total carrying amount of goodwill or intangible assets with indefinite useful lives and · the recoverable amounts of any of those units (groups of units) are based on the same key assumptions disclose:,A
 175,4.2.1 Intangible assets - carrying amounts,"For each class of intangible asset, distinguishing between internally generated intangible assets (such as capitalised development costs) and other intangible assets, disclose the gross carrying amount and the accumulated amortisation (aggregated with accumulated impairment losses) at the beginning and end of the period.",Y
-176,4.2.3 Intangible assets - reconciliation,"For each class of intangible asset, distinguishing between internally generated intangible assets (such as capitalised development costs) and other intangible assets, disclose a reconciliation of the carrying amount at the beginning and end of the period showing:",H
 177,4.2.3 Intangible assets - reconciliation,"(a) additions, indicating separately those from internal development, those acquired separately, and those acquired through business combinations;",Y
 178,4.2.3 Intangible assets - reconciliation,(b) assets classified as held for sale or included in a disposal group classified as held for sale in accordance with IFRS 5 and other disposals,Y
 179,4.2.3 Intangible assets - reconciliation,(d) impairment losses recognised in profit or loss during the period in accordance with IAS 36;,Y
 180,4.2.3 Intangible assets - reconciliation,(f) amortisation recognised during the period;,Y
 181,4.2.3 Intangible assets - reconciliation,"(g) net exchange differences arising on the translation of the financial statements into the presentation currency, and on the translation of a foreign operation into the presentation currency of the entity;",Y
 182,4.2.3 Intangible assets - reconciliation,(h) other changes in the carrying amount during the period.,Y
-183,4.2.6 Material intangible assets,For any individual intangible asset that is material to the entity's financial statements disclose:,H
 184,4.2.6 Material intangible assets,(a) a description of the intangible asset;,Y
 185,4.2.6 Material intangible assets,(b) the carrying amount of the intangible asset;,Y
 186,4.2.6 Material intangible assets,(c) remaining amortisation period of the intangible asset.,Y
@@ -221,7 +213,6 @@ observable);",Y
 189,4.2.12 Intangible assets - voluntary disclosures,"An entity is ENCOURAGED, but not required, to disclose:",H
 190,4.2.12 Intangible assets - voluntary disclosures,(a) a description of any fully amortised intangible asset that is still in use;,N/A
 191,4.2.12 Intangible assets - voluntary disclosures,"(b) a brief description of significant intangible assets controlled by the entity, but not recognised as assets because they did not meet the recognition criteria in IAS 38 (revised 2004) or because they were acquired or generated before the version of IAS 38 'Intangible assets' issued in 1998 was effective",N
-192,"Property, plant & equipment",,H
 193,"4.3.1 Property, plant & equipment - Carrying amounts","Disclose for each class of property, plant and equipment the gross carrying amount and accumulated depreciation (aggregated with accumulated impairment losses) at the beginning and end of the period.",Y
 194,"4.3.3 Property, plant & equipment","Disclose for each class of property, plant and equipment a reconciliation of the carrying amount at the beginning and end of the period, showing:",H
 195,"4.3.3 Property, plant & equipment",(a) additions;,Y
@@ -235,21 +226,17 @@ observable);",Y
 202,"4.3.7 Property, plant and equipment - Security for liabilities","Disclose the existence and amounts of restrictions on title, and property, plant and equipment pledged as security for liabilities.",N/A
 203,"4.3.8 Property, plant and equipment in the course of construction","Disclose the amount of expenditures recognised in the carrying amount of an item of property, plant and equipment in the course of its construction",Y
 204,4.3.9 Contractual commitments,"Disclose the amount of contractual commitments for the acquisition of property, plant and equipment.",N/A
-205,4.3.12 Additional disclosures,Disclosure of the following may be useful,H
 206,4.3.12 Additional disclosures,"(a) carrying amount of temporary idle property, plant and equipment;",Y
 207,4.3.12 Additional disclosures,"(b) gross carrying amount of any fully depreciated property, plant and equipment that is still in use;",N
 208,4.3.12 Additional disclosures,"(c) carrying amount of property, plant and equipment retired from active use and not classified as held for sale in accordance with IFRS 5",Y
 209,4.3.12 Additional disclosures,"(d) when the cost model is used, the fair value of property, plant and equipment when this is materially different from the carrying amount.",Y
-210,4.3.13 Depreciation of exploration and evaluation assets recognised as part of the cost,Disclose:,H
 211,4.3.13 Depreciation of exploration and evaluation assets recognised as part of the cost,(a) amount of depreciation capitalised as part of the cost of other assets and the amount recognised in profit or loss during a period; and,N/A
 212,4.3.13 Depreciation of exploration and evaluation assets recognised as part of the cost,(b) accumulated depreciation at the end of the period.,N/A
-213,4.3.14 Changes in accounting estimates in respect of exploration and evaluation assets,For changes in accounting estimates arising for example from:,H
 214,4.3.14 Changes in accounting estimates in respect of exploration and evaluation assets,(a) residual values;,N/A
 215,4.3.14 Changes in accounting estimates in respect of exploration and evaluation assets,"(b) the estimated costs of dismantling, removing or restoring exploration and evaluation assets;",N/A
 216,4.3.14 Changes in accounting estimates in respect of exploration and evaluation assets,(c) useful lives; and,N/A
-217,"Subs, associates and JVs",,H
+216a,4.3.15,(d) depreciation methods.,A
 218,4.6.2 Understanding composition of group,Disclose information that enables users of its consolidated financial statements to UNDERSTAND the composition of the group.,Y
-219,4.6.3 Separate presentation of information,An entity shall present information separately for interests in:,H
 220,4.6.3 Separate presentation of information,(a) subsidiaries;,Y
 221,4.6.4 Aggregation of interests in similar entity,"Disclose how the entity has aggregated its interests in similar entities (as noted in question 4.7.1A.1 above).
 
@@ -275,7 +262,6 @@ Note 2: An entity shall aggregate or disaggregate disclosures so that useful inf
 236,4.6.16 Subsidiaries - additional disclosure to meet disclosure objective,"If the disclosures required by this IFRS, together with disclosures required by other IFRSs, do not meet the objective in paragraph 1 of IFRS 12 (see help text), an entity shall disclose whatever additional information is necessary to meet that objective.",N/A
 237,4.6.83 Disclosures - separate financial statements,An entity shall apply all applicable IFRSs when providing disclosures in its separate financial statements.,Y
 238,"4.6.86 Separate financial statements of parent not exempt from consolidation, or investor","A parent that is not exempt from the preparation of consolidated financial statements (under paragraph 4(a) of IFRS 10), or an investor with joint control of, or significant influence over, an investee which prepares separate financial statements shall identify the financial statements prepared in accordance with IFRS 10, IFRS 11 or IAS 28 (as amended in 2011) to which they relate.",Y
-239,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor",In its separate financial statements a parent or investor shall disclose:,H
 240,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor",(a) the fact that the statements are separate financial statements.,Y
 241,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor",(b) the reasons why separate financial statements are prepared if not required by law.,N/A
 242,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor","(c) a list of significant investments in subsidiaries, joint ventures and associates, including:
@@ -284,37 +270,27 @@ Note 2: An entity shall aggregate or disaggregate disclosures so that useful inf
 243,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor","(ii) the principal place of business (and country of incorporation, if different) of those investees.",Y
 244,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor","(iii) its proportion of the ownership interest (and its proportion of the voting rights, if different) held in those investees",Y
 245,"4.6.87 Separate financial statements of parent not exempt from consolidation, or investor",(d) a description of the method used to account for the investments listed under (b).,Y
-246,Agricultural activity,,H
-247,4.7.2 Agricultural activity,Disclose:,H
 248,4.7.2 Agricultural activity,(b) the amount of commitments for the development or acquisition of biological assets;,N/A
 249,4.7.2 Agricultural activity,(c) financial risk management strategies related to agricultural activity,N
-250,"Provisions, Contingent liabilities & contingent assets",,H
-251,4.12.1 Provisions,For each class of provision disclose: (comparative information is not required),H
 252,4.12.1 Provisions,(a) the carrying amount at the beginning and end of the period;,Y
 253,4.12.1 Provisions,"(b) additional provisions made during the period, including increases to existing provisions;",Y
 254,4.12.1 Provisions,(c) amounts used (i.e. incurred and charged against the provision) during the period;,Y
 255,4.12.1 Provisions,(d) unused amounts reversed during the period;,N/A
 256,4.12.1 Provisions,(e) the increase during the period in the discounted amount arising from the passage of time and the effect of any change in the discount rate.,Y
-257,4.12.2 Details of provisions,Disclose the following for each class of provision:,H
 258,4.12.2 Details of provisions,(a) a brief description of the nature of the obligation and the expected timing of any resulting outflows of economic benefits;,Y
 259,4.12.2 Details of provisions,"(b) an indication of the uncertainties about the amount or timing of those outflows Where necessary to provide adequate information, an entity should disclose the major assumptions made concerning future events;",Y
 260,4.12.2 Details of provisions,"(c) the amount of any expected reimbursement, stating the amount of any asset that has been recognised for that expected reimbursement.",N/A
-261,4.12.3 Contingent liabilities,"Unless the possibility of any outflow in settlement is remote, disclose for each class of contingent liability at the balance sheet date a brief description of the nature of the contingent liability and, where practicable:",H
 262,4.12.3 Contingent liabilities,(a) an estimate of its financial effect;,Y
 263,4.12.3 Contingent liabilities,(b) an indication of the uncertainties relating to the amount or timing of any inflow;,Y
 264,4.12.3 Contingent liabilities,(c) the possibility of any reimbursement.,N/A
 265,4.12.10 Contingent assets and liabilities,"Where information on contingent assets and contingent liabilities is not disclosed because it is impracticable to do so, that fact should be stated.",N/A
 266,"4.12.11 Provisions, contingent assets and contingent liabilities","Where disclosure of information about provisions, contingent assets or liabilities would seriously prejudice the position of the entity in a dispute with other parties, it need not make the disclosures required by paragraphs 84-89 of IAS 37 (Provisions, contingent liabilities and contingent assets), but should disclose the general nature of the dispute, together with the fact that, and reason why, the information has not been disclosed.",N/A
 267,4.12.12 Members' shares in Co-Operative entities and similar instruments,"When a change in the redemption prohibition leads to a transfer between financial liabilities and equity, disclose separately the amount, timing and reason for the transfer.",N/A
-268,Deferred tax,,H
-269,4.13.1 Deferred tax - Details of temporary differences,Disclose separately:,H
 270,4.13.1 Deferred tax - Details of temporary differences,"(a) the amount (and expiry date if any) of deductible temporary differences, unused tax losses, and unused tax credits for which no deferred tax asset is recognised in the balance sheet;",Y
 271,4.13.1 Deferred tax - Details of temporary differences,"(b) the aggregate amount of temporary differences associated with investments in subsidiaries, branches and associates and interests in joint ventures, for which deferred tax liabilities have not been recognised;",Y
 272,4.13.1 Deferred tax - Details of temporary differences,(c) in respect of each type of temporary difference and unused tax losses/credits: (i) the amount of the deferred tax assets and liabilities recognised in the balance sheet;,Y
 273,4.13.1 Deferred tax - Details of temporary differences,(ii) the amount of deferred tax recognised in the income statement if not apparent from changes in the amounts recognised in the balance sheet.,Y
 274,4.13.2 Deferred tax asset,"Disclose the amount of a deferred tax asset and the nature of the evidence supporting its recognition, when: (a) the utilisation of the deferred tax asset is dependent on future taxable profits in excess of the profits arising from the reversal of existing taxable temporary differences; and (b) the entity has suffered a loss in either the current or preceding period in the tax jurisdiction to which the deferred tax assets relates.",N/A
-275,Share capital and Reserves,,H
-276,4.14.1 Share Capital and Reserves,"Disclose the following, either in the statement of financial position or the statement of changes in equity, or in the notes for each class of share capital:",H
 277,4.14.1 Share Capital and Reserves,(i) the number of shares authorised;,Y
 278,4.14.1 Share Capital and Reserves,"(ii) the number of shares issued and fully paid, and issued but not fully paid;",Y
 279,4.14.1 Share Capital and Reserves,"(iii) par value per share, or that the shares have no par value;",Y
@@ -325,48 +301,37 @@ Note 2: An entity shall aggregate or disaggregate disclosures so that useful inf
 284,4.14.3 Transaction costs,Disclose the amount of transaction costs accounted for as a deduction from equity separately.,N/A
 285,4.14.4 Own shares acquired from related parties,Provide disclosures in accordance with IAS 24 'Related party transactions' if the entity reacquires its own equity instruments from related parties.,N/A
 286,4.14.6 Purpose of each reserve in equity,Disclose a description of the nature and purpose of each reserve within equity.,Y
-287,4.14.7 Proposed dividends,Disclose in the notes:,H
 288,4.14.7 Proposed dividends,"(a) the amount of dividends proposed or declared before the financial statements were authorised for issue but not recognised as a distribution to equity holders during the period, and the related amount per share.",N/A
 289,4.14.7 Proposed dividends,(b) the amount of any cumulative preference dividends not recognised.,N/A
 290,4.14.8 Exchange differences recognised directly in equity,"Disclose net exchange differences recognised in other comprehensive income accumulated in a separate component of equity, and a reconciliation of the amount of such exchange differences at the beginning and end of the period.",Y
-291,Financial Instruments,,H
 292,4.16.1 Classes of financial instrument and level of disclosure,"When IFRS 7 requires disclosures by class of financial instrument, an entity shall provide sufficient information to permit reconciliation to the line items presented in the balance sheet.",N/A
-293,4.16.4 Categories of Financial Assets (IFRS 9),The carrying amounts of each of the following categories of financial asset shall be disclosed either on the face of the balance sheet or in the notes:,H
 294,4.16.4 Categories of Financial Assets (IFRS 9),(b) financial assets at fair value through profit as designated at initial recognition under IFRS 9.,Y
-295,4.16.5 Categories of Financial Liability (IFRS 9),The carrying amounts of each of the following categories of financial liability shall be disclosed either on the face of the balance sheet or in the notes:,H
 296,4.16.5 Categories of Financial Liability (IFRS 9),(b) Financial liabilities measured at fair value through profit or loss as designated at initial recognition under IFRS 9,Y
-297,"4.16.48 Items of income, expense, gain or losses - IFRS 9 Financial Assets","Disclose the following items of income, expense, gains or losses either in the statement of comprehensive income or in the notes:",H
 298,"4.16.48 Items of income, expense, gain or losses - IFRS 9 Financial Assets","(a) net gains or net losses on:
 
 (i) financial assets measured at fair value through profit or loss  for instruments designated as such under IFRS 9 upon initial recognition.",Y
-299,"4.16.49 Items of income, expense, gain or losses - IFRS 9 Financial Liabilities","Disclose the following items of income, expense, gains or losses either in the statement of comprehensive income or in the notes:",H
 300,"4.16.49 Items of income, expense, gain or losses - IFRS 9 Financial Liabilities","(a) net gains or net losses on:
 
 (i) financial liabilities measured at fair value through profit or loss for instruments designated as such under IFRS 9 upon initial recognition.",Y
 301,"4.16.49 Items of income, expense, gain or losses - IFRS 9 Financial Liabilities",(ii) In respect of the above show separately the amount of gain or loss recognised in other comprehensive income and the amount recognised in profit or loss.,Y
-302,4.16.65 Hedging: Credit Derivatives,"For credit derivatives that have been used to manage the credit risk of financial instruments designated as measured at fair value through profit or loss, the entity shall disclose:",H
 303,4.16.65.4 Hedging: Credit Derivatives - Fair value disclosures for classes of assets and liabilities,"Where disclosure of fair value is required, disclose the fair value of each class of assets and liabilities in a way that permits it to be compared with its carrying amount.",N/A
 304,4.16.65.5 Hedging: Credit Derivatives - Fair value disclosures   grouping and offset,Are financial assets and financial liabilities grouped into classes and offset only to the extent that their carrying amounts are offset in the balance sheet?,N/A
-305,4.16.72 Financial assets with nil gain or loss on initial recognition,Where no gain or loss arises on initial recognition of a financial asset (because  fair value is neither evidenced by a quoted price in an active market for an identical asset or liability nor based on a valuation technique that uses only data from observable markets) disclose by class of financial asset:,H
+305,4.16.72 Financial assets with nil gain or loss on initial recognition,Where no gain or loss arises on initial recognition of a financial asset (because  fair value is neither evidenced by a quoted price in an active market for an identical asset or liability nor based on a valuation technique that uses only data from observable markets) disclose by class of financial asset:,A
 306,4.16.72 Financial assets with nil gain or loss on initial recognition,(a) its accounting policy for recognising in profit or loss the difference between fair value at initial recognition and the transaction price (to reflect a change in factors (including time) that market participants would take into account when pricing to reflect a change in factors (including time) that market participants would take into account when pricing that asset;,N/A
 307,4.16.72 Financial assets with nil gain or loss on initial recognition,(b) the aggregate difference yet to be recognised in profit or loss at the beginning and end of the period;,N/A
 308,4.16.72 Financial assets with nil gain or loss on initial recognition,(c) a reconciliation of changes in the balance of that difference as noted above;,N/A
 309,4.16.72 Financial assets with nil gain or loss on initial recognition,"(d) why the entity concluded that the transaction price was not the bese evidence of fair value, including a description of the evidence that supports the fair value.",N/A
-310,4.16.73 Financial liabilities with nil gain or loss on initial recognition,Where no gain or loss arises on initial recognition of a financial liability (because fair value is neither evidenced by a quoted price in an active market for an identical asset or liability nor based on a valuation technique that uses only data from observable markets) disclose by class of financial liability,H
 311,4.16.73 Financial liabilities with nil gain or loss on initial recognition,(a) its accounting policy for recognising in profit or loss the difference between fair value at initial recognition and the transaction price (to reflect a change in factors (including time) that market participants would take into account when pricing to reflect a change in factors (including time) that market participants would take into account when pricing that asset;,N/A
 312,4.16.73 Financial liabilities with nil gain or loss on initial recognition,(b) the aggregate difference yet to be recognised in profit or loss at the beginning and end of the period;,N/A
 313,4.16.73 Financial liabilities with nil gain or loss on initial recognition,(c) a reconciliation of changes in the balance of that difference as noted above;,N/A
 314,4.16.73 Financial liabilities with nil gain or loss on initial recognition,"(d) why the entity concluded that the transaction price was not the bese evidence of fair value, including a description of the evidence that supports the fair value.",N/A
-315,4.16.83 Qualitative risk disclosures,"For each type of risk arising from financial instruments, an entity shall disclose:",H
 316,4.16.83 Qualitative risk disclosures,(a) the exposures to risk and how they arise;,Y
 317,4.16.83 Qualitative risk disclosures,"(b) its objectives, policies and processes for managing the risk and the methods used to measure the risk;",N/A
 318,4.16.83 Qualitative risk disclosures,(c) any changes from the previous period in the exposures to risk and how they arise; and,N/A
 319,4.16.83 Qualitative risk disclosures,"(d) any changes from the previous period in the entity s objectives, policies and processes for managing the risk and the methods to measure the risk.",N/A
-320,4.16.84 Quantitative risk disclosures,"For each type of risk arising from financial instruments, an entity shall disclose:",H
 321,4.16.84 Quantitative risk disclosures,(a) summary quantitative data about the entity s exposure to that risk at the reporting date; and,N/A
 322,4.16.84 Quantitative risk disclosures,(b) concentrations of risk if not apparent from the quantitative data prepared.,N/A
 323,4.16.84.3 Quantitative risk disclosures - Quantitative risk disclosures,Disclose further information that is representative where the quantitative data disclosed at the reporting date is unrepresentative of an entity's exposure to risk during the period.,N/A
-324,4.16.86 Credit Risk Management Practices,Disclose information that enables users of financial statements to understand and evaluate:,H
 325,4.16.86 Credit Risk Management Practices,"a) how an entity determines whether the credit risk of financial instruments has increased significantly since initial recognition, including:",Y
 326,4.16.86 Credit Risk Management Practices,"a-i) how the entity determines which financial instruments are considered to have low credit risk upon initial recognition, and shall disclose the classes of financial instruments to which this determination applies; and",N
 327,4.16.86 Credit Risk Management Practices,"a-ii) if and how the presumption, that there have been significant increases in credit risk since initial recognition when financial assets are more than 30 days past due, has been rebutted",Y
@@ -377,7 +342,6 @@ Note 2: An entity shall aggregate or disaggregate disclosures so that useful inf
 332,4.16.86 Credit Risk Management Practices,"f) how the requirements for the modification of contractual cash flows of financial assets have been applied, including",Y
 333,4.16.86 Credit Risk Management Practices,"f-i) how the entity determines whether the credit risk on a financial asset that has been modified while the loss allowance was measured at an amount equal to lifetime expected credit losses, has improved to the extent that the loss allowance reverts to being measured at an amount equal to 12-month expected credit losses; and",Y
 334,4.16.86 Credit Risk Management Practices,f-ii) how the entity monitors the extent to which the loss allowance on financial assets meeting the criteria in (f-i) is subsequently remeasured at an amount equal to lifetime expected credit losses,Y
-335,4.16.87 Credit Risk Management Practices: Impairment,"An entity shall explain the inputs, assumptions and estimation techniques used to apply the impairment requirements of IFRS 9. For this purpose an entity shall disclose:",H
 336,4.16.87 Credit Risk Management Practices: Impairment,"a) the basis of inputs and assumptions and the estimation techniques used to:
 
 a-i) measure the 12-month and lifetime expected credit losses",Y
@@ -385,7 +349,6 @@ a-i) measure the 12-month and lifetime expected credit losses",Y
 338,4.16.87 Credit Risk Management Practices: Impairment,a-iii) determine whether a financial asset is a credit-impaired financial asset,Y
 339,4.16.87 Credit Risk Management Practices: Impairment,"b) how forward-looking information has been incorporated into the determination of expected credit losses, including the use of macroeconomic information",Y
 340,4.16.87 Credit Risk Management Practices: Impairment,c) changes in the estimation techniques or significant assumptions made during the reporting period and the reasons for those changes,Y
-341,4.16.88 Expected credit losses: Reconciliations,"To explain the changes in the loss allowance and the reasons for those changes, an entity shall provide, by class of financial instrument, a reconciliation from the opening balance to the closing balance of the loss allowance, in a table, showing separately the changes during the period for:",H
 342,4.16.88 Expected credit losses: Reconciliations,a) the loss allowance measured at an amount equal to 12-month expected credit losses,Y
 343,4.16.88 Expected credit losses: Reconciliations,"b) the loss allowance measured at an amount equal to lifetime expected credit losses for:
 
@@ -395,29 +358,17 @@ b-i) financial instruments for which credit risk has increased significantly sin
 346,4.16.88 Expected credit losses: Reconciliations,"c) financial assets that are purchased or originated credit-impaired.
 
 In addition to the reconciliation, an entity shall disclose the total amount of undiscounted expected credit losses at initial recognition on financial assets initially recognised during the reporting period",N/A
-347,4.16.89 Expected credit losses: Reconciliation explanation,"The entity shall disclose separately relevant qualitative and quantitative information for financial instruments that represent the loss allowance for:
-	1) 12 month expected credit losses;
-	2) lifetime expected credit losses;
-	3) financial assets that are purchased of originated credit-impaired
-an explanation of how significant changes in the gross carrying amount of financial instruments during the period contributed to changes in the loss allowance.
-
-Examples of changes in the gross carrying amount of financial instruments that contributed to the changes in the loss allowance may include:",H
 348,4.16.89 Expected credit losses: Reconciliation explanation,a) changes because of financial instruments originated or acquired during the reporting period,Y
 349,4.16.89 Expected credit losses: Reconciliation explanation,"b) the modification of contractual cash flows on financial assets that do not result in a derecognition of those financial assets in
 accordance with IFRS 9;",Y
 350,4.16.89 Expected credit losses: Reconciliation explanation,c) changes because of financial instruments that were derecognised (including those that were written-off) during the reporting period;,Y
 351,4.16.89 Expected credit losses: Reconciliation explanation,d) changes arising from whether the loss allowance is measured at an amount equal to 12-month or lifetime expected credit losses,Y
-352,4.16.90 Expected credit losses: Modifications not resulting in derecognition,"To enable users of financial statements to understand the nature and effect of modifications of contractual cash flows on financial assets that have not resulted in derecognition and the effect of such modifications on the measurement of expected credit losses, an entity shall disclose:",H
 353,4.16.90 Expected credit losses: Modifications not resulting in derecognition,a) the amortised cost before the modification and the net modification gain or loss recognised for financial assets for which the contractual cash flows have been modified during the reporting period while they had a loss allowance measured at an amount equal to lifetime expected credit losses;,Y
 354,4.16.90 Expected credit losses: Modifications not resulting in derecognition,b) the gross carrying amount at the end of the reporting period of financial assets that have been modified since initial recognition at a time when the loss allowance was measured at an amount equal to lifetime expected credit losses and for which the loss allowance has changed during the reporting period to an amount equal to 12-month expected credit losses,Y
-355,4.16.91 Expected credit losses: Effects of collateral & other credit enhancements,An entity shall disclose by class of financial instrument the following to enable users of financial statements to understand the effect of collateral and other credit enhancements on expected credit losses:,H
 356,4.16.91 Expected credit losses: Effects of collateral & other credit enhancements,"a) the amount that best represents maximum exposure to credit risk at the end of the reporting period
 
 Note: Do not take into account any collateral held or other credit enhancements",Y
 357,4.16.92 Expected credit losses: Outstanding amounts,Disclose the contractual amount outstanding on financial assets that were written off during the reporting period and are still subject to enforcement activity,N/A
-358,4.16.93 Credit Risk Exposure,"Disclose per credit risk rating grade, the gross carrying amount of financial assets and the exposure to credit risk on loan commitments and financial guarantee contracts to enable users to assess an entity s credit risk exposure and understand its significant credit risk concentrations
-
-This information shall be provided separately for financial instruments:",H
 359,4.16.93 Credit Risk Exposure,a) for which the loss allowance is measured at an amount equal to 12-month expected credit losses,Y
 360,4.16.93 Credit Risk Exposure,b-i) for which credit risk has increased significantly since initial recognition but that are not credit-impaired financial assets and where the loss allowance is measured at an amount equal to lifetime expected credit losses,Y
 361,4.16.93 Credit Risk Exposure,b-ii) that are credit-impaired at the reporting date (but that are not purchased or originated credit-impaired) and where the loss allowance is measured at an amount equal to lifetime expected credit losses,Y
@@ -425,42 +376,34 @@ This information shall be provided separately for financial instruments:",H
 
 Note: information disclosed may be based on a provision matrix",Y
 363,4.16.93 Credit Risk Exposure,c) that are purchased or originated credit-impaired financial assets,N/A
-364,4.16.94 Credit Risk,For those financial instruments within the scope of IFRS 7 but outside the scope of the IFRS 9 impairment requirements disclose by class of financial instrument:,H
 365,4.16.94 Credit Risk,"(a) the amount that best represents its maximum exposure to credit risk at the reporting date without taking account of any collateral held or other credit enhancements (e.g. netting agreements that do not qualify for offset in accordance with IAS 32);
 Note: This disclosure is not required for financial instruments whose carrying amount best represents the maximum exposure to credit risk",Y
 366,4.16.94 Credit Risk,(d) a description of  other credit enhancements;,Y
 367,4.16.94 Credit Risk,(e)the financial effect of other credit enhancements (eg a quantification of the extent to which other credit enhancements  mitigate credit risk) in respect of the  amount that best represents the maximum exposure to credit risk (whether the maximum exposure to credit risk is separately disclosed or is represented by the carrying amount of a financial instrument);,Y
-368,4.16.97 Liquidity Risk,"Unless liquidity risk is not material, disclose:",H
 369,4.16.97 Liquidity Risk,(a) a maturity analysis for non-derivative financial liabilities (including issued financial guarantee contracts) that shows the remaining contractual maturities;,Y
 370,4.16.97 Liquidity Risk,(b) a description of how it manages the liquidity risk in the above;,Y
 371,4.16.97 Liquidity Risk,(c) a maturity analysis for derivative financial liabilities; Note: the maturity analysis shall include the remaining contractual maturities for those derivative financial liabilities for which contractual maturities are essential for an understanding of the timing of the cash flows (see IFRS 7 B11B - see help text).,Y
 372,4.16.97 Liquidity Risk,(d) a description of how it manages the liquidity risk in the above;,N
-373,4.16.98 Market Risk   Sensitivity analysis not prepared by the entity,"Unless market risk is not material, where the entity does not prepare a sensitivity analysis then disclose:",H
 374,4.16.98 Market Risk   Sensitivity analysis not prepared by the entity,"(a) a sensitivity analysis for each type of market risk to which the entity is exposed at the reporting date, showing how profit or loss and equity would have been affected by changes in the relevant risk variable that were reasonably possible at that date;",Y
 375,4.16.98 Market Risk   Sensitivity analysis not prepared by the entity,(b) the methods and assumptions used in preparing the sensitivity analysis; and,Y
 376,4.16.98 Market Risk   Sensitivity analysis not prepared by the entity,"(c) changes from the previous period in the methods and assumptions used, and the reasons for such changes.",N
-377,4.16.106 Interest rate benchmark reform,"For hedging relationships to which an entity applies the exceptions in IFRS 9 or IAS 39, has the entity disclosed the following:",H
 378,4.16.106 Interest rate benchmark reform,(a) the significant interest rate benchmarks to which the entity s hedging relationships are exposed;,Y
 379,4.16.106 Interest rate benchmark reform,(b) the extent of the risk exposure the entity manages that is directly affected by the interest rate benchmark reform;,Y
 380,4.16.106 Interest rate benchmark reform,(c) how the entity is managing the process to transition to alternative benchmark rates;,N
 381,4.16.106 Interest rate benchmark reform,"(d) a description of significant assumptions or judgements the entity made in applying these paragraphs (for example, assumptions or judgements about when the uncertainty arising from interest rate benchmark reform is no longer present with respect to the timing and the amount of the interest rate benchmark-based cash flows); and",N
 382,4.16.106 Interest rate benchmark reform,(e) the nominal amount of the hedging instruments in those hedging relationships?,N
-383,Events after the reporting period (balance sheet date),,H
 384,4.18.1 Adjusting events after the balance sheet date,"If an entity receives information after the balance sheet date about conditions that existed at the balance sheet date, update disclosures that relate to these conditions, in the light of that new information.",N/A
 385,4.18.2 Non-adjusting events after the balance sheet date,For each material category of non-adjusting event after the balance sheet date; disclose:,H
 386,4.18.2 Non-adjusting events after the balance sheet date,(a) the nature of the event;,N/A
 387,4.18.2 Non-adjusting events after the balance sheet date,"(b) an estimate of its financial effect, or a statement that such an estimate cannot be made.",N/A
-388,Related Party Disclosures,,H
 389,4.19.1 Disclosure of name of parent,An entity shall disclose the name of its parent. Note: Relationships between a parent and its subsidiaries shall be disclosed irrespective of whether there have been transactions between them.,Y
 390,4.19.2 Disclosure of name of ultimate controlling party,An entity shall disclose the name of its ultimate controlling party if different to its parent. Note: Relationships between a parent and its subsidiaries shall be disclosed irrespective of whether there have been transactions between them.,N
 391,4.19.3 Disclosure of next most senior parent that prepares consolidated financial statements,Disclose the name of the next most senior parent (where neither the entity's parent nor the ultimate controlling party produces consolidated financial statements available for public use) Note: Relationships between a parent and its subsidiaries shall be disclosed irrespective of whether there have been transactions between them.,Y
-392,4.19.4 Key management personnel compensation,In relation to key management personnel compensation:,H
 393,4.19.4 Key management personnel compensation,a) Disclose key management personnel compensation for each of the following categories: (i) short-term employee benefits;,Y
 394,4.19.4 Key management personnel compensation,(ii) post-employment benefits;,Y
 395,4.19.4 Key management personnel compensation,(iii) other long-term benefits;,N
 396,4.19.4 Key management personnel compensation,(iv) termination benefits; and,Y
 397,4.19.4 Key management personnel compensation,(b) Disclose the total for the items in (a) (i) to (v) above.,Y
-398,4.19.6 Disclosure of Related Party Transactions,"If there have been related party transactions during the periods covered by the financial statements: Note: Where the entity is controlled, jointly controlled or significantly influenced by a government and it has taken advantage of the paragraph 25 disclosure exemption in IAS 24(2009) please answer not applicable to this question if this is so the case and answer question 4.19.8A",H
 399,4.19.6 Disclosure of Related Party Transactions,(a) disclose the nature of the related party relationship;,Y
 400,4.19.6 Disclosure of Related Party Transactions,"(b) disclose information about those transactions and outstanding balances, including commitments, necessary for users to understand the potential effect of the relationship on the financial statements, at a minimum, such disclosures shall include: (i) the amount of the transactions;",Y
 401,4.19.6 Disclosure of Related Party Transactions,"(ii) the amount of outstanding balances, including commitments, and:",Y
@@ -472,21 +415,16 @@ Note: This disclosure is not required for financial instruments whose carrying a
 407,4.19.9 Related party transactions - arm's length transactions,"Do the notes disclose that related party transactions were made on terms equivalent to those that prevail in arm's length transactions only when such terms can be substantiated?
 
 Note: Where the entity is controlled, jointly controlled or significantly influenced by a government and it has taken advantage of the paragraph 25 disclosure exemption in IAS 24(2009) please answer not applicable to this question if this is the case and answer question 4.19.8A",Y
-408,4.19.10 Related party transactions - Government-related entity taken exemption,Where the government-related entity applies the exemption in paragraph 25 of IAS 24 (2009) it shall :,H
 409,4.19.10 Related party transactions - Government-related entity taken exemption,(a) disclose the name of the government ;,N
 410,4.19.10 Related party transactions - Government-related entity taken exemption,"(b) disclose the nature of its relationship with the reporting entity (i.e. control, joint control or significant influence);",N
 411,4.19.10 Related party transactions - Government-related entity taken exemption,(c) disclose the following information in sufficient detail to enable users of the entity's financial statements to understand the effect of related party transactions on its financial statements: (i) the nature and amount of each individually significant transaction; and,N
 412,4.19.10 Related party transactions - Government-related entity taken exemption,"(ii) for other transactions that are collectively, but not individually, significant, a qualitative or quantitative indication of their extent. (Types of transactions include those listed in paragraph 21 of IAS 24(2009) - see help text)",N
-413,Share-based Payments,,H
 414,4.23.10 Additional information,"Where the entity has classified a share-based payment transactions as equity-settled in accordance with paragraph 33F, do the notes disclose an estimate of the amount that it expects to transfer to the tax authority to settle the employee's tax obligatiom?  Note.  This is only when it is necessary to inform users about the future cash flow effects associated with the share-based payment arrangement.",N/A
-415,Leases,,H
-416,4.24.1 Disclosure for lessees," Has the lessee presented the following either in the statement of financial position or in the notes:  Note: This does not apply to right-of-use assets that meet the definition of investment property, which shall be presented in the statement of financial position as investment property.",H
 417,4.24.1 Disclosure for lessees,(a) right-of-use assets separately from other assets;,Y
 418,4.24.1 Disclosure for lessees,"(b) If a lessee does not present right-of-use assets separately in the statement of financial position, has the lessee included right-of-use assets within the same line item as that within which the corresponding underlying assets would be presented if they were owned and disclosed which line items in the statement of financial position include those right-of-use assets;",N/A
 419,4.24.1 Disclosure for lessees,(c) lease liabilities separately from other liabilities;,Y
 420,4.24.1 Disclosure for lessees,"(d)  If the lessee does not present lease liabilities separately in the statement of financial position, has the lessee disclosed which line items in the statement of financial position include those liabilities?",N/A
 421,4.24.2 Disclosure for lessees,"Has the lessee disclosed information about its leases for which it is a lessee in a single note or a separate section in its financial statements?  Note.  a lessee need not duplicate information that is already presented elsewhere in the financial statements, provided that the information is incorporated by cross-reference in the single note or separate section about leases.",Y
-422,4.24.3 Disclosure for lessees,Has the lessee disclosed the following amounts for the reporting period:,H
 423,4.24.3 Disclosure for lessees,(a) depreciation charge for right-of-use assets by class of underlying asset;  Note.  This disclosure is not required for a right-of-use asset which meets the definition of investment property and therefore has been disclosed in accordance with IAS 40.,Y
 424,4.24.3 Disclosure for lessees,(b) interest expense on lease liabilities;,Y
 425,4.24.3 Disclosure for lessees,(c) the expense relating to short-term leases accounted for by applying IFRS paragraph 6;  Note.  This expense need not include the expense relating to leases with a lease term of one month or less;,Y
@@ -500,15 +438,14 @@ Note: Where the entity is controlled, jointly controlled or significantly influe
 433,4.24.4 Disclosure for lessees,"Has the lessee disclosed the above information in a tabular format, unless another format is more appropriate?",Y
 434,4.24.5 Disclosure for lessees,Do the amounts disclosed above include costs that a lessee has included in the carrying amount of another asset during the reporting period?,N/A
 435,4.24.6 Disclosure for lessees,Has the lessee disclosed the amount of its lease commitments for short-term leases accounted for applying paragraph 6 if the portfolio of short-term leases to which it is committed at the end of the reporting period is dissimilar to the portfolio of short-term leases to which the short-term lease expense disclosed at 4.24.2(c) above relates?,Y
-436,4.24.7 Disclosure for lessees,"Where the lease measures the right-of-use asset at revalued amounts applying IAS 16, do the notes disclose:",H
 437,4.24.7 Disclosure for lessees,(a) the effective date of the revaluation;,N/A
 438,4.24.7 Disclosure for lessees,(b) whether an independent valuer was involved;,N/A
 439,4.24.7 Disclosure for lessees,"(c) for each revalued class of property, plant and equipment, the carrying amount that would have been recognised had the assets been carried under the cost model; and",N/A
 440,4.24.7 Disclosure for lessees,"(d) the revaluation surplus, indicating the change for the period and any restrictions on the distribution of the balance to shareholders?",N/A
 441,4.24.8 Disclosure for lessees,Has the lessee disclosed a maturity analysis of lease liabilities separately from the maturity analysis of other financial liabilities?,Y
 442,4.24.9 Disclosure for lessees,"Has the lessee disclosed additional qualitative and quantitative information about its leasing activities necessary to give a basis for users of financial statements to assess the effect that leases have on the financial position, financial performance and cash flows of the lessee?",Y
-443,4.24.10 Disclosure for lessees,Does the additional information referred to above include the following disclosure:,H
 444,4.24.10 Disclosure for lessees,(a) the nature of the lessee's leasing activities;,Y
+443,4.24.10 Disclosure for lessees,Does the additional information referred to above include the following disclosure:,A
 445,4.24.10 Disclosure for lessees,(i) variable lease payments;,Y
 446,4.24.10 Disclosure for lessees,(ii) extension options and termination options;,Y
 447,4.24.10 Disclosure for lessees,(iii) residual value guarantees; and,Y
@@ -516,7 +453,6 @@ Note: Where the entity is controlled, jointly controlled or significantly influe
 449,4.24.10 Disclosure for lessees,(c) restrictions or covenants imposed by leases; and,Y
 450,4.24.10 Disclosure for lessees,(d) sale and leaseback transactions?,N/A
 451,4.24.11 Disclosure for lessees,"Where a lessee accounts for short-term leases or leases of low-value assets applying paragraph 6, is that fact disclosed?",N/A
-452,4.24.12 Disclosure for lessors,Has the lessor disclosed the following amounts for the reporting period:,H
 453,4.24.12 Disclosure for lessors,"(b) for operating leases, lease income, separately disclosing income relating to variable lease payments that do not depend on an index or rate?",Y
 454,4.24.13 Disclosure for lessors,"Has the lessor disclosed the above information in a tabular format, unless another format is more appropriate?",Y
 455,4.24.14 Disclosure for lessors,"Has the lessor disclosed additional qualitative and quantitative information about its leasing activities necessary to give a basis for users of financial statements to assess the effect that leases have on the financial position, financial performance and cash flows of the lessor?",Y
@@ -527,38 +463,11 @@ Note: Where the entity is controlled, jointly controlled or significantly influe
 460,4.24.19 Disclosure for lessors,"Has the lessor disaggregated each class of property, plant and equipmment disclosure required by IAS 16 into assets subject to operating leases and assets not subject to operating leases?",Y
 461,4.24.20 Disclosure for lessors,"Has the lessor disclosed a maturity analysis of lease payments, showing the undiscounted lease payments to be received on an annual basis for a minimum of each of the first five years and a total of the amounts for the remaining years?",Y
 462,4.24.22 Practical expedient to reassess contracts,"Where the entity has chosen to apply the practical expedient in C3 of IFRS 16 to not reassess whether a contract is, or contains, a lease at the date of initial application, has that fact been disclosed?",Y
-463,4.24.23 Practical expedient retrospectively,"Where the entity has chosen to apply the practical expedient in C5(b) of IFRS 16 to retrospectively apply this standard with the cumulative effect of initially apply the standard recognised at the date of initial application in accordance with C7 to C13, has the entity disclosed the following:",H
-464,4.24.23 Practical expedient retrospectively,(a) the weighted average lessee's incremental borrowing rate applied to lease liabilities recognised in the statement of financial position at the date of initial application; and,Y
+463,4.24.23 Practical expedient retrospectively,(a) the weighted average lessee's incremental borrowing rate applied to lease liabilities recognised in the statement of financial position at the date of initial application; and,Y
 465,4.24.23 Practical expedient retrospectively,"(b) an explanation of the difference between (a) operating lease commitments disclosed applying IAS 17 at the end of the annual reporting period immediately preceding the date of initial application, discounted using the incremental borrowing rate at the date of initial application, and (b) lease liabilities recognised in the statement of financial position at the date of initial application?",Y
 466,4.24.24 Practical expedient retrospectively,"Where the entity has chosen to use one or more of the practical expedients in C10 of IFRS 16 to leases previously classified as operating leases, has the entity disclosed that fact?",Y
-467,Statement of Cash Flow,,H
-468,5.1 Cash flow statement,"Report cash flows classified by operating, investing and financing activities.
-
-Note:  For periods beginning on or after 1.1.2010 only expenditures that result in a recognised asset in the statement of financial position are eligible for classification as investing activities",Y
-469,5.2 Cash flows from operating activities,"Report cash flows from operating activities using either: (a) the direct method, whereby major classes of gross cash receipts and gross cash payments are disclosed: or (b) the indirect method, whereby net profit or loss is adjusted for the effects of transactions of a non-cash nature, any deferrals or accruals of past or future operating cash receipts or payments, and items of income or expense associated with investing of financing cash flows.",Y
-470,5.3 Cash receipts and payments reported gross,"Report separately major classes of gross cash receipts and gross cash payments arising from investing and financing activities. However note that the following cash flows from operating, investing or financing may be reported on a net basis: (a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and (b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",Y
-471,5.5 Cash flows from interest and dividends,"Disclose cash flows from interest and dividends received and paid separately, and classify each in a consistent manner from period to period as either operating, investing or financing activities.",Y
-472,5.9 Cash flows arising from changes in ownership interests,"Cash flows arising from changes in ownership interests that do not result in a loss of control shall be classified as cash flows from financing activities.
-
-Note: This applies unless the subsidiary is held by an investment entity (as defined in IFRS 10) which is required to be measured at fair value through profit of loss. Please refer to help text.",N/A
-473,5.12 Significant non-cash transactions,"Disclose significant investing and financing non-cash transactions in the notes to the accounts, providing all relevant information about these activities.",Y
-474,5.14 Reconciliation of the components of cash and cash equivalents,Disclose the components of cash and cash equivalents and present a reconciliation of the amounts in its cash flow statement with the equivalent items reported in the balance sheet.,Y
-475,5.15 Cash and cash equivalents,Has the entity disclosed the policy which it adopts in determining the composition of cash and cash equivalents?,Y
-476,5.16 Cash and cash equivalents,"Has the entity disclosed separately from cash flows from operating, investing and financing activities, the effect of exchange rate changes on cash and cash equivalents held or due in foreign currency?  Note: This amount includes the differences, if any, had those cash flows been reported at end of period exchange rates.",Y
-477,5.17 Cash not available for use,"Disclose, together with a commentary by management, the amount of significant cash and cash equivalents held by the entity that are not available for use by the group.",N/A
-478,5.18 Additional cash flow information,"Disclosure of the following information, together with a commentary by management, is ENCOURAGED:",H
-479,5.18 Additional cash flow information,"(a) amount of undrawn borrowing facilities that may be available for future operating activities and to settle capital commitments, indicating any restrictions on the use of these facilities;",Y
-480,5.18 Additional cash flow information,(c) aggregate amount of cash flows that represent increases in operating capacity separately from those that are required to maintain operating capacity;,Y
-481,5.19 Evaluate changes in liabilities,"Do the notes provide disclosures that enable users of financial statements to evaluate changes in liabilities arising from financing activities, including both changes arising from cash flows and non-cash changes?",Y
-482,5.20 Evaluate changes in liabilities,"To satisfy the requirement above, do the notes disclose the following changes in liabilities arising from financing activities:",H
-483,5.20 Evaluate changes in liabilities,(a) changes from financing cash flows;,N/A
-484,5.20 Evaluate changes in liabilities,(b) changes arising from obtaining or losing control of subsidiaries or businesses;,N/A
-485,5.20 Evaluate changes in liabilities,(c) the effect of changes in foreign exchange rates;,Y
-486,5.20 Evaluate changes in liabilities,(d) changes in fair values; and,N/A
-487,5.20 Evaluate changes in liabilities,(e) other changes?,N/A
-488,5.21 Evaluate changes in liabilities,"If the above disclosures are provided in combination with disclosures of changes in other assets and liabilities, do the notes disclose separately those changes arising from financing activities?",N/A
-489,Statement of Changes in Equity,,H
-490,6.1 Statement of Changes in Equity,Present a statement of changes in equity that shows in that statement:,H
+,,,End Section
+,,,Begin Section
 491,6.1 Statement of Changes in Equity,(A) total comprehensive income for the period;,Y
 492,6.1 Statement of Changes in Equity,"(C) for each component of equity, the effects of retrospective application or retrospective restatement recognised in accordance with IAS 8;",Y
 493,6.1 Statement of Changes in Equity,"(D) for each component of equity, a reconciliation between the carrying amount at the beginning and end of the period separately disclosing: (a) profit or loss",Y
@@ -567,8 +476,12 @@ Note: This applies unless the subsidiary is held by an investment entity (as def
 496,6.1 Statement of Changes in Equity,(ii) distributions to owners,N/A
 497,6.2 Information to be presented in SOCIE or notes,For each component of equity present an analysis of other comprehensive income by item (either in the statement of changes in equity or in the notes).,Y
 498,6.3 Proposed Dividends,"An entity shall present, either in the statement of changes in equity or in the notes, the amount of dividends recognised as distributions to owners during the period, and the related amount of dividends per share.",N/A
+,,,End Section
+,,,Begin Section
 499,Operating Segments,,H
 500,7.1 Operating segments,Disclose information to enable users to evaluate the nature and financial effects of the business activities in which the entity engages and the economic environment in which it operates.,Y
+,,,End Section
+,,,Begin Section
 501,Capital Disclosures,,H
 502,8.1 Capital,"An entity shall disclose information that enables the users of its financial statements to evaluate the entity's objectives, policies and processes for managing capital.",Y
 503,8.2 Capital - Qualitative information,"Disclose qualitative information (based on the information provided internally to the entity's key management personnel) about the entity's objectives, policies and processes for managing capital, including but not limited to:",H
@@ -586,24 +499,24 @@ Note: This applies unless the subsidiary is held by an investment entity (as def
 512,8.5 Capital - externally imposed capital requirements,(a) whether during the period the entity has complied with any externally imposed capital requirements to which it is subject;,N/A
 513,8.5 Capital - externally imposed capital requirements,"(b) when the entity has not complied with such externally imposed capital requirements, the consequences of such non-compliance.",N/A
 514,8.6 Capital Disclosure Requirements - aggregate Information,"Where aggregate disclosure of capital requirements and how capital is managed would not provide useful information or distorts the financial statements user's understanding of the entity's capital resources, has the entity disclosed separate information for each capital requirement for which the entity is subject to (see help text)?",Y
-515,UK Statutory Strategic Report,,H
+,,,End Section
+,,,Begin Section
 516,10.1 UK Statutory Strategic Report,Is there a strategic report (or group strategic report relating to the undertakings included in the consolidation) for the financial year?,Y
+516a, 10.2, The purpose of the report is to inform members of the company and help them assess how the directors have performed their duty to promote the success of the company(CA 06 s414C(1));,A
+516a, 10.3, The report can omit information about impending developments or matters in the course of negotiation if in the opinion of the directors disclosure would be seriously prejudicial to the interests of the company.(CA 06 s414C(14)).,A
 517,10.4 UK Fair review of the business,"Does the report contain a fair review of the business of the company (and where there are group accounts, the undertakings included in the consolidation)?",Y
 518,10.5 UK Risks and uncertainties,"Does the report contain a description of the principal risks and uncertainties facing the company (and where there are group accounts, the undertakings included in the consolidation)?",Y
 519,10.6 UK Balanced and comprehensive business review,"Is the review a balanced and comprehensive analysis, consistent with the size and complexity of the business, covering the development and performance of the business during the financial year and the position at the end of the year of the company (and where there are  group accounts, the undertakings included in the consolidation)?",Y
 520,10.7 UK Interaction of accounts and report,"Does the strategic report, where appropriate, include references to and additional explanations of amounts included in the annual accounts?",N/A
-521,10.12 UK Key performance indicators,"Does the review, to the extent necessary for an understanding of the development, performance or position of the business of the company (and where there are  group accounts, the undertakings included in the consolidation), include an analysis using key performance indicators:",H
 522,10.12 UK Key performance indicators,(a) financial; and,Y
 523,10.12 UK Key performance indicators,"(b) non-financial where appropriate, including those relating to environmental and employee matters?",Y
 524,10.13 UK Approval and signature,Is the strategic report approved by the board of directors and signed on its behalf by a director or the secretary?,Y
 525,10.14 Non financial information statement,Does the strategic report include a non-financial information statement?,Y
-526,10.15 Non financial information statement,"Does the non-financial information statement contain the following information, to the extent necessary for an understanding of the company s development, performance and position and the impact of its activity, relating to, as a minimum:",H
 527,10.15 Non financial information statement,(a) environment matters (including the impact of the company's business on the environment;,Y
 528,10.15 Non financial information statement,(b) the company's employees;,Y
 529,10.15 Non financial information statement,(c) social matters:,Y
 530,10.15 Non financial information statement,(d) respect for human rights; and,Y
 531,10.15 Non financial information statement,(e) anti-corruption and bribery matters:,Y
-532,10.16 Non financial information statement,Does the information above include:,H
 533,10.16 Non financial information statement,(a) a brief description of the company s business model;,Y
 534,10.16 Non financial information statement,(b) a description of the policies pursued by the company in relation to the matters mentioned above and any due diligence processes implemented by the company in pursuance of those policies;,Y
 535,10.16 Non financial information statement,(c) a description of the outcome of those policies;,Y
@@ -613,20 +526,20 @@ Note: This applies unless the subsidiary is held by an investment entity (as def
 539,10.18 Non financial information statement,"Does the statement, where appropriate, include references to, and additional explanations of, amounts included in the company s annual accounts?",Y
 540,10.19 Non financial information statement," If the information required above to be included in the statement is published by the company by means of a national, EU-based or international reporting framework, does the statement specify the framework or frameworks used, instead of including that information?",Y
 541,10.20 Section 172 statement,Does the strategic report include a 172(1) statement which describes how the directors have had regard to the matters set out in section 172(1)(a) to (f) when performing their duties under section 172?  (see Help for guidance).,Y
-542,UK Directors'  Report (unless strategically important),,H
+,,,End Section
+,,,Begin Section
+542,11.1 UK Possible Strategic report extras,Items in this section go in either the directors' report or the strategic report depending on whether the directors consider them to be strategically important,A
 543,11.2 UK Future developments,"Does the report include an indication of likely future developments in the business of the entity (and only where there are statutory group accounts, those of its subsidiary undertakings included in the consolidation) ?",N
 544,11.3 UK Financial Instruments,"Are the following shown: (a) an indication of the financial risk management objectives; (b) the exposure to risk on: (i) price; (ii) credit; (iii) liquidity; and (iv) cash flows? Note: This information is only required if material to the assessment of the assets, liabilities, financial position and profit or loss of the company (and its subsidiaries in the consolidation).",N/A
 545,11.4 UK Hedging forecast transactions,"Where hedge accounting is used, is the policy for hedging each major type of forecast transaction shown? Note: This information is only required if material to the assessment of the assets, liabilities, financial position and profit or loss of the company (and its subsidiaries in the consolidation).",N/A
 546,11.5 UK Research and development,"Does the report include an indication of the activities of the entity and (and only where there are statutory group accounts, those of its subsidiary undertakings included in the consolidation) in the field of research and development?",N/A
 547,11.6 UK Branches in the EU,Is an indication given of the existence of branches of the entity outside the UK?,N
 548,11.8 UK Post balance sheet events,"Does the report include particulars of any important events affecting the entity (and only where there are statutory group accounts, those of its subsidiary undertakings included in the consolidation) which have occurred since the year end? Answer 'X' if there are no significant post balance sheet events.",N
-549,11.9 UK Disabled persons,Does the report include a statement of the entity's policy as to:,H
 550,11.9 UK Disabled persons,(a) full and fair consideration of applications;,Y
 551,11.9 UK Disabled persons,(b) continuing employment and training while employed; and,Y
 552,11.9 UK Disabled persons,"(c) generally their training, career development and promotion?",N
 553,11.11 Employee information,"Does the report include a statement  a statement  (a) describing the action that has been taken during the financial year to introduce, maintain or develop arrangements aimed at   (i) providing employees systematically with information on matters of concern to them as employees,  (ii) consulting employees or their representatives on a regular basis so that the views of employees can be taken into account in making decisions which are likely to affect their interests,  (iii) encouraging the involvement of employees in the company s performance through an employees  share scheme or by some other means, and  (iv) achieving a common awareness on the part of all employees of the financial and economic factors affecting the performance of the company, and (b) summarising   (i) how the directors have engaged with employees, and  (ii) how the directors have had regard to employee interests, and the effect of that regard, including on the principal decisions taken by the company during the financial year?",Y
 554,11.12 Engagement with others,"Does the directors  report for the financial year contain a statement summarising how the directors have had regard to the need to foster the company s business relationships with suppliers, customers and others, and the effect of that regard, including on the principal decisions taken by the company during the financial year?",Y
-555,11.14 UK EU Political donations and expenditure,"Does the report show: Answer N/A if aggregate EU political donations and expenditure was £2,000 or less (adding the company and its subsidiaries together) as disclosure is then not needed",H
 556,11.14 UK EU Political donations and expenditure,"a) separately for each EU political party or other EU political organisation or independent election candidate, the amount of donations;",N/A
 557,11.14 UK EU Political donations and expenditure,b) the name of the EU political party or other EU political organisation or independent election candidate; and,N/A
 558,11.14 UK EU Political donations and expenditure,c) total EU political expenditure incurred; and,N/A
@@ -634,7 +547,8 @@ Note: This applies unless the subsidiary is held by an investment entity (as def
 560,11.16 UK donations to non-UK political parties,"Does the report show the total amount of contributions (see Help screen) to non-UK political parties (in aggregate for the company plus its subsidiaries)?
 
 Answer N/A if nil",N/A
-561,Directors' Report,,H
+,,,End Section
+,,,Begin Section
 562,12.1 UK Information in strategic report,Does the directors' report state that information is not shown in the directors' report because it is shown in the strategic report instead under s414C(11) and specify which information is so shown?,Y
 563,12.10 UK Proposed dividend,Does the report include a statement of the recommended dividend? Answer 'X' if there is no recommendation.,N/A
 564,12.12 UK Name of directors (or designated members),Does the report include names of persons who were directors at any time during the year?,Y
@@ -642,38 +556,35 @@ Answer N/A if nil",N/A
 566,12.16 UK Awareness of relevant audit information,"Is there a statement that, so far as each of the directors at the time the report is approved are aware: a) there is no relevant audit information of which the auditors are unaware and b) that they have taken all the steps they ought to have taken to make themselves aware of any relevant audit information and to establish that the auditors are aware of that information?",Y
 567,12.18 UK Approval and signature,Is the directors' report approved by the board of directors and signed on its behalf by a director or the secretary?,Y
 568,12.19 UK Responsibilities,Is a suitable statement of directors' responsibilities for the report and accounts included that is tailored to this type of entity?,Y
-569,Directors' Remuneration Report,,H
-570,Corporate Governance,,H
+,,,End Section
+,,,Begin Section
 571,15.3.59 Corp Gov arrangements,Does the directors' report include a statement of its corporate governance arrangements?,Y
-572,15.3.60 Corp Gov arrangements,Does the directors  report include a statement (a  statement of corporate governance arrangements ) which states the following:,H
 573,15.3.60 Corp Gov arrangements,"(a) which corporate governance code, if any, the company applied in the financial year;",Y
 574,15.3.60 Corp Gov arrangements,(b) how the company applied any corporate governance code reported under sub-paragraph (a); and,Y
 575,15.3.60 Corp Gov arrangements,"(c) if the company departed from any corporate governance code reported under sub-paragraph (a), the respects in which it did so, and its reasons for so departing?",Y
 576,15.3.60.4 Corp Gov arrangements - Corp Gov arrangements,"If the company has not applied any corporate governance code for the financial year, does the statement of corporate governance arrangements explain the reasons for that decision, and explain what arrangements for corporate governance were applied for that year?",Y
-577,UK Notes-balance sheet,,H
+,,,End Section
+,,,Begin Section
 578,17.4.9 UK - Investments,"In respect of the amount of each item which is or would be, but that it has been combined,shown in the entity s balance sheet under the general item  investments  (whether as fixed assets or as current assets)
 
 (a) has the carrying amount of listed investments been stated?
 (b) is the aggregate market value of those investments stated where it differs from the carrying amount;
 (c) both the market value and the stock exchange value of any investments if which the market value is, for the purposes of the accounts, taken as being higher than the stock exchange value?.",N/A
-579,FRC,,H
+,,,End Section
+,,,Begin Section
 580,18.2.9 UK Signing the balance sheet,"At the foot of the balance sheet is there provision for a signature on behalf of the board by a director (entity's and registrar's copy); or on every copy of the balance sheet which is laid before the entity in general meeting, or otherwise circulated, published or issued, the name of the director signing it on behalf of the board?",Y
 581,18.2.11 UK IAS Accounts,Do the notes state that the accounts (entity and/or group as appropriate) have been prepared in accordance with international accounting standards?,Y
-582,Distributable profits,,H
 583,18.3.1 UK Development costs,"Where development costs are capitalised, do the special circumstances apply so that development costs can be carried as assets and, if so, are the reasons for capitalisation stated?",Y
-584,Staff,,H
 585,18.4.3 UK Staff costs,"In respect of persons employed are the following disclosed separately: (i) wages and salaries; (ii) social security costs; and (iii) other pension costs?
 
 Note. This disclosure is required in both the group accounts and the company accounts.",Y
 586,18.4.5 UK Off balance sheet arrangements,"If the entity has been party to off balance sheet arrangements that have risks or benefits that are material at the balance sheet date, is the nature and business purpose of the arrangement noted (to the extent necessary for enabling the financial position of the entity to be assessed)?",N/A
 587,18.4.6 UK Off balance sheet arrangements,Is the financial impact of the arrangement on the entity shown (to the extent necessary for enabling the financial position of the entity to be assessed)?,N/A
-588,Auditors,,H
 589,18.5.1 UK Auditors' remuneration,Is there a note of each auditors' remuneration for auditing the accounts (inclusive of payments for expenses and benefits in kind)?,Y
 590,18.5.2 UK Associates of the auditors,Is the remuneration shown in 17.4.1 UK inclusive of amounts for associates of the entity's auditors?,Y
 591,18.5.3 UK Auditors' remuneration,Is there a note of the nature and estimated money value of benefits in kind?,N/A
 592,18.5.4 UK Non-audit remuneration,"If the entity is included in consolidated accounts that reveal the various statutory amounts for non-audit remuneration (as if the consolidated undertakings were a single company) and the entity chooses to use the exemption from disclosure in its own accounts, does it state that the group accounts are required to comply with the statutory disclosure requirement?",N/A
 593,18.5.5 UK Non-audit remuneration,Is there a note of each auditors' remuneration (inclusive of payments for expenses and estimated value of benefits in kind -whose amount and nature must be shown) for the supply of non-audit services to the entity or its subsidiaries & pension schemes (but not its associates and joint ventures) by the auditor or any person who was at any time in the period an associate (see Help) of the auditors?,Y
-594,18.5.6 UK Non-audit remuneration,Are amounts shown separately for each of the following services?,H
 595,18.5.6 UK Non-audit remuneration,(a) the auditing of accounts of any associate of the company;,Y
 596,18.5.6 UK Non-audit remuneration,(b) audit-related assurance services;,N/A
 597,18.5.6 UK Non-audit remuneration,(c) taxation compliance services;,Y
@@ -683,39 +594,30 @@ Note. This disclosure is required in both the group accounts and the company acc
 601,18.5.6 UK Non-audit remuneration,"(g) all services relating to corporate finance transactions entered into, or proposed to be entered into, by or on behalf of the company or any of its associates not falling within (a-f); and",N/A
 602,18.5.6 UK Non-audit remuneration,(h) all non-audit services not falling within (b-g).,Y
 603,18.5.7 UK Pension schemes,Are all the above amounts shown separately as two figures for services to: a) associated pension schemes (if any) ; and b) the entity & its subsidiaries if any (other than those subject to severe long term control restrictions)?,N/A
-604,18.5.8 UK Auditor liability limitation agreements,Are the following shown in a note:,H
 605,18.5.8 UK Auditor liability limitation agreements,(a) the principal terms; and,N/A
 606,18.5.8 UK Auditor liability limitation agreements,"(b) the date of the resolution approving the agreement or the agreement's principal terms or, in the case of a private company, the date of the resolution waiving the need for such approval, in a note to the company's annual accounts?",N/A
-607,Directors' remuneration,,H
-608,18.6.2 UK,Is the following information given?,H
 609,18.6.2 UK,"(a) aggregate amount of remuneration paid to or receivable by directors in respect of qualifying services (viz: services as a director of the entity, and while a director of any of its subsidiary entities, or otherwise in connection with the management of the affairs of the entity or any of its subsidiary undertakings, (""qualifying services"");",Y
 610,18.6.2 UK,"(c) the aggregate of the following, namely: (i) the amount of money paid to or receivable by directors under long term incentive schemes in respect of qualifying services;  Note: One total amount only to be stated. Assets include shares only if equity shares are listed on the London Stock Exchange or AIM or in an EEA state or are admitted to dealing on the NYSE or NASDAQ. ",N/A
+610a, 18.6.2 UK,(ii) the net value of assets (other than money and share options) received or receivable by directors under such schemes in respect of such services; Note: One total amount only to be stated. Assets include shares only if equity shares are listed on the London Stock Exchange or AIM or in an EEA state or are admitted to dealing on the NYSE or NASDAQ.,A
 611,18.6.2 UK,"(d) the aggregate value of any entity contributions paid, or treated as paid, to a pension scheme in respect of directors' qualifying services, being contributions by reference to which the rate or amount of any money purchase benefits that may become payable will be calculated.",Y
-612,18.6.3 UK Retirement benefits,Are the number of directors shown:,H
 613,18.6.3 UK Retirement benefits,(a) to whom retirement benefits are accruing under money purchase pension schemes in respect of qualifying services;,Y
 614,18.6.4 UK Directors' other benefits,Do the accounts contain the number of directors (if any) who exercised share options during the year?,N/A
 615,18.6.5 UK Directors' other benefits,"Do the accounts contain the number of directors, (if any) in respect of whose qualifying services shares were received or receivable under long term incentive schemes?",N/A
 616,18.6.6 UK Directors' excess retirement,"Where applicable, do the accounts state the aggregate amount of excess retirement benefits paid to or receivable by directors and former directors under any pension schemes of the entity? Note: include in the aggregate amount the amount or estimated amount of any non-cash benefits, and state the nature of those benefits",N/A
 617,18.6.7 UK Directors compensation for loss of office,"Do the accounts show the aggregate amount of any compensation to directors or past directors in respect of loss of office (including the estimated amount and stating the nature of benefits-in-kind)? Notes: 1. The amount includes compensation: for loss of office as director or, while a director, of any other office in connection with the management of the entity's affairs or as director or manager of any subsidiary undertaking; retirement from office; payments for damages, settlement or compromise of any claim in respect of a breach of the director's contract (see Help for statutory wording regarding retirement and for breach of contract). 2. Small entities must include this information in shareholders' accounts but may exclude it from abbreviated accounts.",Y
 618,18.6.8 UK Directors' remuneration paid to third parties,"Do the accounts show the aggregate amount of consideration (including the estimated amount and stating the nature of benefits-in-kind) paid to or receivable by third parties for making available the services of any person as a director of the entity or, while a director of the entity, as director of any of its subsidiary undertakings, or otherwise in connection with the management of the affairs of the entity or any of its subsidiaries? Note: Small entities must include this information in shareholders' accounts but may exclude it from abbreviated accounts.",N/A
-619,18.6.10 UK Highest paid director,Do the accounts contain the following amounts in respect of the highest paid director:,H
 620,18.6.10 UK Highest paid director,(a) that director's aggregate remuneration;,Y
 621,18.6.10 UK Highest paid director,"(b) the value of any entity contributions paid, or treated as paid, to a pension scheme in respect of that director's qualifying services, being contributions by reference to which the rate or amount of any money purchase benefits that may become payable will be calculated?",Y
-622,18.6.12 UK Highest paid director,Do the accounts state whether the highest paid director:,H
 623,18.6.12 UK Highest paid director,(a) exercised any share options; and,Y
 624,18.6.12 UK Highest paid director,(b) received or was due to receive any shares under a long term incentive scheme in respect of qualifying services? Note: No statement is required if the director had not been involved in any such transactions.,Y
-625,Other,,H
 626,18.7.2 UK Secretary of State's waiver,"Secretary of State may sanction omission of information in relation to undertakings incorporated outside UK or, if incorporated in UK, carry on business outside UK, if, in the opinion of the directors (or LLP members), this would be seriously prejudicial to the business of the entity or any of its subsidiary undertakings. Where advantage is taken of this, is that fact stated in the notes to the accounts?",N/A
-627,18.7.19 UK Interests in associated undertakings,"Where an undertaking included in the consolidation has an interest in an associated undertaking, do the notes disclose:",H
 628,18.7.19 UK Interests in associated undertakings,(a) the associate's name; and,N/A
 629,18.7.19 UK Interests in associated undertakings,"(b) the address of the reigstered office (whether in or outside the UK) or, if it is unincorporated, the address of its principal place of business?
 
 ",N/A
-630,18.7.20 UK Shares in associated undertakings,"With respect to shares of the undertaking held by (i) the parent entity and (ii) the group, do the notes disclose:",H
 631,18.7.20 UK Shares in associated undertakings,Does the company's individual balance sheet show the entity's own (unconsolidated) profit or loss for the financial year (see help screen) and do the accounts include a statement that it is exempt from publishing that profit and loss account? Or Is the entity's own (unconsolidated) profit and loss account published by attachment to the group accounts?,N/A
 632,18.7.20 UK Shares in associated undertakings,(b) proportion of the nominal value of the shares of that class represented by those shares?,N/A
 633,18.7.22 UK Membership of qualifying partnerships,"Where the undertaking is a qualifying partnership, do the notes state either: (a) that a copy of the latest accounts of the undertaking has been or is to be appended to the entity's accounts sent to the Registrar; or (b) the name of at least one body corporate (which may be the reporting group) in whose group accounts the partnership has been or is to be dealt with by full consolidation, proportional consolidation or the equity method of accounting; or (c) that advantage has been taken of the exemption conferred by regulation 7 of the Partnerships (Accounts) Regulation 2008?",N/A
-634,18.7.23 UK Subsidiary undertakings,"For each subsidiary (including sub-subsidiaries) undertaking of the parent entity at the end of the year, do the notes disclose:",H
 635,18.7.23 UK Subsidiary undertakings,(a) its name;,Y
 636,18.7.23 UK Subsidiary undertakings,"(b) the address of the reigstered office (whether in or outside the UK) or, if it is unincorporated, the address of its principal place of business?
 
@@ -724,26 +626,21 @@ Note. This disclosure is required in both the group accounts and the company acc
 638,18.7.25 UK Audit exempt subsidiaries,Do the notes to the consolidated accounts identify every subsidiary that is exempt from audit by virtue of s479A of Companies Act 2006?,N/A
 639,18.7.26 UK Dormant subsidiaries not preparing individual accounts,Do the notes to the consolidated accounts identify every dormant subsidiary that is exempt from preparing individual accounts by virtue of s394A of Companies Act 2006?,Y
 640,18.7.27 UK Dormant subsidiaries not filing individual accounts,Do the notes to the consolidated accounts identify every dormant subsidiary that is exempt from filing with the registrar individual accounts by virtue of s448A of Companies Act 2006?,Y
-641,18.7.28 UK General information,"For each subsidiary not included in the consolidation, do the notes disclose: See help screen for exceptions.",H
 642,18.7.28 UK General information,(a) the reasons for its exclusion;,N/A
 643,18.7.28 UK General information,(b) the aggregate amount of its capital and reserves as at the end of its relevant financial year; and ,N/A
 644,18.7.28 UK General information,(c) its profit or loss for the year? ,N/A
-645,18.7.29 UK Other significant holdings,"For each significant holding which is not a subsidiary, do the notes disclose:",H
 646,18.7.29 UK Other significant holdings,(a) its name;,N/A
 647,18.7.29 UK Other significant holdings,"(b) the address of the reigstered office (whether in or outside the UK) or, if it is unincorporated, the address of its principal place of business?
 
 ",N/A
 648,18.7.29 UK Other significant holdings,(c) the identity of each class of shares held; and ,N/A
 649,18.7.29 UK Other significant holdings,(d) the proportion of the nominal value of the shares of that class represented by those shares?,N/A
-650,18.7.30 UK Other significant holdings details,For each other significant holding do the notes disclose:  See help screen for exemptions.,H
 651,18.7.30 UK Other significant holdings details,(a) the aggregate amount of the capital and reserves of the undertaking at the end of its relevant financial year; and  ,N/A
 652,18.7.30 UK Other significant holdings details,(b) its profit or loss for that year?,N/A
-653,18.7.31 UK Shares held by subsidiary undertakings,"For any shares in the entity held by subsidiary undertakings or their nominee, do the notes disclose:",H
 654,18.7.31 UK Shares held by subsidiary undertakings,(a) the number of shares;,N/A
 655,18.7.31 UK Shares held by subsidiary undertakings,(b) the description; and,N/A
 656,18.7.31 UK Shares held by subsidiary undertakings,(c) the amount?,N/A
 657,18.7.33 UK Parent undertaking drawing up accounts for larger group,"If copies of any of those parents' group accounts are available to the public, does the note state the addresses from which they may be obtained?",Y
-658,18.7.34 UK Ultimate parent entity,"In respect of the entity (if any) regarded by the directors as being the entity's ultimate parent entity, do the notes disclose:",H
 659,18.7.34 UK Ultimate parent entity,(a) its name; and,Y
 660,18.7.34 UK Ultimate parent entity,"(b) if known to the directors the country of incorporation, if the entity is incorporated outside UK ?",Y
 661,18.7.35 UK Charges to share premium account,Are all charges to this account after 30 September 2009 limited to those permitted which are as follows: (a) the expenses and commission on the issue of shares on which a sufficient premium arose; (b) paying up unissued shares to be distributed as bonus shares; (c) reduction of capital; or (d) a permissible payment out of capital by a private entity repurchasing or redeeming its own shares?,N/A
@@ -751,9 +648,34 @@ Note. This disclosure is required in both the group accounts and the company acc
 663,18.7.37 UK Redenomination reserve,Is there a separate redenomination reserve if the nominal value of share capital has been redenominated from one currency to another and capital has thereby been reduced?,N/A
 664,18.7.38 UK Credits to share premium,Does any credit to share premium account exclude any premium on an issue involving takeover of another entity that falls to be excepted under terms of relief for mergers?,N/A
 665,18.7.39 UK Capital redemption reserve,"In the case of redemption of shares or their purchase for cancellation, unless there is a reduction of capital or a fresh issue of shares for the purpose, has a corresponding transfer been made to this reserve out of distributable profits?",N/A
-666,Directors' and Officers' Transactions,,H
+,,,End Section
+,,,Begin Section
 667,19.3 UK Directors' advances and credits,For each advance or credit is an indication given of the main conditions?,Y
-668,Companies House Filings,,H
+,,,End Section
+,,,Begin Section
 669,24.1 UK Accounts in foreign currency,"If the amounts presented in the accounts are also presented in Euros, is the Euro exchange rate shown in the notes?",N/A
 670,24.2 UK Company (or LLP) number,"Is the company (or LLP) name and registered number shown in black typescript (or handwritten in black ink) in a prominent position in at least one of the following (balance sheet, abbreviated accounts, profit and loss account, directors' report, directors' remuneration report or audit report)?",Y
 671,24.3 UK Black ink,Are the filed copies of reports and accounts in black ink (including any signatures)?,Y
+,,,End Section
+,,,Begin Section
+468,5.1 Cash flow statement,"Report cash flows classified by operating, investing and financing activities.",Y
+469,5.2 Cash flows from operating activities,"Report cash flows from operating activities using either: (a) the direct method, whereby major classes of gross cash receipts and gross cash payments are disclosed: or (b) the indirect method, whereby net profit or loss is adjusted for the effects of transactions of a non-cash nature, any deferrals or accruals of past or future operating cash receipts or payments, and items of income or expense associated with investing of financing cash flows.",Y
+470,5.3 Cash receipts and payments reported gross,"Report separately major classes of gross cash receipts and gross cash payments arising from investing and financing activities. However note that the following cash flows from operating, investing or financing may be reported on a net basis: (a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and (b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",Y
+471,5.5 Cash flows from interest and dividends,"Disclose cash flows from interest and dividends received and paid separately, and classify each in a consistent manner from period to period as either operating, investing or financing activities.",Y
+472,5.9 Cash flows arising from changes in ownership interests,"Cash flows arising from changes in ownership interests that do not result in a loss of control shall be classified as cash flows from financing activities",N/A
+473,5.12 Significant non-cash transactions,"Disclose significant investing and financing non-cash transactions in the notes to the accounts, providing all relevant information about these activities.",Y
+474,5.14 Reconciliation of the components of cash and cash equivalents,Disclose the components of cash and cash equivalents and present a reconciliation of the amounts in its cash flow statement with the equivalent items reported in the balance sheet.,Y
+475,5.15 Cash and cash equivalents,Has the entity disclosed the policy which it adopts in determining the composition of cash and cash equivalents?,Y
+476,5.16 Cash and cash equivalents,"Has the entity disclosed separately from cash flows from operating, investing and financing activities, the effect of exchange rate changes on cash and cash equivalents held or due in foreign currency?  Note: This amount includes the differences, if any, had those cash flows been reported at end of period exchange rates.",Y
+477,5.17 Cash not available for use,"Disclose, together with a commentary by management, the amount of significant cash and cash equivalents held by the entity that are not available for use by the group.",N/A
+478,5.18 Additional cash flow information,"(a) amount of undrawn borrowing facilities that may be available for future operating activities and to settle capital commitments, indicating any restrictions on the use of these facilities;",Y
+479,5.18 Additional cash flow information,(c) aggregate amount of cash flows that represent increases in operating capacity separately from those that are required to maintain operating capacity;,Y
+480,5.19 Evaluate changes in liabilities,"Do the notes provide disclosures that enable users of financial statements to evaluate changes in liabilities arising from financing activities, including both changes arising from cash flows and non-cash changes?",Y
+481,5.20 Evaluate changes in liabilities,(a) changes from financing cash flows;,N/A
+482,5.20 Evaluate changes in liabilities,(b) changes arising from obtaining or losing control of subsidiaries or businesses;,N/A
+483,5.20 Evaluate changes in liabilities,(c) the effect of changes in foreign exchange rates;,Y
+484,5.20 Evaluate changes in liabilities,(d) changes in fair values; and,N/A
+485,5.20 Evaluate changes in liabilities,(e) other changes?,N/A
+486,5.21 Evaluate changes in liabilities,"If the above disclosures are provided in combination with disclosures of changes in other assets and liabilities, do the notes disclose separately those changes arising from financing activities?",N/A
+,,,End Checklist
+,,,End Main Checklist

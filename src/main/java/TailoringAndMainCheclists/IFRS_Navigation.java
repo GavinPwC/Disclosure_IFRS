@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class FRS102_103_105 {
+public class IFRS_Navigation {
 
     public WebDriver driver;
     SoftAssert softAssert = new SoftAssert();
@@ -44,7 +44,7 @@ public class FRS102_103_105 {
     int actStateTwoCountconfirm = 84;
 
 
-    public FRS102_103_105(WebDriver driver) {
+    public IFRS_Navigation(WebDriver driver) {
         // TODO Auto-generated constructor stub
         this.driver = driver;
     }
@@ -88,7 +88,7 @@ public class FRS102_103_105 {
         Thread.sleep(3000);
 
         String expFolderName = "General";
-        String fileNameMain = "MainChecklist_FRS102.csv";
+        String fileNameMain = "IFRS_mainCL.csv";
         String filePathMain = System.getProperty("user.dir") + "\\src\\main\\java\\Data Files\\" + fileNameMain;
 
         //CSVReader reader = new CSVReader(new FileReader(filePathMain));
@@ -100,7 +100,7 @@ public class FRS102_103_105 {
         String[] csvCell6;
 
         // Execute block of code based on StartLine variable value
-        if (StartLine.equalsIgnoreCase("Primary Statements")) {
+        if (StartLine.equalsIgnoreCase("General Requirements")) {
 
             try {
                 // Create an object of file reader
@@ -146,7 +146,7 @@ public class FRS102_103_105 {
                         driver.navigate().refresh();
                         Thread.sleep(3000);
                         hs.answerSections(driver);
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         // display final summary upon completion of final section
@@ -165,7 +165,7 @@ public class FRS102_103_105 {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }else if (StartLine.equalsIgnoreCase("Financial Statement Presentation")) {
+        }else if (StartLine.equalsIgnoreCase("Accounting Policies")) {
 
             try {
                 // Create an object of file reader
@@ -206,7 +206,7 @@ public class FRS102_103_105 {
                         Thread.sleep(3000);
                         hs.answerSections(driver);
                         //reader.readNext();
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         //tq.checkAlert(driver);
@@ -226,7 +226,7 @@ public class FRS102_103_105 {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else if (StartLine.equalsIgnoreCase("Financial Instruments")) {
+        } else if (StartLine.equalsIgnoreCase("Statement of Comprehensive Income/ Income Statement")) {
 
             try {
                 // Create an object of file reader
@@ -267,7 +267,7 @@ public class FRS102_103_105 {
                         Thread.sleep(3000);
                         hs.answerSections(driver);
                         //reader.readNext();
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         //tq.checkAlert(driver);
@@ -287,7 +287,7 @@ public class FRS102_103_105 {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else if (StartLine.equalsIgnoreCase("Accounting Policies")) {
+        } else if (StartLine.equalsIgnoreCase("Statement of Financial Position (Balance sheet)")) {
 
             try {
                 // Create an object of file reader
@@ -329,7 +329,7 @@ public class FRS102_103_105 {
                         Thread.sleep(3000);
                         hs.answerSections(driver);
                         //reader.readNext();
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         //tq.checkAlert(driver);
@@ -349,7 +349,7 @@ public class FRS102_103_105 {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else if (StartLine.equalsIgnoreCase("Notes to the Financial Statements")) {
+        } else if (StartLine.equalsIgnoreCase("Statement of Cash Flow")) {
 
             try {
                 // Create an object of file reader
@@ -390,7 +390,7 @@ public class FRS102_103_105 {
                         driver.navigate().refresh();
                         Thread.sleep(3000);
                         hs.answerSections(driver);
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         //tq.checkAlert(driver);
@@ -450,7 +450,7 @@ public class FRS102_103_105 {
                         driver.navigate().refresh();
                         Thread.sleep(3000);
                         hs.answerSections(driver);
-                        FRS102_103_105_Logic1_mainChecklist(driver);
+                        IFRS_mainChecklist(driver);
                     } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
 
                         //tq.checkAlert(driver);
@@ -477,7 +477,7 @@ public class FRS102_103_105 {
     }
 
     @Step("FRS102_103_105 tailoring for {include name of client} client")
-    public void FRS102_103_105_Logic1_Tailoring(WebDriver driver) throws Exception {
+    public void IFRS_Tailoring(WebDriver driver) throws Exception {
 
         cf.waitForDesiredElement(driver, Folder, 60);
 
@@ -488,7 +488,7 @@ public class FRS102_103_105 {
 
         // Initialise .csv file
         int expStateOneCountConfirm = cf.getQuestionCount(driver);
-        String fileNameIN      = "DataFRS102.csv";
+        String fileNameIN      = "IFRS_Tailoring.csv";
         String fileNameINWrite = "DiscloseResponses.csv";
         String fileNameINDisc  = "DiscrepanciesFile.csv";
 
@@ -640,9 +640,26 @@ public class FRS102_103_105 {
     }
 
     @Step("FRS102_103_105 tailoring for {include name of client} client")
-    public void FRS102_103_105_Logic1_mainChecklist(WebDriver driver) throws Exception {
+    public void IFRS_mainChecklist(WebDriver driver) throws Exception {
 
         // TIP: GET CHECKLIST TO ITS ORIGINAL POSITION BY UNANSWERING THE QUESTIONS
+
+//        General Requirements s0tr1    [X]
+//        Accounting Policies s1     [X]
+//        Statement of Comprehensive Income/ Income Statement s2[X]
+//        Statement of Financial Position (Balance sheet) s3
+//        Statement of Cash Flow s4
+//        Statement of Changes in Equity s5
+//        Operating Segments s6
+//        Capital Disclosures s7
+//        UK Statutory Strategic Report s9
+//        UK Directors' Report (unless strategically important) s10
+//        Directors' Report s11
+//        Corporate Governance s14
+//        UK legislation Disclosures (FRS 101) s16
+//        Companies Act & FRC s17
+//        Directors' and Officers' Transactions s18
+//        Companies House Filings s23
 
         By startButton = By.xpath("//*[@id=\"select-sections\"]");
         By currentInProgress = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[3]/span"); // always change xpath
@@ -668,7 +685,8 @@ public class FRS102_103_105 {
                         //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[4]/span");
                         By sectionName = By.xpath("//td[contains(.,'General Requirements')]");
                         //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[3]/span");
-                        By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
+                        //By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[1]/td[3]/span[1]");
                         String Status = driver.findElement(sectionStatus).getText();
                         String startLine = "General Requirements";
 
@@ -700,13 +718,18 @@ public class FRS102_103_105 {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Financial Statement Presentation")) {
+                    } else if (sCellValue.equalsIgnoreCase("Accounting Policies")) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
-                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[4]/span");
-                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[3]/span");
+                        //By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
+                        By sectionTickPS = By.xpath("//input[@id='Sections_1__Selected']");
+                        //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[4]/span");
+                        By sectionName = By.xpath("//td[contains(.,'Accounting Policies')]");
+                        //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[3]/span");
+                        //By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[2]/td[3]/span[1]");
+
                         String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Financial Statement Presentation";
+                        String startLine = "Accounting Policies";
 
                         if (Status.equalsIgnoreCase("Not Started")) {
 
@@ -734,13 +757,15 @@ public class FRS102_103_105 {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Financial Instruments")) {
+                    } else if (sCellValue.equalsIgnoreCase("Statement of Comprehensive Income/ Income Statement")) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_4__Selected\"]");
-                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[5]/td[3]/span");
-                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[5]/td[4]/span");
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_2__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Statement of Comprehensive Income/ Income Statement')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[3]/td[3]/span[1]");
+
                         String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Financial Instruments";
+                        String startLine = "Statement of Comprehensive Income/ Income Statement";
+
                         if (Status.equalsIgnoreCase("Not Started")) {
 
                             cf.clickElement(driver, sectionTickPS);
@@ -768,13 +793,15 @@ public class FRS102_103_105 {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Accounting Policies")) {
+                    } else if (sCellValue.equalsIgnoreCase("Statement of Financial Position (Balance sheet)")) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_5__Selected\"]");
-                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[6]/td[3]/span");
-                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[6]/td[4]/span");
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_3__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Statement of Financial Position (Balance sheet)')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[4]/td[3]/span[1]");
+
                         String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Accounting Policies";
+                        String startLine = "Statement of Financial Position (Balance sheet)";
+
                         if (Status.equalsIgnoreCase("Not Started")) {
 
                             cf.clickElement(driver, sectionTickPS);
@@ -787,6 +814,7 @@ public class FRS102_103_105 {
                             cf.clickElement(driver, startButton);
                             cf.waitForDesiredElement(driver, Folder, 90);
                             mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
                         } else if ((Status.equalsIgnoreCase("In Progress"))) {
 
                             String Section = driver.findElement(sectionName).getText();
@@ -801,13 +829,16 @@ public class FRS102_103_105 {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Notes to the Financial Statements")) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_6__Selected\"]");
-                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[3]/span");
-                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[4]/span");
+                    } else if (sCellValue.equalsIgnoreCase("Statement of Changes in Equity")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_5__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Statement of Changes in Equity')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[6]/td[3]/span[1]");
+
                         String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Notes to the Financial Statements";
+                        String startLine = "Statement of Changes in Equity";
+
                         if (Status.equalsIgnoreCase("Not Started")) {
 
                             cf.clickElement(driver, sectionTickPS);
@@ -820,6 +851,7 @@ public class FRS102_103_105 {
                             cf.clickElement(driver, startButton);
                             cf.waitForDesiredElement(driver, Folder, 90);
                             mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
                         } else if ((Status.equalsIgnoreCase("In Progress"))) {
 
                             String Section = driver.findElement(sectionName).getText();
@@ -834,6 +866,436 @@ public class FRS102_103_105 {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
+                    } else if (sCellValue.equalsIgnoreCase("Operating Segments")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_6__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Operating Segments')])[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[7]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Operating Segments";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Capital Disclosures")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_7__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Capital Disclosures')])");
+                        By sectionStatus = By.xpath("//tbody/tr[8]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Capital Disclosures";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("UK Statutory Strategic Report")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_9__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'UK Statutory Strategic Report')])");
+                        By sectionStatus = By.xpath("//tbody/tr[10]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "UK Statutory Strategic Report";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("UK Directors' Report (unless strategically important)")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_10__Selected')]");
+                        By sectionName = By.xpath("//tbody/tr[11]/td[4]/span[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[11]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "UK Directors' Report (unless strategically important)";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Directors' Report")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_11__Selected')]");
+                        //By sectionName = By.xpath("(//span[contains(.,'Directors' Report')])");
+                        By sectionName = By.xpath("//tbody/tr[12]/td[4]/span[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[12]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Directors' Report";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Corporate Governance")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_14__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Corporate Governance')])");
+                        By sectionStatus = By.xpath("//tbody/tr[15]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Corporate Governance";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("UK legislation Disclosures (FRS 101)")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_16__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'UK legislation Disclosures (FRS 101)')])");
+                        By sectionStatus = By.xpath("//tbody/tr[17]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "UK legislation Disclosures (FRS 101)";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Companies Act & FRC")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_17__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Companies Act & FRC')])");
+                        By sectionStatus = By.xpath("//tbody/tr[18]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Companies Act & FRC";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Directors' and Officers' Transactions")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_18__Selected')]");
+                        By sectionName = By.xpath("//tbody/tr[19]/td[4]/span[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[19]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Directors' and Officers' Transactions";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+                    } else if (sCellValue.equalsIgnoreCase("Companies House Filings")) {
+
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_23__Selected')]");
+                        By sectionName = By.xpath("(//span[contains(.,'Companies House Filings')])");
+                        By sectionStatus = By.xpath("//tbody/tr[24]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Companies House Filings";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
+//                    } else if (sCellValue.equalsIgnoreCase("Statement of Cash Flow")) {
+//
+//                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_4__Selected')]");
+//                        By sectionName = By.xpath("//tbody/tr[5]/td[4]/span[1]");
+//                        By sectionStatus = By.xpath("//tbody/tr[5]/td[3]/span[1]");
+//
+//                        String Status = driver.findElement(sectionStatus).getText();
+//                        String startLine = "Statement of Cash Flow";
+//
+//                        if (Status.equalsIgnoreCase("Not Started")) {
+//
+//                            cf.clickElement(driver, sectionTickPS);
+//                            Thread.sleep(1000);
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                            //cf.waitForDesiredElement(driver, Folder, 60);
+//                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//                            System.out.println(Section + " has already been completed");
+//                        }
+//                    } else if (sCellValue.equalsIgnoreCase("Notes to the Financial Statements")) {
+//
+//                        By sectionTickPS = By.xpath("//*[@id=\"Sections_6__Selected\"]");
+//                        By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[3]/span");
+//                        By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[4]/span");
+//                        String Status = driver.findElement(sectionStatus).getText();
+//                        String startLine = "Notes to the Financial Statements";
+//                        if (Status.equalsIgnoreCase("Not Started")) {
+//
+//                            cf.clickElement(driver, sectionTickPS);
+//                            Thread.sleep(1000);
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//                            System.out.println(Section + " has already been completed");
+//                        }
                     } else if ((sCellValue.equalsIgnoreCase("In Progress"))) {
 
                         String Section = driver.findElement(sectionName).getText();

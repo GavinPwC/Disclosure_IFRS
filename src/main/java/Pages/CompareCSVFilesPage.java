@@ -20,8 +20,8 @@ public class CompareCSVFilesPage {
 
     public void compareCSVFiles(WebDriver driver) throws IOException {
 
-            String fileNameIN                = "Original_Tailoring_File.csv";
-            String fileNameINWrite           = "autoClient2 - 27-11-2020 - TailoringAssumptions.csv";
+            String fileNameIN                = "IFRSDiscloseReport.csv";
+            String fileNameINWrite           = "08_06_2021 15_48_46_DiscloseReport.csv";
             //String fileNameINWrite         = "DiscloseResponses.csv";
             String fileNameINWriteDifference = "DifferenceFile.csv";
             String filePathIN                = System.getProperty("user.dir") + "\\src\\main\\java\\Data Files\\" + fileNameIN;

@@ -1,7 +1,7 @@
 package Tests;
 
 import Pages.*;
-import TailoringAndMainCheclists.FRS102_103_105;
+import TailoringAndMainCheclists.IFRS_Navigation;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class RegressionFRS extends LandingPage {
+public class RegressionIFRS extends LandingPage {
 
     public void testSetup() throws IOException {
 
@@ -21,7 +21,7 @@ public class RegressionFRS extends LandingPage {
     ClientPage c = new ClientPage(driver);
     TailoringQuestionPage tq = new TailoringQuestionPage(driver);
     HomeScreenPage hs = new HomeScreenPage(driver);
-    FRS102_103_105 fr = new FRS102_103_105(driver);
+    IFRS_Navigation fr = new IFRS_Navigation(driver);
     CompareCSVFilesPage csv = new CompareCSVFilesPage(driver);
     ReportingPage r = new ReportingPage(driver);
 
@@ -29,20 +29,20 @@ public class RegressionFRS extends LandingPage {
     @Test(alwaysRun = true, priority = 0, description = "Tailoring Questionnaire Prod", groups = {"Smoke Test"})
     @Description(" Tailoring for FRS client in production environment")
     @Severity(SeverityLevel.CRITICAL)
-    public void regression_FRS102_103_105() throws Exception {
+    public void regression_IFRS() throws Exception {
 
         testSetup();
         goToHomePage(driver); // Change method name to goToHomePageQA() to access QA environment
         h.assertTitles(driver);  // Confirm that the titles on homepage are correct
         as.createNewAnswerset(driver); //Create an answer set
-        fr.FRS102_103_105_Logic1_Tailoring(driver); // Tailors question according to logic
+        fr.IFRS_Tailoring(driver); // Tailors question according to logic
     }
 
     @Test(alwaysRun = true, priority = 1, description = "Tailoring Review",
             groups = {"Smoke Test"})
     @Description("Review completed tailoring and ACCEPT")
     @Severity(SeverityLevel.CRITICAL)
-    public void reviewCompleteTailoringFRS() throws InterruptedException, IOException {
+    public void reviewCompleteTailoringIFRS() throws InterruptedException, IOException {
 
         testSetup();
         goToHomePage(driver); // Change method name to goToHomePageQA() to access QA environment
@@ -55,20 +55,20 @@ public class RegressionFRS extends LandingPage {
             groups = {"Smoke Test"})
     @Description("Answering the FRS main checklist in production environment")
     @Severity(SeverityLevel.CRITICAL)
-    public void regression_FRS102_103_105_Mainchecklist() throws Exception {
+    public void regression_IFRS_Mainchecklist() throws Exception {
 
         testSetup();
         goToHomePage(driver);
         h.assertTitles(driver);  // Confirm that the titles on homepage are correct
         hs.answerSections(driver); // Navigate to answer section page
-        fr.FRS102_103_105_Logic1_mainChecklist(driver); // Answer main checklist until completion
+        fr.IFRS_mainChecklist(driver); // Answer main checklist until completion
     }
 
     @Test(alwaysRun = true, priority = 3, description = "Second Review and Roll Forward",
             groups = {"Smoke Test"})
     @Description("Review process after completed tailoring and main checklist, with roll forward")
     @Severity(SeverityLevel.CRITICAL)
-    public void finalReviewAcceptFRS() throws InterruptedException, IOException {
+    public void finalReviewAcceptIFRS() throws InterruptedException, IOException {
 
         testSetup();
         goToHomePage(driver);
@@ -91,7 +91,7 @@ public class RegressionFRS extends LandingPage {
             groups = {"Smoke Test"})
     @Description("Generate report post tailoring")
     @Severity(SeverityLevel.CRITICAL)
-    public void generateReportFRS() throws InterruptedException, IOException {
+    public void generateReportIFRS() throws InterruptedException, IOException {
 
         testSetup();
         goToHomePage(driver);
