@@ -27,7 +27,7 @@ public class RegressionIFRS extends LandingPage {
 
     //change alwaysRun value for desired test, use only when changing environments
     @Test(alwaysRun = true, priority = 0, description = "Tailoring Questionnaire Prod", groups = {"Smoke Test"})
-    @Description(" Tailoring for FRS client in production environment")
+    @Description(" Tailoring for IFRS client in production environment")
     @Severity(SeverityLevel.CRITICAL)
     public void regression_IFRS() throws Exception {
 

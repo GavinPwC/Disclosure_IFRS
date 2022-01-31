@@ -35,18 +35,11 @@ public class AnswersetsPage extends SetupFramework {
 	By sectionCheck = By.xpath("//*[@id=\"answersets-data\"]/tr[1]/td[4]/span");
 	By start = By.xpath("//*[@id=\"select-sections\"]");
 	
-	public String checklistNameIFRS    = "UK PWC IFRS UK and FRS 101 (1.2.4.0)";
-	public String checklistNameFRS     = "UK PWC FRS 102, 103 and 105 (3.0.8.0)";
+	public String checklistNameIFRS    = "UK PWC IFRS UK and FRS 101 (1.2.7.0)";
+	public String checklistNameFRS     = "UK PWC FRS 102, 103 and 105 (3.1.1.0)";
 	public String checklistNameReduced = "IFRS PWC reduced tailoring (5.3.8.0)";
 	public String reviewer = "Gavin Caldwell";
 
-	//*[@id="SignOffs_1__ReviewerID"]
-	//*[@id="select-reviewers-form"]/div[2]/div/div/div/span
-	//*[@id="select-reviewers-form"]/div[2]/div/div/div/span/span[1]/span
-	//*[@id="SignOffs_0__ReviewerID"]
-	//*[@id="select-reviewers-form"]/div[3]/div/div/div/span/span[1]/span
-	//*[@id="select2-SignOffs_0__ReviewerID-container"]
-	//*[@id="select2-SignOffs_0__ReviewerID-container"]
 	By checklistVal1 = By.xpath("//*[@id=\"select2-ChecklistVersionID-result-fbzx-202\"]");
 	By checklistVal2 = By.xpath("//*[@id=\"select2-ChecklistVersionID-result-kszs-208\"]");
 	

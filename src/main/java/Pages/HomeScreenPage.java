@@ -21,7 +21,8 @@ public class HomeScreenPage {
     By selectButtonValueDelete = By.xpath("//*[@id=\"g-positioner\"]/ul/li[4]/a");
     By selectButtonValueResumeReview = By.xpath("//*[@id=\"g-positioner\"]/ul/li[3]/a/span");
 
-    By selectButtonValueAnswerSections = By.xpath("//*[@id=\"g-positioner\"]/ul/li[3]/a");
+//    By selectButtonValueAnswerSections = By.xpath("//*[@id=\"g-positioner\"]/ul/li[3]/a");    //div[@id='g-positioner']/ul//span[.='Resume']
+    By selectButtonValueAnswerSections = By.xpath("//div[@id='g-positioner']/ul/li[3]/a");
     By selectButtonValueAnswerSections2 = By.xpath("//*[@id=\"g-positioner\"]/ul/li[4]/a");
     By acceptSelectButton= By.xpath("//*[@id=\"confirm-yes\"]");
     By clientField = By.xpath("//*[@id=\"filters\"]/div/div/div/div/div[3]/div/span/span[1]/span");
@@ -40,7 +41,7 @@ public class HomeScreenPage {
     //*[@id="g-positioner"]/ul/li[3]/a
 
     public String recordName = "Gavin Caldwell";
-    public String clientName = "Gav_IFRS_Automation";
+    public String clientName = "GavIFRS_Regression_D3";
 
     public HomeScreenPage(WebDriver driver) {
         // TODO Auto-generated constructor stub

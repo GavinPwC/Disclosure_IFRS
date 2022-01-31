@@ -222,7 +222,6 @@ OR
 0.107.5.2,UK Directors' guarantees,"At any time in the financial year, were there guarantees subsisting on behalf of directors?",N
 0.107.6,UK Dormant subsidiaries,Are there any dormant subsidiaries?,Y
 0.107.9,Greenhouse gas emissions,Does part 7A of schedule 7 of the large and medium-sized companies and groups (accounts and reports) regulations 2008 apply? See Help for guidance.,N
-0.108.0,UK Code compliance,Does the entity voluntarily apply the UK Corporate Governance code?,N
 0.108.1,QCA Code compliance,Does the entity voluntarily apply the Quoted Companes Alliance Corporate Governance Code?,N
 0.108.0.2,Corporte gov arrangements,"Does the company satisfy either or both of the following requirements—
 (a) it has more than 2000 employees;
@@ -231,5 +230,6 @@ OR
 (ii) a balance sheet total of more than £2 billion?",Y
 0.108.3.1,UK Portfolio company under private equity,Do you want the software to check whether the report and accounts contains the enhanced disclosures for a portfolio company (see Help)?,N
 0.108.4.2,UK Filing obligations,Is delivery in paper form?,Y
+0.108.4.2.1,UK Filing obligations,In addition to completing this checklist those delivering in electronic form or CD-ROM or DVD-ROM should make sure that those forms of documents comply with the Registrar's Rules 2009,A
 0.108.4.3,End of tailoring,"You have now reached the end of the tailoring questions. If you have answered all the tailoring questions, you may now complete the detailed checklist.",A
 ,,,End Tailoring

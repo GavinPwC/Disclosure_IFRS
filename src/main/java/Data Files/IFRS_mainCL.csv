@@ -55,6 +55,7 @@
 52,1.39 Going concern basis,"When management is aware of material uncertainties related to events or conditions that may cast significant doubt upon the entity's ability to continue as a going concern, disclose those uncertainties.",N/A
 ,,,End Section
 ,,,Begin Section
+53,Accounting Policies,,H
 54,2.1 Going concern basis,"If the financial statements are not prepared on a going concern basis, disclose that fact together with the basis on which the financial statements are prepared and the reason why the entity is not considered to be a going concern.",N/A
 55,2.2 Compliance with IFRS,An entity whose financial statements comply with IFRSs shall make an explicit and unreserved statement of such compliance in the notes. Do not describe financial statements as complying with IFRSs unless they comply with all the requirements of IFRSs,Y
 56,2.3 Compliance with IFRS,"Has the entity provided additional disclosures when compliance with the specific requirements in IFRSs is insufficient to enable users to understand the impact of particular transactions, other events and conditions on the entity s financial position and financial performance?",Y
@@ -62,15 +63,13 @@
 59,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,(b) the reason it is resuming the application of IFRSs; and,Y
 60,2.4 Resuming the preparation of annual financial statements in accordance with IFRSs,"(c) an explanation of  the reasons for electing to apply IFRSs as if
 it had never stopped applying IFRSs.",Y
-61,2.7 Departure from an IFRS (Standard or Interpretation),"In the extremely rare circumstances in which management concludes that compliance with a requirement in a Standard or Interpretation would be so misleading that it would conflict with the objective of financial statements set out in the Framework, but the relevant regulatory framework prohibits departure from the requirement, to the maximum extent possible reduce the perceived misleading aspects of compliance by disclosing:",H
 62,2.7 Departure from an IFRS (Standard or Interpretation),"(a) the title of the IFRS (Standard or Interpretation) in question, the nature of the requirement, and the reason why management has concluded that complying with that requirement is so misleading in the circumstances that it conflicts with the objective of financial statements set out in the Framework; and",N/A
 63,2.7 Departure from an IFRS (Standard or Interpretation),"(b) for each period presented, the adjustments to each item in the financial statements that management has concluded would be necessary to achieve a fair presentation.",N/A
 64,2.8 Inappropriate accounting treatments,Inappropriate accounting treatments are not rectified either by disclosure of the accounting policies used or by notes or explanatory material.,N/A
-65,2.9 New Standard or Interpretation not applied early,"When the entity has not applied a new Standard or Interpretation that has been issued but is not yet effective, disclose:",H
 66,2.9 New Standard or Interpretation not applied early,(a) that fact;,Y
 67,2.9 New Standard or Interpretation not applied early,(b) known or reasonably estimable information (see Help) relevant to assessing the possible impact that application of the Standard or Interpretation will have on the entity's financial statements in the period of initial application,Y
 68,2.10 Basis of preparation,Present in the notes to the financial statements information about the basis of preparation of the financial statements and the specific accounting policies selected and applied for significant transactions and events.,Y
-69,2.19 Key assumptions and sources of estimation,"Disclose information about the key assumptions concerning the future, and other key sources of estimation uncertainty at the balance sheet date, that have a significant risk of causing a material adjustment to the carrying amounts of assets and liabilities within the next financial year . In respect of those assets and liabilities, include details in the notes of",A
+68a, 2.13 Judgements by management,Disclose along with the significant accounting policies the judgements management has made in the process of applying the entity's accounting policies that have the most significant effect on the amounts recognised in the financial statements.,A
 70,2.19 Key assumptions and sources of estimation,(a) their nature; and,Y
 71,2.19 Key assumptions and sources of estimation,(b) their carrying amount as at the balance sheet date,Y
 72,2.21 Significant change to estimated amounts reported in interim accounts,If an estimate of an amount reported in an interim period is changed significantly during the final interim period of the financial year but a separate financial report is not published for that final interim period disclose the nature and amount of that change in estimate in a note to the annual financial statements.,N/A
@@ -79,7 +78,6 @@ it had never stopped applying IFRSs.",Y
 76,2.28 Initial application of a Standard or an Interpretation,(c) the nature of the change in accounting policy;,Y
 77,2.28 Initial application of a Standard or an Interpretation,"(d) when applicable, a description of the transitional provisions;",Y
 78,2.28 Initial application of a Standard or an Interpretation,(e) when applicable the transitional provisions that might have an effect on future periods.,N/A
-78A,2.28 Initial application of a Standard or an Interpretation,When initial application of a Standard or Interpretation - has an effect on the current period or any prior period; - would have an effect on the current or prior period except that it is impracticable to determine the amount of the adjustment; or - might have an effect on future periods then disclose:,A
 79,2.28 Initial application of a Standard or an Interpretation,"(g) the amount of the adjustment relating to periods before those presented, to the extent practicable;",Y
 80,2.28 Initial application of a Standard or an Interpretation,"(h) if retrospective application is impracticable for a particular period, or for periods before those presented, the circumstances that led to the existence of that condition and a description of how and from when the change in accounting policy has been applied.",N/A
 82,2.29 Voluntary change in accounting policy,(a) the nature of the change in accounting policy;,Y
@@ -100,7 +98,6 @@ it had never stopped applying IFRSs.",Y
 99,2.76 Accounting Policies - Financial Instruments,(b) other accounting policies used that are relevant to an understanding of the financial statements.,Y
 ,,,End Section
 ,,,Begin Section
-100,General,,H
 101,3.1.6 Separate statement of profit or loss,Has the entity presented the following in relation to the separate statement of profit or loss:,H
 102,3.1.6 Separate statement of profit or loss,"(a) Present a separate statement of profit or loss immediately preceding the separate statement presenting other comprehensive income.
 
@@ -468,6 +465,27 @@ Note: Where the entity is controlled, jointly controlled or significantly influe
 466,4.24.24 Practical expedient retrospectively,"Where the entity has chosen to use one or more of the practical expedients in C10 of IFRS 16 to leases previously classified as operating leases, has the entity disclosed that fact?",Y
 ,,,End Section
 ,,,Begin Section
+468,5.1 Cash flow statement,"Report cash flows classified by operating, investing and financing activities.",Y
+469,5.2 Cash flows from operating activities,"Report cash flows from operating activities using either: (a) the direct method, whereby major classes of gross cash receipts and gross cash payments are disclosed: or (b) the indirect method, whereby net profit or loss is adjusted for the effects of transactions of a non-cash nature, any deferrals or accruals of past or future operating cash receipts or payments, and items of income or expense associated with investing of financing cash flows.",Y
+470,5.3 Cash receipts and payments reported gross,"Report separately major classes of gross cash receipts and gross cash payments arising from investing and financing activities. However note that the following cash flows from operating, investing or financing may be reported on a net basis: (a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and (b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",Y
+471,5.5 Cash flows from interest and dividends,"Disclose cash flows from interest and dividends received and paid separately, and classify each in a consistent manner from period to period as either operating, investing or financing activities.",Y
+472,5.9 Cash flows arising from changes in ownership interests,"Cash flows arising from changes in ownership interests that do not result in a loss of control shall be classified as cash flows from financing activities",N/A
+473,5.12 Significant non-cash transactions,"Disclose significant investing and financing non-cash transactions in the notes to the accounts, providing all relevant information about these activities.",Y
+474,5.14 Reconciliation of the components of cash and cash equivalents,Disclose the components of cash and cash equivalents and present a reconciliation of the amounts in its cash flow statement with the equivalent items reported in the balance sheet.,Y
+475,5.15 Cash and cash equivalents,Has the entity disclosed the policy which it adopts in determining the composition of cash and cash equivalents?,Y
+476,5.16 Cash and cash equivalents,"Has the entity disclosed separately from cash flows from operating, investing and financing activities, the effect of exchange rate changes on cash and cash equivalents held or due in foreign currency?  Note: This amount includes the differences, if any, had those cash flows been reported at end of period exchange rates.",Y
+477,5.17 Cash not available for use,"Disclose, together with a commentary by management, the amount of significant cash and cash equivalents held by the entity that are not available for use by the group.",N/A
+478,5.18 Additional cash flow information,"(a) amount of undrawn borrowing facilities that may be available for future operating activities and to settle capital commitments, indicating any restrictions on the use of these facilities;",Y
+479,5.18 Additional cash flow information,(c) aggregate amount of cash flows that represent increases in operating capacity separately from those that are required to maintain operating capacity;,Y
+480,5.19 Evaluate changes in liabilities,"Do the notes provide disclosures that enable users of financial statements to evaluate changes in liabilities arising from financing activities, including both changes arising from cash flows and non-cash changes?",Y
+481,5.20 Evaluate changes in liabilities,(a) changes from financing cash flows;,N/A
+482,5.20 Evaluate changes in liabilities,(b) changes arising from obtaining or losing control of subsidiaries or businesses;,N/A
+483,5.20 Evaluate changes in liabilities,(c) the effect of changes in foreign exchange rates;,Y
+484,5.20 Evaluate changes in liabilities,(d) changes in fair values; and,N/A
+485,5.20 Evaluate changes in liabilities,(e) other changes?,N/A
+486,5.21 Evaluate changes in liabilities,"If the above disclosures are provided in combination with disclosures of changes in other assets and liabilities, do the notes disclose separately those changes arising from financing activities?",N/A
+,,,End Section
+,,,Begin Section
 491,6.1 Statement of Changes in Equity,(A) total comprehensive income for the period;,Y
 492,6.1 Statement of Changes in Equity,"(C) for each component of equity, the effects of retrospective application or retrospective restatement recognised in accordance with IAS 8;",Y
 493,6.1 Statement of Changes in Equity,"(D) for each component of equity, a reconciliation between the carrying amount at the beginning and end of the period separately disclosing: (a) profit or loss",Y
@@ -484,18 +502,14 @@ Note: Where the entity is controlled, jointly controlled or significantly influe
 ,,,Begin Section
 501,Capital Disclosures,,H
 502,8.1 Capital,"An entity shall disclose information that enables the users of its financial statements to evaluate the entity's objectives, policies and processes for managing capital.",Y
-503,8.2 Capital - Qualitative information,"Disclose qualitative information (based on the information provided internally to the entity's key management personnel) about the entity's objectives, policies and processes for managing capital, including but not limited to:",H
 504,8.2 Capital - Qualitative information,(a) a general description of what the entity manages as capital;,Y
 505,8.2 Capital - Qualitative information,"(b) when an entity is subject to externally imposed capital requirements, the nature of those requirements and how those requirements are incorporated into the management of capital;",Y
 506,8.2 Capital - Qualitative information,(c) how the entity is meeting its objectives for managing capital.,Y
 507,8.3 Capital - quantitative data,Disclose summary quantitative data (based on the information provided internally to the entity's key management personnel) about what the entity manages as capital. Note: Some entities regard some financial liabilities (for example some forms of subordinated debt) as part of capital. Other entities regard capital as excluding some components of equity (for example components arising from cash flow hedges).,Y
-508,"8.4 Capital - changes from the previous period
-",In respect of capital an entity shall disclose:,H
 509,"8.4 Capital - changes from the previous period
 ","(a) Any changes in the entity's objectives, policies and processes for managing capital from the previous period.",N/A
 510,"8.4 Capital - changes from the previous period
 ",(b) Any changes in what the entity manages as capital.,N/A
-511,8.5 Capital - externally imposed capital requirements,Where the entity has externally imposed capital requirements placed upon it disclose:,H
 512,8.5 Capital - externally imposed capital requirements,(a) whether during the period the entity has complied with any externally imposed capital requirements to which it is subject;,N/A
 513,8.5 Capital - externally imposed capital requirements,"(b) when the entity has not complied with such externally imposed capital requirements, the consequences of such non-compliance.",N/A
 514,8.6 Capital Disclosure Requirements - aggregate Information,"Where aggregate disclosure of capital requirements and how capital is managed would not provide useful information or distorts the financial statements user's understanding of the entity's capital resources, has the entity disclosed separate information for each capital requirement for which the entity is subject to (see help text)?",Y
@@ -656,26 +670,5 @@ Note. This disclosure is required in both the group accounts and the company acc
 669,24.1 UK Accounts in foreign currency,"If the amounts presented in the accounts are also presented in Euros, is the Euro exchange rate shown in the notes?",N/A
 670,24.2 UK Company (or LLP) number,"Is the company (or LLP) name and registered number shown in black typescript (or handwritten in black ink) in a prominent position in at least one of the following (balance sheet, abbreviated accounts, profit and loss account, directors' report, directors' remuneration report or audit report)?",Y
 671,24.3 UK Black ink,Are the filed copies of reports and accounts in black ink (including any signatures)?,Y
-,,,End Section
-,,,Begin Section
-468,5.1 Cash flow statement,"Report cash flows classified by operating, investing and financing activities.",Y
-469,5.2 Cash flows from operating activities,"Report cash flows from operating activities using either: (a) the direct method, whereby major classes of gross cash receipts and gross cash payments are disclosed: or (b) the indirect method, whereby net profit or loss is adjusted for the effects of transactions of a non-cash nature, any deferrals or accruals of past or future operating cash receipts or payments, and items of income or expense associated with investing of financing cash flows.",Y
-470,5.3 Cash receipts and payments reported gross,"Report separately major classes of gross cash receipts and gross cash payments arising from investing and financing activities. However note that the following cash flows from operating, investing or financing may be reported on a net basis: (a) cash receipts and payments on behalf of customers when the cash flows reflect the activities of the customer rather than those of the entity; and (b) cash receipts and payments for items in which the turnover is quick, the amounts are large, and the maturities are short.",Y
-471,5.5 Cash flows from interest and dividends,"Disclose cash flows from interest and dividends received and paid separately, and classify each in a consistent manner from period to period as either operating, investing or financing activities.",Y
-472,5.9 Cash flows arising from changes in ownership interests,"Cash flows arising from changes in ownership interests that do not result in a loss of control shall be classified as cash flows from financing activities",N/A
-473,5.12 Significant non-cash transactions,"Disclose significant investing and financing non-cash transactions in the notes to the accounts, providing all relevant information about these activities.",Y
-474,5.14 Reconciliation of the components of cash and cash equivalents,Disclose the components of cash and cash equivalents and present a reconciliation of the amounts in its cash flow statement with the equivalent items reported in the balance sheet.,Y
-475,5.15 Cash and cash equivalents,Has the entity disclosed the policy which it adopts in determining the composition of cash and cash equivalents?,Y
-476,5.16 Cash and cash equivalents,"Has the entity disclosed separately from cash flows from operating, investing and financing activities, the effect of exchange rate changes on cash and cash equivalents held or due in foreign currency?  Note: This amount includes the differences, if any, had those cash flows been reported at end of period exchange rates.",Y
-477,5.17 Cash not available for use,"Disclose, together with a commentary by management, the amount of significant cash and cash equivalents held by the entity that are not available for use by the group.",N/A
-478,5.18 Additional cash flow information,"(a) amount of undrawn borrowing facilities that may be available for future operating activities and to settle capital commitments, indicating any restrictions on the use of these facilities;",Y
-479,5.18 Additional cash flow information,(c) aggregate amount of cash flows that represent increases in operating capacity separately from those that are required to maintain operating capacity;,Y
-480,5.19 Evaluate changes in liabilities,"Do the notes provide disclosures that enable users of financial statements to evaluate changes in liabilities arising from financing activities, including both changes arising from cash flows and non-cash changes?",Y
-481,5.20 Evaluate changes in liabilities,(a) changes from financing cash flows;,N/A
-482,5.20 Evaluate changes in liabilities,(b) changes arising from obtaining or losing control of subsidiaries or businesses;,N/A
-483,5.20 Evaluate changes in liabilities,(c) the effect of changes in foreign exchange rates;,Y
-484,5.20 Evaluate changes in liabilities,(d) changes in fair values; and,N/A
-485,5.20 Evaluate changes in liabilities,(e) other changes?,N/A
-486,5.21 Evaluate changes in liabilities,"If the above disclosures are provided in combination with disclosures of changes in other assets and liabilities, do the notes disclose separately those changes arising from financing activities?",N/A
 ,,,End Checklist
 ,,,End Main Checklist

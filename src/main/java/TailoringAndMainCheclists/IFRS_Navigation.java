@@ -30,7 +30,7 @@ public class IFRS_Navigation {
     By questionDisc = By.xpath("//*[@id=\"question\"]/p");
     By questionTitle = By.xpath("//*[@id=\"question\"]/div/div[1]/div/h3/span[2]");
     By Folder = By.xpath("//*[@id=\"section-contents\"]/ul/li[1]/div");
-    By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[4]/span");
+    By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[0]/td[4]/span");
     By answersetMenuItem = By.xpath("//*[@id=\"answersets-link\"]/span[2]");
 
     By answerField = By.xpath("//*[@id=\"select2-tickonceanswer-container\"]");
@@ -175,7 +175,7 @@ public class IFRS_Navigation {
                 // Put csvReader.readNext() in a loop
                 // Change this value to the value of the section in progress
                 // create csvReader object and skip first 109 Line
-                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(109).build();
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(74).build();
                 while ((csvCell2 = csvReader.readNext()) != null) {
 
                     String Qnumber1 = csvCell2[0];
@@ -236,7 +236,7 @@ public class IFRS_Navigation {
                 // Put csvReader.readNext() in a loop
                 // Change this value to the value of the section in progress
                 // create csvReader object and skip first 123 Line
-                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(123).build();
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(101).build();
                 while ((csvCell3 = csvReader.readNext()) != null) {
 
                     String Qnumber1 = csvCell3[0];
@@ -297,7 +297,7 @@ public class IFRS_Navigation {
                 // Put csvReader.readNext() in a loop
                 // Change this value to the value of the section in progress
                 // create csvReader object and skip first 132 Line
-                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(132).build(); // added 6
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(316).build(); // added 6
                 while ((csvCell4 = csvReader.readNext()) != null) {
 
                     String Qnumber1 = csvCell4[0];
@@ -359,7 +359,7 @@ public class IFRS_Navigation {
                 // Put csvReader.readNext() in a loop
                 // Change this value to the value of the section in progress
                 // create csvReader object and skip first 155 Lines
-                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(155).build();
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(467).build();
                 while ((csvCell5 = csvReader.readNext()) != null) {
 
                     String Qnumber1 = csvCell5[0];
@@ -410,6 +410,683 @@ public class IFRS_Navigation {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        }else if (StartLine.equalsIgnoreCase("Statement of Changes in Equity")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(488).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Operating Segments")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(499).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Capital Disclosures")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(503).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("UK Statutory Strategic Report")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(520).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("UK Directors' Report (unless strategically important)")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(544).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Directors' Report")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(565).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Corporate Governance")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(574).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("UK legislation Disclosures (FRS 101)")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(581).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Companies Act & FRC")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(588).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Directors' and Officers' Transactions")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(666).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }else if (StartLine.equalsIgnoreCase("Companies House Filings")) {
+
+            try {
+                // Create an object of file reader
+                // class with CSV file as a parameter.
+                FileReader filereader = new FileReader(filePathMain);
+
+                // Put csvReader.readNext() in a loop
+                // Change this value to the value of the section in progress
+                // create csvReader object and skip first 109 Line
+                CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(669).build();
+                while ((csvCell2 = csvReader.readNext()) != null) {
+
+                    String Qnumber1 = csvCell2[0];
+                    String QTitle1 = csvCell2[1];
+                    String QBody1 = csvCell2[2];
+                    String QResponse1 = csvCell2[3];
+
+                    String Title1 = driver.findElement(questionTitle).getText();
+                    String questionTextVal1 = driver.findElement(questionNumber).getText();
+                    String questionDescription1 = driver.findElement(questionDisc).getText();
+
+                    cf.compareValues(driver, "Question Number", Qnumber1, questionTextVal1);
+                    cf.compareValues(driver, "Question Title", QTitle1, Title1);
+                    cf.compareValues(driver, "Question Body", QBody1, questionDescription1);
+
+                    if ((QResponse1.equalsIgnoreCase("Begin Section"))) {
+
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(3000);
+                        h.assertTitles(driver);
+                        driver.navigate().refresh();
+                        Thread.sleep(3000);
+                        hs.answerSections(driver);
+                        //reader.readNext();
+                        IFRS_mainChecklist(driver);
+                    } else if (QResponse1.equalsIgnoreCase("End Main Checklist")){
+
+                        //tq.checkAlert(driver);
+                        //tq.checkProblem(driver);
+                        //By sectionSummary = By.xpath("//*[@id=\"main-detail-panels\"]/div/div/div[2]/div/div/div[1]/dl");
+                        By sectionSummary = By.id("main-detail-panels");
+                        Thread.sleep(3000);
+                        cf.refreshForElement(driver, sectionSummary);
+                        String Summary = driver.findElement(sectionSummary).getText();
+                        Thread.sleep(3000);
+                        System.out.println(Summary);
+                        Thread.sleep(2000);
+                        csvReader.close();
+                    }
+                    tq.questionResponse(driver, QResponse1);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+
+
+
+
         } else if ((StartLine.equalsIgnoreCase("In Progress"))) {
 
             try {
@@ -644,24 +1321,24 @@ public class IFRS_Navigation {
 
         // TIP: GET CHECKLIST TO ITS ORIGINAL POSITION BY UNANSWERING THE QUESTIONS
 
-//        General Requirements s0tr1    [X]
-//        Accounting Policies s1     [X]
-//        Statement of Comprehensive Income/ Income Statement s2[X]
-//        Statement of Financial Position (Balance sheet) s3
-//        Statement of Cash Flow s4
-//        Statement of Changes in Equity s5
-//        Operating Segments s6
-//        Capital Disclosures s7
-//        UK Statutory Strategic Report s9
-//        UK Directors' Report (unless strategically important) s10
-//        Directors' Report s11
-//        Corporate Governance s14
-//        UK legislation Disclosures (FRS 101) s16
-//        Companies Act & FRC s17
-//        Directors' and Officers' Transactions s18
+//        General Requirements s0tr1 [X]
+//        Accounting Policies s1 [X]
+//        Statement of Comprehensive Income/ Income Statement s2 [X]
+//        Statement of Financial Position (Balance sheet) s3 [X]
+//        Statement of Cash Flow s4 [X]
+//        Statement of Changes in Equity s5 [X]
+//        Operating Segments s6 [X]
+//        Capital Disclosures s7 [X]
+//        UK Statutory Strategic Report s9 [X]
+//        UK Directors' Report (unless strategically important) s10 [X]
+//        Directors' Report s11 [X]
+//        Corporate Governance s14 [X]
+//        UK legislation Disclosures (FRS 101) s16 [X]
+//        Companies Act & FRC s17 [X]
+//        Directors' and Officers' Transactions s18 [X]
 //        Companies House Filings s23
 
-        By startButton = By.xpath("//*[@id=\"select-sections\"]");
+        By startButton = By.xpath("//button[@id='select-sections']");
         By currentInProgress = By.xpath("//*[@id=\"answersets-data\"]/tr[7]/td[3]/span"); // always change xpath
 
         cf.waitForDesiredElement(driver, startButton, 60);
@@ -681,7 +1358,10 @@ public class IFRS_Navigation {
 
                     if ((sCellValue.equalsIgnoreCase("General Requirements"))) {
 
-                        By sectionTickPS = By.xpath("//*[@id=\"Sections_0__Selected\"]");
+                        //Thread.sleep(10000);
+//                        By sectionTickPS = By.id("Sections_0__Selected");
+                        By sectionTickPS = By.xpath("//input[@id='Sections_0__Selected']");
+                        //By sectionTickPS = By.cssSelector("tr:nth-of-type(1) > td:nth-of-type(1) > input:nth-of-type(2)");
                         //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[4]/span");
                         By sectionName = By.xpath("//td[contains(.,'General Requirements')]");
                         //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[2]/td[3]/span");
@@ -700,7 +1380,7 @@ public class IFRS_Navigation {
                             System.out.println("Initial Status: " + Status);
                             System.out.println("Now answering " + Section + " checklist");
                             cf.clickElement(driver, startButton);
-                            as.selectReviewerMainchecklist(driver);
+//                            as.selectReviewerMainchecklist(driver);       SEARCHING FOR REVIEWER FIELD XPATH ERROR
                             cf.waitForDesiredElement(driver, Folder, 90);
 
                             mainCheckListResponse(driver, startLine);
@@ -718,45 +1398,47 @@ public class IFRS_Navigation {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Accounting Policies")) {
-
-                        //By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
-                        By sectionTickPS = By.xpath("//input[@id='Sections_1__Selected']");
-                        //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[4]/span");
-                        By sectionName = By.xpath("//td[contains(.,'Accounting Policies')]");
-                        //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[3]/span");
-                        //By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
-                        By sectionStatus = By.xpath("//tbody/tr[2]/td[3]/span[1]");
-
-                        String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Accounting Policies";
-
-                        if (Status.equalsIgnoreCase("Not Started")) {
-
-                            cf.clickElement(driver, sectionTickPS);
-                            Thread.sleep(1000);
-
-                            String Section = driver.findElement(sectionName).getText();
-
-                            System.out.println("Initial Status: " + Status);
-                            System.out.println("Now answering " + Section + " checklist");
-                            cf.clickElement(driver, startButton);
-                            cf.waitForDesiredElement(driver, Folder, 90);
-                            mainCheckListResponse(driver, startLine);
-                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
-
-                            String Section = driver.findElement(sectionName).getText();
-
-                            System.out.println("Initial Status: " + Status);
-                            System.out.println("Now answering " + Section + " checklist");
-                            cf.clickElement(driver, startButton);
-                            cf.waitForDesiredElement(driver, Folder, 90);
-                            mainCheckListResponse(driver, startLine);
-                        } else {
-
-                            String Section = driver.findElement(sectionName).getText();
-                            System.out.println(Section + " has already been completed");
-                        }
+//                    } else if (sCellValue.equalsIgnoreCase("Accounting Policies")) {
+//                    //if (sCellValue.equalsIgnoreCase("Accounting Policies")) {
+//
+//                        //By sectionTickPS = By.xpath("//*[@id=\"Sections_1__Selected\"]");
+//                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_1__Selected')]");
+//                        //By sectionName = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[4]/span");
+//                        By sectionName = By.xpath("//td[contains(.,'Accounting Policies')]");
+//                        //By sectionStatus = By.xpath("//*[@id=\"answersets-data\"]/tr[3]/td[3]/span");
+//                        //By sectionStatus = By.xpath("(//td[contains(.,'Not Started')])[1]");
+//                        By sectionStatus = By.xpath("//tbody/tr[2]/td[3]/span[1]");
+//
+//                        String Status = driver.findElement(sectionStatus).getText();
+//                        String startLine = "Accounting Policies";
+//
+//                        if (Status.equalsIgnoreCase("Not Started")) {
+//
+//                            cf.clickElement(driver, sectionTickPS);
+//                            Thread.sleep(1000);
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            Thread.sleep(10000);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//                            System.out.println(Section + " has already been completed");
+//                        }
                     } else if (sCellValue.equalsIgnoreCase("Statement of Comprehensive Income/ Income Statement")) {
 
                         By sectionTickPS = By.xpath("//input[contains(@id,'Sections_2__Selected')]");
@@ -829,7 +1511,42 @@ public class IFRS_Navigation {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
+                    } else if (sCellValue.equalsIgnoreCase("Statement of Cash Flow")) {
 
+                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_4__Selected')]");
+                        By sectionName = By.xpath("//tbody/tr[5]/td[4]/span[1]");
+                        By sectionStatus = By.xpath("//tbody/tr[5]/td[3]/span[1]");
+
+                        String Status = driver.findElement(sectionStatus).getText();
+                        String startLine = "Statement of Cash Flow";
+
+                        if (Status.equalsIgnoreCase("Not Started")) {
+
+                            cf.clickElement(driver, sectionTickPS);
+                            Thread.sleep(1000);
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                            //cf.waitForDesiredElement(driver, Folder, 60);
+                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+
+                            String Section = driver.findElement(sectionName).getText();
+
+                            System.out.println("Initial Status: " + Status);
+                            System.out.println("Now answering " + Section + " checklist");
+                            cf.clickElement(driver, startButton);
+                            cf.waitForDesiredElement(driver, Folder, 90);
+                            mainCheckListResponse(driver, startLine);
+                        } else {
+
+                            String Section = driver.findElement(sectionName).getText();
+                            System.out.println(Section + " has already been completed");
+                        }
                     } else if (sCellValue.equalsIgnoreCase("Statement of Changes in Equity")) {
 
                         By sectionTickPS = By.xpath("//input[contains(@id,'Sections_5__Selected')]");
@@ -866,42 +1583,42 @@ public class IFRS_Navigation {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-                    } else if (sCellValue.equalsIgnoreCase("Operating Segments")) {
-
-                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_6__Selected')]");
-                        By sectionName = By.xpath("(//span[contains(.,'Operating Segments')])[1]");
-                        By sectionStatus = By.xpath("//tbody/tr[7]/td[3]/span[1]");
-
-                        String Status = driver.findElement(sectionStatus).getText();
-                        String startLine = "Operating Segments";
-
-                        if (Status.equalsIgnoreCase("Not Started")) {
-
-                            cf.clickElement(driver, sectionTickPS);
-                            Thread.sleep(1000);
-
-                            String Section = driver.findElement(sectionName).getText();
-
-                            System.out.println("Initial Status: " + Status);
-                            System.out.println("Now answering " + Section + " checklist");
-                            cf.clickElement(driver, startButton);
-                            cf.waitForDesiredElement(driver, Folder, 90);
-                            mainCheckListResponse(driver, startLine);
-                            //cf.waitForDesiredElement(driver, Folder, 60);
-                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
-
-                            String Section = driver.findElement(sectionName).getText();
-
-                            System.out.println("Initial Status: " + Status);
-                            System.out.println("Now answering " + Section + " checklist");
-                            cf.clickElement(driver, startButton);
-                            cf.waitForDesiredElement(driver, Folder, 90);
-                            mainCheckListResponse(driver, startLine);
-                        } else {
-
-                            String Section = driver.findElement(sectionName).getText();
-                            System.out.println(Section + " has already been completed");
-                        }
+//                    } else if (sCellValue.equalsIgnoreCase("Operating Segments")) {
+//
+//                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_6__Selected')]");
+//                        By sectionName = By.xpath("(//span[contains(.,'Operating Segments')])[1]");
+//                        By sectionStatus = By.xpath("//tbody/tr[7]/td[3]/span[1]");
+//
+//                        String Status = driver.findElement(sectionStatus).getText();
+//                        String startLine = "Operating Segments";
+//
+//                        if (Status.equalsIgnoreCase("Not Started")) {
+//
+//                            cf.clickElement(driver, sectionTickPS);
+//                            Thread.sleep(1000);
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                            //cf.waitForDesiredElement(driver, Folder, 60);
+//                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//
+//                            System.out.println("Initial Status: " + Status);
+//                            System.out.println("Now answering " + Section + " checklist");
+//                            cf.clickElement(driver, startButton);
+//                            cf.waitForDesiredElement(driver, Folder, 90);
+//                            mainCheckListResponse(driver, startLine);
+//                        } else {
+//
+//                            String Section = driver.findElement(sectionName).getText();
+//                            System.out.println(Section + " has already been completed");
+//                        }
                     } else if (sCellValue.equalsIgnoreCase("Capital Disclosures")) {
 
                         By sectionTickPS = By.xpath("//input[contains(@id,'Sections_7__Selected')]");
@@ -1227,42 +1944,6 @@ public class IFRS_Navigation {
                             String Section = driver.findElement(sectionName).getText();
                             System.out.println(Section + " has already been completed");
                         }
-//                    } else if (sCellValue.equalsIgnoreCase("Statement of Cash Flow")) {
-//
-//                        By sectionTickPS = By.xpath("//input[contains(@id,'Sections_4__Selected')]");
-//                        By sectionName = By.xpath("//tbody/tr[5]/td[4]/span[1]");
-//                        By sectionStatus = By.xpath("//tbody/tr[5]/td[3]/span[1]");
-//
-//                        String Status = driver.findElement(sectionStatus).getText();
-//                        String startLine = "Statement of Cash Flow";
-//
-//                        if (Status.equalsIgnoreCase("Not Started")) {
-//
-//                            cf.clickElement(driver, sectionTickPS);
-//                            Thread.sleep(1000);
-//
-//                            String Section = driver.findElement(sectionName).getText();
-//
-//                            System.out.println("Initial Status: " + Status);
-//                            System.out.println("Now answering " + Section + " checklist");
-//                            cf.clickElement(driver, startButton);
-//                            cf.waitForDesiredElement(driver, Folder, 90);
-//                            mainCheckListResponse(driver, startLine);
-//                            //cf.waitForDesiredElement(driver, Folder, 60);
-//                        } else if ((Status.equalsIgnoreCase("In Progress"))) {
-//
-//                            String Section = driver.findElement(sectionName).getText();
-//
-//                            System.out.println("Initial Status: " + Status);
-//                            System.out.println("Now answering " + Section + " checklist");
-//                            cf.clickElement(driver, startButton);
-//                            cf.waitForDesiredElement(driver, Folder, 90);
-//                            mainCheckListResponse(driver, startLine);
-//                        } else {
-//
-//                            String Section = driver.findElement(sectionName).getText();
-//                            System.out.println(Section + " has already been completed");
-//                        }
 //                    } else if (sCellValue.equalsIgnoreCase("Notes to the Financial Statements")) {
 //
 //                        By sectionTickPS = By.xpath("//*[@id=\"Sections_6__Selected\"]");
@@ -1296,18 +1977,18 @@ public class IFRS_Navigation {
 //                            String Section = driver.findElement(sectionName).getText();
 //                            System.out.println(Section + " has already been completed");
 //                        }
-                    } else if ((sCellValue.equalsIgnoreCase("In Progress"))) {
-
-                        String Section = driver.findElement(sectionName).getText();
-                        String startLine = "In Progress";
-
-                        System.out.println("Initial Status: " + sCellValue);
-                        System.out.println("Now answering " + Section + " checklist");
-                        System.out.println("Section name might be incorrect, as checklist began in 'IN PROGRESS' status");
-
-                        cf.clickElement(driver, startButton);
-                        cf.waitForDesiredElement(driver, Folder, 90);
-                        mainCheckListResponse(driver,startLine);
+//                    } else if ((sCellValue.equalsIgnoreCase("In Progress"))) {
+//
+//                        String Section = driver.findElement(sectionName).getText();
+//                        String startLine = "In Progress";
+//
+//                        System.out.println("Initial Status: " + sCellValue);
+//                        System.out.println("Now answering " + Section + " checklist");
+//                        System.out.println("Section name might be incorrect, as checklist began in 'IN PROGRESS' status");
+//
+//                        cf.clickElement(driver, startButton);
+//                        cf.waitForDesiredElement(driver, Folder, 90);
+//                        mainCheckListResponse(driver,startLine);
                     }
             }
             }
